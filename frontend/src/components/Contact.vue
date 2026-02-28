@@ -14,7 +14,8 @@ const formData = ref({
   email: "",
   phone: "",
   subject: "",
-  message: ""
+  message: "",
+  website: "" // Honeypot field
 });
 const loading = ref(false);
 const successMsg = ref("");
@@ -165,6 +166,11 @@ onMounted(async () => {
                     <label class="text-[10px] font-black uppercase tracking-widest text-steel/60 ml-1">Twoje pytanie</label>
                     <textarea v-model="formData.message" placeholder="Treść wiadomości..." rows="5" required
                       class="w-full px-5 py-4 rounded-xl bg-slateBg border border-gray-100 focus:border-portalAccent/30 focus:bg-white focus:outline-none transition-all text-sm font-bold placeholder-gray-400"></textarea>
+                  </div>
+                  
+                  <!-- Honeypot field (hidden from users) -->
+                  <div class="hidden" aria-hidden="true">
+                    <input v-model="formData.website" type="text" name="website" tabindex="-1" autocomplete="off">
                   </div>
                   
                   <button type="submit" :disabled="loading"

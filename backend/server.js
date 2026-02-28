@@ -35,6 +35,14 @@ const loginLimiter = RateLimit({
   legacyHeaders: false,
 });
 
+const contactLimiter = RateLimit({
+  windowMs: 60 * 60 * 1000, // 1 hour
+  max: 3, 
+  message: { success: false, message: "Zbyt wiele prób kontaktu z tego adresu IP. Spróbuj ponownie za godzinę." },
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
 app.set("views", __dirname + "/views");
 app.set("layout", "layouts/layout");
 
@@ -78,7 +86,7 @@ app.use(
     }),
     cookie: {
       httpOnly: true, // Chroni przed XSS
-      secure: process.env.NODE_ENV === "production", // Ustaw true tylko gdy używasz HTTPS
+      secure: false, // Tymczasowo false dla testów (zmień na true po włączeniu HTTPS)
       sameSite: "lax",
       maxAge: 1000 * 60 * 60 * 24 // 24 godziny
     }
@@ -104,7 +112,7 @@ const pages = require("./routes/pages");
 app.use("/api/pages", pages);
 
 const contact = require("./routes/contact");
-app.use("/api/contact", contact);
+app.use("/api/contact", contactLimiter, contact);
 
 const properties = require("./routes/properties");
 app.use("/api/properties", properties);
