@@ -38,7 +38,9 @@ import { RouterLink } from "vue-router";
           <ul class="space-y-5 text-center md:text-left">
             <li v-for="link in [
               { path: '/', label: 'Strona Główna' },
-              { path: '/offer', label: 'Wykaz Mienia' },
+              { path: '/properties', label: 'Wykaz Mienia' },
+              { path: '/map', label: 'Mapa' },
+              { path: '/about', label: 'O nas' },
               { path: '/contact', label: 'Kontakt' }
             ]" :key="link.path">
               <RouterLink :to="link.path" class="text-steel hover:text-portalAccent font-bold transition-all duration-300 flex items-center gap-3 group">

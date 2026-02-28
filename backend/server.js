@@ -78,7 +78,7 @@ app.use(
     }),
     cookie: {
       httpOnly: true, // Chroni przed XSS
-      secure: false, // Ustaw true tylko gdy używasz HTTPS
+      secure: process.env.NODE_ENV === "production", // Ustaw true tylko gdy używasz HTTPS
       sameSite: "lax",
       maxAge: 1000 * 60 * 60 * 24 // 24 godziny
     }
@@ -103,6 +103,9 @@ app.use("/api/frontpage", frontpage);
 const pages = require("./routes/pages");
 app.use("/api/pages", pages);
 
+const contact = require("./routes/contact");
+app.use("/api/contact", contact);
+
 const properties = require("./routes/properties");
 app.use("/api/properties", properties);
 app.use("/properties", properties);
@@ -112,6 +115,33 @@ app.use("/", cms);
 
 const login = require("./routes/login");
 app.use("/login", loginLimiter, login);
+
+const https = require("https");
+
+// Geoportal ULDK Proxy (Wersja zgodna z dokumentacją GUGiK)
+app.get("/api/geoportal/search", (req, res) => {
+  const { id } = req.query;
+  if (!id) return res.status(400).json({ error: "Missing query" });
+
+  // Prawidłowa metoda to GetParcelByIdOrNr (id może być nazwą obrębu + numerem)
+  // Format: id=NazwaObrebu NumerDzialki
+  const cleanId = id.replace(',', ''); 
+  const url = `https://uldk.gugik.gov.pl/?request=GetParcelByIdOrNr&id=${encodeURIComponent(cleanId)}&result=id,geom_wkt&srid=4326`;
+
+  console.log(`\x1b[36m [PROXY] Calling ULDK: \x1b[0m ${url}`);
+
+  https.get(url, (proxyRes) => {
+    let data = "";
+    proxyRes.on("data", (chunk) => { data += chunk; });
+    proxyRes.on("end", () => {
+      console.log(`\x1b[34m [PROXY] ULDK Response: \x1b[0m ${data.split('\n')[0]}`);
+      res.send(data);
+    });
+  }).on("error", (err) => {
+    console.error(`\x1b[41m [PROXY] Connection Error: \x1b[0m ${err.message}`);
+    res.status(500).send("");
+  });
+});
 
 // 404 Error Handler
 app.use((req, res, next) => {

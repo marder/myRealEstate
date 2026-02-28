@@ -2,6 +2,7 @@
 import { onMounted } from "vue";
 import Contact from "@/components/Contact.vue";
 import { updateMetaTags } from "@/utils/seo";
+import heroImage from "@/assets/img/dobra.jpg";
 
 onMounted(async () => {
   updateMetaTags(
@@ -14,17 +15,18 @@ onMounted(async () => {
 <template>
   <div class="bg-white min-h-screen">
     <!-- Page Header -->
-    <section class="bg-midnight py-20 md:py-32 text-white text-center relative overflow-hidden">
-      <!-- Decorative Elements -->
-      <div class="absolute -top-10 -right-10 w-64 h-64 bg-portalAccent/10 rounded-full blur-3xl"></div>
-      <div class="absolute -bottom-10 -left-10 w-96 h-96 bg-white/5 rounded-full blur-2xl"></div>
+    <section class="relative h-[25vh] md:h-[30vh] flex items-center justify-center text-white overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img :src="heroImage" alt="Kontakt" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-midnight/80"></div>
+      </div>
       
-      <div class="container mx-auto px-6 relative z-10">
-        <h1 class="text-5xl md:text-7xl font-black font-outfit mb-6 tracking-tighter">Kontakt</h1>
-        <p class="text-portalAccent uppercase tracking-[0.4em] font-black max-w-2xl mx-auto text-xs md:text-sm">
+      <div class="container mx-auto px-6 relative z-10 text-center pt-16 md:pt-24 pb-12 md:pb-16">
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold font-Rubik mb-4">Kontakt</h1>
+        <p class="text-yellowMain uppercase tracking-widest font-bold max-w-2xl mx-auto text-sm md:text-base">
           Urząd Miejski w Dobrej
         </p>
-        <div class="w-20 h-1.5 bg-portalAccent mx-auto mt-10 rounded-full"></div>
+        <div class="w-16 h-1 bg-yellowMain mx-auto mt-6 rounded-full"></div>
       </div>
     </section>
 

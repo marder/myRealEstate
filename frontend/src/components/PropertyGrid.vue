@@ -10,7 +10,7 @@ const loading = ref(true);
 const viewMode = ref('grid'); // 'grid' or 'table'
 
 const filters = ref({
-  obreb: route.query.obreb || "",
+  obreb: route.query.obreb || (route.query.search || route.query.numerDzialki ? "" : "Chrapczew"),
   numerDzialki: route.query.numerDzialki || "",
   search: route.query.search || ""
 });
@@ -19,6 +19,14 @@ const loadData = async () => {
   loading.value = true;
   properties.value = await getProperties(filters.value);
   loading.value = false;
+};
+
+const resetFilters = () => {
+  filters.value = { 
+    obreb: "Chrapczew", 
+    numerDzialki: "", 
+    search: "" 
+  };
 };
 
 onMounted(async () => {
@@ -51,7 +59,7 @@ const formatArea = (value) => {
 <template>
   <div class="container mx-auto px-6 max-w-7xl">
     <!-- Filter Section -->
-    <div class="bg-white p-6 md:p-8 rounded-[2rem] shadow-2xl mb-12 border border-gray-100 -mt-16 relative z-30" data-aos="fade-down">
+    <div class="bg-white p-6 md:p-8 rounded-[2rem] shadow-2xl mb-12 border border-gray-100 relative z-30" data-aos="fade-down">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <label class="block text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] mb-3">Obręb geodezyjny</label>
@@ -112,7 +120,7 @@ const formatArea = (value) => {
         <p class="text-sm font-medium text-gray-400">
           Znaleziono: <span class="text-brandGreen font-bold">{{ properties.length }}</span> pozycji
         </p>
-        <button @click="filters = { obreb: '', numerDzialki: '', search: '' }" class="text-brandGreen hover:text-lightGreen text-[11px] font-black uppercase tracking-widest flex items-center gap-2 transition-colors">
+        <button @click="resetFilters" class="text-brandGreen hover:text-lightGreen text-[11px] font-black uppercase tracking-widest flex items-center gap-2 transition-colors">
           <i class="pi pi-refresh"></i> Resetuj
         </button>
       </div>
@@ -173,7 +181,7 @@ const formatArea = (value) => {
           </div>
         </div>
         <div class="p-6 bg-gray-50 border-t border-gray-100 mt-auto">
-          <router-link to="/contact" class="flex items-center justify-center gap-2 w-full py-4 bg-white text-brandGreen font-black rounded-2xl hover:bg-brandGreen hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg uppercase tracking-[0.2em] text-[10px]">
+          <router-link :to="{ name: 'property-detail', params: { id: property._id } }" class="flex items-center justify-center gap-2 w-full py-4 bg-white text-brandGreen font-black rounded-2xl hover:bg-brandGreen hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg uppercase tracking-[0.2em] text-[10px]">
             Zobacz szczegóły
             <i class="pi pi-arrow-right text-[10px]"></i>
           </router-link>
@@ -203,7 +211,7 @@ const formatArea = (value) => {
               <td class="px-6 py-5 text-sm font-bold text-brandGreen">{{ formatArea(property.powierzchnia) }}</td>
               <td class="px-6 py-5 text-sm font-bold text-lightGreen">{{ formatCurrency(property.wartosc) }}</td>
               <td class="px-8 py-5">
-                <router-link to="/contact" class="flex items-center justify-center gap-2 py-2 px-4 bg-gray-50 text-brandGreen font-black rounded-xl hover:bg-brandGreen hover:text-white transition-all text-[9px] uppercase tracking-widest">
+                <router-link :to="{ name: 'property-detail', params: { id: property._id } }" class="flex items-center justify-center gap-2 py-2 px-4 bg-gray-50 text-brandGreen font-black rounded-xl hover:bg-brandGreen hover:text-white transition-all text-[9px] uppercase tracking-widest">
                   Szczegóły
                 </router-link>
               </td>

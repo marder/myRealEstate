@@ -10,17 +10,18 @@ TEST_LIMIT = 50
 
 def get_teryt_for_precinct(precinct_name):
     try:
-        url = f"https://uldk.gugik.gov.pl/query.php?request=GetPrecinctsByIdOrName&name={precinct_name}"
-        response = requests.get(url, timeout=10)
+        # Używamy GetParcelByIdOrNr do znalezienia obrębu (zwraca geometrię obrębu i jego TERYT)
+        url = f"https://uldk.gugik.gov.pl/?request=GetParcelByIdOrNr&id={precinct_name}&result=teryt"
+        response = requests.get(url, timeout=10, verify=False)
         text = response.text.strip()
         lines = text.split('\n')
         
-        if lines[0] == '0':
+        if len(lines) > 1:
             for line in lines[1:]:
                 parts = line.split('|')
-                if len(parts) >= 2:
-                    if precinct_name.lower() in parts[1].lower():
-                        return parts[0]
+                teryt = parts[0]
+                if teryt.startswith("302703"): # Gmina Dobra, Turek
+                    return teryt
         return None
     except Exception as e:
         print(f"Error searching precinct {precinct_name}: {e}")
@@ -29,16 +30,20 @@ def get_teryt_for_precinct(precinct_name):
 def get_parcel_data(teryt_precinct, parcel_number):
     try:
         parcel_id = f"{teryt_precinct}.{parcel_number}"
-        url = f"https://uldk.gugik.gov.pl/query.php?request=GetParcelByIdOrNr&id={parcel_id}&result=geom_wkt,teryt,powierzchnia"
-        response = requests.get(url, timeout=10)
+        url = f"https://uldk.gugik.gov.pl/?request=GetParcelByIdOrNr&id={parcel_id}&result=geom_wkt,teryt,powierzchnia&srid=4326"
+        response = requests.get(url, timeout=10, verify=False)
         text = response.text.strip()
         lines = text.split('\n')
         
-        if lines[0] == '0' and len(lines) > 1:
+        if len(lines) > 1:
             parts = lines[1].split('|')
             if len(parts) >= 3:
+                wkt = parts[0]
+                # Usuwamy SRID prefix jeśli istnieje
+                if ";" in wkt:
+                    wkt = wkt.split(";")[1]
                 return {
-                    "wkt": parts[0],
+                    "wkt": wkt,
                     "teryt_full": parts[1],
                     "area_gugik": parts[2]
                 }

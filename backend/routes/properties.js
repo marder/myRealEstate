@@ -100,7 +100,7 @@ router.delete("/:id", checkSignIn, async (req, res) => {
 });
 
 // API for suggestions
-router.get("/api/suggestions", async (req, res) => {
+router.get("/suggestions", async (req, res) => {
   try {
     const search = req.query.query;
     if (!search || search.length < 2) return res.json([]);
@@ -145,7 +145,7 @@ router.get("/api/suggestions", async (req, res) => {
 });
 
 // API for stats (Dashboard data)
-router.get("/api/stats", async (req, res) => {
+router.get("/stats", async (req, res) => {
   try {
     const totalProperties = await Property.countDocuments();
     
@@ -202,6 +202,17 @@ router.get("/list", async (req, res) => {
 
     const properties = await Property.find(query).sort({ lp: 1 });
     res.json(properties);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
+// API for a single property
+router.get("/:id", async (req, res) => {
+  try {
+    const property = await Property.findById(req.params.id);
+    if (!property) return res.status(404).json({ message: "Nie znaleziono nieruchomości" });
+    res.json(property);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

@@ -31,7 +31,7 @@ const stripeText = computed(() => frontpageData.value?.stripe || "Chcesz poznać
           <!-- Button -->
           <div class="flex-shrink-0">
             <RouterLink
-              to="/offer"
+              to="/properties"
               class="group inline-flex items-center gap-4 px-10 py-5 bg-navyBlue text-white font-extrabold rounded-full shadow-2xl hover:bg-white hover:text-navyBlue hover:-translate-y-1 transition-all duration-300 uppercase tracking-widest text-sm"
             >
               Poznaj ofertę

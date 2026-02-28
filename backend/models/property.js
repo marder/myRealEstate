@@ -29,6 +29,14 @@ const propertySchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  wkt: {
+    type: String,
+    required: false, // Geometria zostanie pobrana skryptem migracyjnym
+  },
+  teryt: {
+    type: String,
+    required: false, // Pełny identyfikator TERYT (np. 302703_5.0001.436/1)
+  },
 }, { timestamps: true });
 
 module.exports = mongoose.model("Property", propertySchema);

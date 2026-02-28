@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
+import MapView from "@/views/MapView.vue";
+import PropertyDetailView from "@/views/PropertyDetailView.vue";
 import AboutView from "@/views/AboutView.vue";
 import OfferView from "@/views/OfferView.vue";
 import ContactView from "@/views/ContactView.vue";
@@ -18,7 +20,12 @@ const router = createRouter({
             component: HomeView
         },
         {
-            path: '/status',
+            path: '/map',
+            name: 'map',
+            component: MapView
+        },
+        {
+            path: '/order-status',
             name: 'order-status',
             component: OrderStatusView
         },
@@ -28,9 +35,14 @@ const router = createRouter({
             component: AboutView
         },
         {
-            path: '/offer',
-            name: 'offer',
+            path: '/properties',
+            name: 'properties',
             component: OfferView
+        },
+        {
+            path: '/properties/:id',
+            name: 'property-detail',
+            component: PropertyDetailView
         },
         {
             path: '/blog',

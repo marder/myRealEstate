@@ -38,20 +38,20 @@ const formatArea = (value) => {
 
 const handleSearch = () => {
   if (searchQuery.value.trim()) {
-    router.push({ name: 'offer', query: { search: searchQuery.value } });
+    router.push({ name: 'properties', query: { search: searchQuery.value } });
   }
 };
 </script>
 
 <template>
     <!-- Hero Section -->
-    <section class="relative min-h-[60vh] flex items-center justify-center text-midnight overflow-hidden py-16 px-4 bg-softGreen/30">
+    <section class="relative min-h-[40vh] flex items-center justify-center text-midnight overflow-hidden py-12 md:py-16 px-4 bg-softGreen/30">
       <div class="absolute inset-0 z-0">
         <img :src="heroImage" alt="Hero" class="w-full h-full object-cover opacity-15 scale-105" />
         <div class="absolute inset-0 bg-gradient-to-tr from-white via-white/70 to-portalAccent/5"></div>
       </div>
       
-      <div class="container mx-auto relative z-10 text-center -mt-8">
+      <div class="container mx-auto relative z-10 text-center pt-2 md:pt-4">
         <div class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-white border border-gray-100 shadow-sm mb-8" data-aos="fade-down">
           <div class="w-1.5 h-1.5 bg-portalAccent rounded-full shadow-[0_0_8px_rgba(220,38,38,0.5)] animate-pulse"></div>
           <span class="text-[10px] md:text-xs font-black uppercase tracking-[0.25em] text-steel">Biuletyn Mienia Komunalnego</span>
@@ -150,7 +150,7 @@ const handleSearch = () => {
               { title: 'Drogowe', count: '156', icon: 'pi-car', color: 'bg-slate-500', query: 'drogowa' }
             ]" 
             :key="index"
-            :to="{ name: 'offer', query: { search: card.query } }"
+            :to="{ name: 'properties', query: { search: card.query } }"
             class="group p-8 bg-slateBg rounded-[1.8rem] border border-transparent hover:border-portalAccent/5 hover:bg-white hover:shadow-[0_20px_40px_rgba(0,0,0,0.04)] transition-all duration-500"
             data-aos="fade-up"
             :data-aos-delay="index * 100"

@@ -1,10 +1,18 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, computed } from "vue";
 
 const route = useRoute();
 const isMenuOpen = ref(false);
 const isScrolled = ref(false);
+
+const navLinks = [
+  { path: '/', label: 'Strona Główna', icon: 'pi-home' },
+  { path: '/properties', label: 'Wykaz Mienia', icon: 'pi-building' },
+  { path: '/map', label: 'Mapa', icon: 'pi-map' },
+  { path: '/about', label: 'O nas', icon: 'pi-info-circle' },
+  { path: '/contact', label: 'Kontakt', icon: 'pi-envelope' }
+];
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
@@ -21,8 +29,11 @@ const closeMenu = () => {
 };
 
 const isActiveLink = (routePath) => {
-  return route.path === routePath;
+  if (routePath === '/') return route.path === '/';
+  return route.path.startsWith(routePath);
 };
+
+const isMapPage = computed(() => route.path === '/map');
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 20;
@@ -40,8 +51,9 @@ onUnmounted(() => {
 
 <template>
   <header class="fixed top-0 left-0 w-full z-[100] transition-all duration-500">
-    <!-- Top Contact Bar -->
+    <!-- Top Contact Bar - Hidden on map page to maximize space -->
     <div 
+      v-if="!isMapPage"
       class="bg-white border-b border-gray-50 text-steel text-[12px] transition-all duration-500 overflow-hidden hidden md:block"
       :class="isScrolled ? 'h-0 opacity-0' : 'h-11 opacity-100'"
     >
@@ -66,32 +78,31 @@ onUnmounted(() => {
     <!-- Main Navigation -->
     <nav 
       class="w-full transition-all duration-500"
-      :class="isScrolled ? 'bg-white/90 backdrop-blur-xl py-4 shadow-[0_10px_40px_rgba(0,0,0,0.04)]' : 'bg-white py-6'"
+      :class="[
+        (isScrolled || isMapPage) ? 'bg-white/90 backdrop-blur-xl py-3 shadow-[0_10px_40px_rgba(0,0,0,0.04)]' : 'bg-white py-6',
+        isMapPage ? 'border-b border-slate-100' : ''
+      ]"
     >
       <div class="container mx-auto px-6 md:px-10">
         <div class="flex items-center justify-between">
           <!-- Logo Section -->
           <RouterLink to="/" class="flex items-center gap-4 group" @click="closeMenu">
-            <div class="relative overflow-hidden w-12 h-12 md:w-16 md:h-16 p-2 bg-white rounded-2xl border border-gray-50 shadow-sm transition-all duration-500 group-hover:shadow-md group-hover:-translate-y-0.5">
+            <div class="relative overflow-hidden w-10 h-10 md:w-12 md:h-12 p-1.5 bg-white rounded-xl border border-gray-50 shadow-sm transition-all duration-500 group-hover:shadow-md group-hover:-translate-y-0.5">
               <img src="@/assets/logo.png" alt="Herb Gminy Dobra" class="w-full h-full object-contain" />
             </div>
             <div class="leading-tight border-l-2 pl-4 border-gray-100">
-              <span class="block font-black text-midnight text-lg lg:text-2xl leading-none mb-1 uppercase tracking-tighter font-outfit">Gmina Dobra</span>
-              <span class="hidden lg:block text-[10px] text-portalAccent uppercase tracking-[0.3em] font-black">Mienie Komunalne</span>
+              <span class="block font-black text-midnight text-base lg:text-xl leading-none mb-0.5 uppercase tracking-tighter font-outfit">Gmina Dobra</span>
+              <span class="hidden lg:block text-[9px] text-portalAccent uppercase tracking-[0.2em] font-black">Mienie Komunalne</span>
             </div>
           </RouterLink>
 
           <!-- Desktop Menu -->
-          <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
+          <div class="hidden md:flex items-center space-x-0.5 lg:space-x-1">
             <RouterLink 
-              v-for="link in [
-                { path: '/', label: 'Strona Główna' },
-                { path: '/offer', label: 'Wykaz Mienia' },
-                { path: '/contact', label: 'Kontakt' }
-              ]" 
+              v-for="link in navLinks" 
               :key="link.path"
               :to="link.path"
-              class="relative px-6 py-2.5 font-outfit font-extrabold uppercase text-[11px] lg:text-[13px] tracking-[0.15em] transition-all duration-300 rounded-xl group"
+              class="relative px-4 lg:px-5 py-2.5 font-outfit font-extrabold uppercase text-[10px] lg:text-[12px] tracking-[0.1em] transition-all duration-300 rounded-xl group"
               :class="isActiveLink(link.path) ? 'text-portalAccent bg-red-50' : 'text-steel hover:text-midnight hover:bg-gray-50'"
             >
               {{ link.label }}
@@ -137,11 +148,7 @@ onUnmounted(() => {
           <div class="flex flex-col space-y-4">
             <span class="text-[10px] text-portalAccent font-black uppercase tracking-[0.4em] mb-4 text-center">Nawigacja</span>
             <RouterLink 
-              v-for="link in [
-                { path: '/', label: 'Strona Główna', icon: 'pi-home' },
-                { path: '/offer', label: 'Wykaz Mienia', icon: 'pi-list' },
-                { path: '/contact', label: 'Kontakt', icon: 'pi-envelope' }
-              ]" 
+              v-for="link in navLinks" 
               :key="link.path"
               :to="link.path" 
               @click="closeMenu" 
@@ -166,28 +173,13 @@ onUnmounted(() => {
     </div>
   </header>
   
-  <div class="h-[72px] md:h-[92px]" :class="{ 'md:h-[72px]': isScrolled }"></div>
-  
-  <div class="h-[88px] md:h-[144px]" :class="{ 'md:h-[104px]': isScrolled }"></div>
+  <!-- Unified Dynamic Spacer -->
+  <div :class="[
+    isMapPage ? 'h-[64px] lg:h-[72px]' : (isScrolled ? 'h-[72px] md:h-[72px]' : 'h-[72px] md:h-[136px]')
+  ]"></div>
 </template>
 
 <style scoped>
-.hamburger span {
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
-}
-
-.hamburger-top { top: 6px; }
-.hamburger-middle { top: 14px; }
-.hamburger-bottom { top: 22px; }
-
 .open .hamburger-top {
   top: 14px;
   transform: rotate(135deg);

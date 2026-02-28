@@ -64,7 +64,7 @@ onMounted(async () => {
 
       <!-- CTA in section -->
       <div class="mt-16 text-center">
-        <RouterLink to="/offer" class="inline-flex items-center gap-2 font-bold text-navyBlue hover:text-yellowMain transition-colors group">
+        <RouterLink to="/properties" class="inline-flex items-center gap-2 font-bold text-navyBlue hover:text-yellowMain transition-colors group">
           Zobacz pełny zakres naszych usług
           <i class="pi pi-arrow-right group-hover:translate-x-1 transition-transform"></i>
         </RouterLink>

@@ -86,7 +86,7 @@ export const getOrderStatus = async (orderNumber) => {
 export const getProperties = async (filters = {}) => {
   try {
     const params = new URLSearchParams(filters).toString();
-    const response = await fetch(`${API_URL}/properties/api/list?${params}`);
+    const response = await fetch(`${API_URL}/properties/list?${params}`);
     if (!response.ok) {
       throw new Error('Failed to fetch properties');
     }
@@ -97,9 +97,22 @@ export const getProperties = async (filters = {}) => {
   }
 };
 
+export const getPropertyById = async (id) => {
+  try {
+    const response = await fetch(`${API_URL}/properties/${id}`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch property');
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Error fetching property ${id}:`, error);
+    return null;
+  }
+};
+
 export const getStats = async () => {
   try {
-    const response = await fetch(`${API_URL}/properties/api/stats`);
+    const response = await fetch(`${API_URL}/properties/stats`);
     if (!response.ok) {
       throw new Error('Failed to fetch stats');
     }
