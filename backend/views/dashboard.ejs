@@ -1,0 +1,130 @@
+<div class="container py-5">
+  <div class="mb-5">
+    <h1 class="display-3 mb-1">Pulpit Zarządzania</h1>
+    <p class="text-muted">Szczegółowa analityka bazy danych nieruchomości Gminy Dobra.</p>
+  </div>
+
+  <!-- Główna Statystyka -->
+  <div class="row g-4 mb-4">
+    <div class="col-md-3">
+      <div class="table-container p-4 border-start border-4 border-primary shadow-sm h-100">
+        <h6 class="text-muted mb-1 text-uppercase small fw-bold">Liczba Działek</h6>
+        <h2 class="mb-0 fw-bold"><%= totalProperties %></h2>
+        <p class="small text-muted mt-2 mb-0">Wszystkie wpisy w bazie</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="table-container p-4 border-start border-4 border-success shadow-sm h-100">
+        <h6 class="text-muted mb-1 text-uppercase small fw-bold">Łączna Powierzchnia</h6>
+        <h2 class="mb-0 fw-bold"><%= totalArea.toLocaleString('pl-PL') %> <small class="text-muted fs-6">m²</small></h2>
+        <p class="small text-muted mt-2 mb-0">Suma wszystkich nieruchomości</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="table-container p-4 border-start border-4 border-info shadow-sm h-100">
+        <h6 class="text-muted mb-1 text-uppercase small fw-bold">Łączna Wartość</h6>
+        <h2 class="mb-0 fw-bold"><%= totalValue.toLocaleString('pl-PL', { style: 'currency', currency: 'PLN', maximumFractionDigits: 0 }) %></h2>
+        <p class="small text-muted mt-2 mb-0">Szacunkowa wartość mienia</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="table-container p-4 border-start border-4 border-warning shadow-sm h-100">
+        <h6 class="text-muted mb-1 text-uppercase small fw-bold">Średnia Wartość m²</h6>
+        <h2 class="mb-0 fw-bold"><%= (totalValue / totalArea).toLocaleString('pl-PL', { style: 'currency', currency: 'PLN' }) %></h2>
+        <p class="small text-muted mt-2 mb-0">Średni kurs m² w gminie</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Średnie Parametry -->
+  <div class="row g-4 mb-5">
+    <div class="col-md-6">
+        <div class="table-container p-3 bg-light border-0 shadow-sm d-flex justify-content-between align-items-center">
+            <span class="text-muted fw-bold small text-uppercase"><i class="fa-solid fa-expand me-2"></i>Średnia powierzchnia działki:</span>
+            <span class="fw-bold"><%= avgArea.toFixed(2).toLocaleString('pl-PL') %> m²</span>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="table-container p-3 bg-light border-0 shadow-sm d-flex justify-content-between align-items-center">
+            <span class="text-muted fw-bold small text-uppercase"><i class="fa-solid fa-money-bill-trend-up me-2"></i>Średnia wartość działki:</span>
+            <span class="fw-bold"><%= avgValue.toLocaleString('pl-PL', { style: 'currency', currency: 'PLN' }) %></span>
+        </div>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <!-- Statystyki wg Obrębów -->
+    <div class="col-lg-7">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0 fw-bold">Ranking Obrębów</h4>
+      </div>
+      <div class="table-container p-0 overflow-hidden shadow-sm">
+        <table class="table table-hover mb-0">
+          <thead class="bg-light">
+            <tr>
+              <th>Obręb</th>
+              <th>Liczba działek</th>
+              <th>Łączna powierzchnia</th>
+              <th class="text-end">Udział</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% obrebStats.forEach(stat => { %>
+              <tr>
+                <td class="fw-medium"><%= stat._id %></td>
+                <td><%= stat.count %></td>
+                <td class="text-muted"><%= stat.area.toLocaleString('pl-PL') %> m²</td>
+                <td class="text-end">
+                  <span class="badge bg-primary bg-opacity-10 text-primary border-primary border-opacity-25 border">
+                    <%= ((stat.count / totalProperties) * 100).toFixed(1) %>%
+                  </span>
+                </td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Użytki i Akcje -->
+    <div class="col-lg-5">
+      <h4 class="mb-3 fw-bold">Struktura Użytków</h4>
+      <div class="table-container p-4 shadow-sm mb-4">
+        <div class="row g-2">
+            <% uzytkiStats.forEach(stat => { %>
+                <div class="col-6">
+                    <div class="p-2 border rounded bg-light d-flex justify-content-between align-items-center">
+                        <span class="fw-bold text-primary small"><%= stat._id || 'Brak' %></span>
+                        <span class="badge bg-white text-dark border shadow-sm"><%= stat.count %></span>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+      </div>
+
+      <h4 class="mb-3 fw-bold">Ostatnio Edytowane</h4>
+      <div class="table-container p-0 overflow-hidden shadow-sm mb-4">
+        <ul class="list-group list-group-flush">
+            <% latestProperties.forEach(prop => { %>
+                <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <div>
+                        <div class="fw-bold"><%= prop.numerDzialki %></div>
+                        <div class="small text-muted"><%= prop.obreb %></div>
+                    </div>
+                    <a href="/properties/edit/<%= prop._id %>" class="btn btn-sm btn-outline-primary">Edytuj</a>
+                </li>
+            <% }) %>
+            <% if (latestProperties.length === 0) { %>
+                <li class="list-group-item text-center text-muted py-3">Brak ostatnich zmian</li>
+            <% } %>
+        </ul>
+      </div>
+
+      <div class="d-grid gap-2">
+        <a href="/properties" class="btn btn-primary py-3 fw-bold shadow-sm">
+            <i class="fa-solid fa-list me-2"></i> Pełna lista nieruchomości
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

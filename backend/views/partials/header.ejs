@@ -1,0 +1,70 @@
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container px-3">
+      <a class="navbar-brand d-flex align-items-center" href="/dashboard">
+        <div class="bg-primary text-white rounded-3 p-2 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+          <i class="fa-solid fa-database" style="font-size: 0.8rem;"></i>
+        </div>
+        <div class="d-flex flex-column leading-tight">
+          <span class="fw-bold">mySimpleCMS <span class="badge bg-light text-primary fw-normal ms-1" style="font-size: 0.6rem;">v0.2.0</span></span>
+          <span class="text-muted" style="font-size: 0.6rem; font-weight: normal;">nieruchomości Gminy Dobra</span>
+        </div>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+          <% if (locals.user) { %>
+          <!-- Pulpit -->
+          <li class="nav-item">
+            <a class="nav-link <% if (path == '/dashboard') { %>active<% } %>" href="/dashboard">
+              <i class="fa-solid fa-chart-line me-1"></i> Pulpit
+            </a>
+          </li>
+
+          <!-- Nieruchomości Gminne -->
+          <li class="nav-item">
+            <a class="nav-link <% if (path == '/properties') { %>active<% } %>" href="/properties">
+              <i class="fa-solid fa-building-ngo me-1"></i> Nieruchomości
+            </a>
+          </li>
+
+          <!-- Zarządzanie Stronami -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle <% if (['/pages/home', '/pages/about', '/pages/contact', '/pages/seo'].includes(path)) { %>active<% } %>" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-file-lines me-1"></i> Treść stron
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end shadow border-0" aria-labelledby="pagesDropdown">
+              <li><a class="dropdown-item <% if (path == '/pages/home') { %>active<% } %>" href="/pages/home"><i class="fa-solid fa-desktop me-2"></i> Strona Główna</a></li>
+              <li><a class="dropdown-item <% if (path == '/pages/about') { %>active<% } %>" href="/pages/about"><i class="fa-solid fa-info-circle me-2"></i> O Projekcie</a></li>
+              <li><a class="dropdown-item <% if (path == '/pages/contact') { %>active<% } %>" href="/pages/contact"><i class="fa-solid fa-address-book me-2"></i> Dane Kontaktowe</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item <% if (path == '/pages/seo') { %>active<% } %>" href="/pages/seo"><i class="fa-solid fa-magnifying-glass me-2"></i> Optymalizacja SEO</a></li>
+            </ul>
+          </li>
+
+          <!-- Theme Toggle -->
+          <li class="nav-item ms-lg-2 d-flex align-items-center">
+            <div id="theme-toggle" class="nav-link" title="Przełącz motyw" style="cursor: pointer;">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+          </li>
+
+          <!-- Logout -->
+          <li class="nav-item ms-lg-2">
+            <a class="nav-link text-danger fw-semibold" href="/logout">
+              <i class="fa-solid fa-power-off me-1"></i> Wyloguj
+            </a>
+          </li>
+          <% } else { %>
+            <li class="nav-item">
+              <span class="nav-link disabled text-muted italic">Zaloguj się, aby uzyskać dostęp</span>
+            </li>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

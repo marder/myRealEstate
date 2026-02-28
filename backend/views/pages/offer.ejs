@@ -1,0 +1,290 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-5">
+        <h1 class="display-4 mb-1">Strona Oferty</h1>
+        <p class="text-muted">Zarządzaj usługami głównymi oraz szczegółowym zakresem prac.</p>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form class="row g-4" action="/pages/offer?_method=PUT" method="POST">
+          <!-- Usługi Główne -->
+          <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-primary font-Rubik fw-bold mb-0"><i class="fa-solid fa-list-check me-2"></i>Usługi Główne</h5>
+              <div class="d-flex gap-2 align-items-center">
+                <div class="alert alert-warning py-1 px-3 mb-0 small border-0 shadow-sm" style="font-size: 0.8rem;">
+                  <i class="fa-solid fa-up-down-left-right me-1"></i> Zmień kolejność usług głównych przeciągając za uchwyty.
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-primary" id="add-service">
+                  <i class="fa-solid fa-plus me-1"></i> Dodaj usługę
+                </button>
+              </div>
+            </div>
+            <div id="services-container" class="custom-section p-3 rounded-3 shadow-sm border border-info border-start-0 border-end-0 border-bottom-0 border-4">
+              <% data.services.forEach((service, index) => { %>
+                <div class="input-group mb-2 service-item">
+                  <div class="input-group-text bg-yellowMain text-navyBlue border-yellowMain drag-handle" style="cursor: move;" title="Przeciągnij, aby zmienić kolejność">
+                    <i class="fa-solid fa-grip-vertical"></i>
+                  </div>
+                  <input type="text" name="services" class="form-control" value="<%= service %>" placeholder="Np. Usługi geodezyjne i kartograficzne">
+                  <button type="button" class="btn btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+                </div>
+              <% }) %>
+            </div>
+          </div>
+
+          <!-- Szczegółowy Zakres Prac -->
+          <div class="col-12 mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-primary font-Rubik fw-bold mb-0"><i class="fa-solid fa-screwdriver-wrench me-2"></i>Szczegółowy Zakres Prac (Kafelki)</h5>
+              <div class="d-flex gap-2 align-items-center">
+                <div class="alert alert-warning py-1 px-3 mb-0 small border-0 shadow-sm" style="font-size: 0.8rem;">
+                  <i class="fa-solid fa-up-down-left-right me-1"></i> Zmień kolejność kafelków przeciągając za uchwyty.
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-primary" id="add-additional-service">
+                  <i class="fa-solid fa-plus me-1"></i> Dodaj kafelkę
+                </button>
+              </div>
+            </div>
+            
+            <div id="additional-services-container">
+              <% 
+                const commonIcons = [
+                  { val: "fa-regular fa-map", label: "Mapa (kontur)" },
+                  { val: "fa-solid fa-map", label: "Mapa (pełna)" },
+                  { val: "fa-solid fa-map-location-dot", label: "Mapa z pinezką" },
+                  { val: "fa-solid fa-location-dot", label: "Pinezka / Punkt" },
+                  { val: "fa-solid fa-globe", label: "Globus" },
+                  { val: "fa-solid fa-object-group", label: "Grupowanie" },
+                  { val: "fa-solid fa-object-ungroup", label: "Rozdzielanie" },
+                  { val: "fa-solid fa-border-top-left", label: "Granice / Rozgraniczenia" },
+                  { val: "fa-solid fa-file-contract", label: "Dokumentacja / Umowa" },
+                  { val: "fa-solid fa-road-barrier", label: "Bariera / Obsługa budowy" },
+                  { val: "fa-solid fa-magnifying-glass", label: "Lupa / Analiza" },
+                  { val: "fa-solid fa-list-check", label: "Lista / Synchronizacja" },
+                  { val: "fa-solid fa-compass-drafting", label: "Cyrkiel / Projekt" },
+                  { val: "fa-solid fa-ruler-combined", label: "Miarka / Wymiary" },
+                  { val: "fa-solid fa-house-chimney", label: "Dom / Budynek" },
+                  { val: "fa-solid fa-screwdriver-wrench", label: "Narzędzia" }
+                ];
+              %>
+              <% data.additionalServices.forEach((service, index) => { %>
+                <div class="custom-section mb-4 additional-service-item border-start border-4 border-warning">
+                  <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="drag-handle badge bg-yellowMain text-navyBlue p-2 px-3" style="font-size: 0.8rem;">
+                        <i class="fa-solid fa-grip-vertical me-2"></i> CHWYĆ I PRZECIĄGNIJ
+                      </div>
+                      <h6 class="fw-bold text-warning mb-0 ms-2">Kafelek #<%= index + 1 %></h6>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-md-12">
+                      <label class="form-label small fw-bold">Tytuł usługi</label>
+                      <input type="text" name="additionalTitle" class="form-control" value="<%= service.title %>" placeholder="Np. Mapy projektowe">
+                    </div>
+                    
+                    <div class="col-md-5">
+                      <label class="form-label small fw-bold">Wybierz ikonę</label>
+                      <select class="form-select icon-select">
+                        <option value="">-- Wybierz z listy --</option>
+                        <% commonIcons.forEach(icon => { %>
+                          <option value="<%= icon.val %>" <%= service.icon === icon.val ? 'selected' : '' %>><%= icon.label %></option>
+                        <% }) %>
+                      </select>
+                    </div>
+                    
+                    <div class="col-md-5">
+                      <label class="form-label small fw-bold">Klasa ikony (FontAwesome)</label>
+                      <input type="text" name="additionalIcon" class="form-control icon-input" value="<%= service.icon %>" placeholder="Np. fa-solid fa-star">
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                      <label class="form-label small fw-bold d-block">Podgląd</label>
+                      <div class="p-2 border rounded bg-light d-inline-block">
+                        <i class="<%= service.icon || 'fa-solid fa-question' %> fs-3 icon-preview text-primary"></i>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label class="form-label small fw-bold">Opis</label>
+                      <textarea name="additionalDesc" class="form-control" rows="2"><%= service.desc %></textarea>
+                    </div>
+                  </div>
+                </div>
+              <% }) %>
+            </div>
+          </div>
+
+          <div class="col-12 pt-3">
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary px-5 btn-lg shadow-sm">
+                <i class="fa-solid fa-save me-1"></i> Zapisz ofertę
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Icons configuration for dynamic addition
+    const commonIcons = [
+      { val: "fa-regular fa-map", label: "Mapa (kontur)" },
+      { val: "fa-solid fa-map", label: "Mapa (pełna)" },
+      { val: "fa-solid fa-map-location-dot", label: "Mapa z pinezką" },
+      { val: "fa-solid fa-location-dot", label: "Pinezka / Punkt" },
+      { val: "fa-solid fa-globe", label: "Globus" },
+      { val: "fa-solid fa-object-group", label: "Grupowanie" },
+      { val: "fa-solid fa-object-ungroup", label: "Rozdzielanie" },
+      { val: "fa-solid fa-border-top-left", label: "Granice / Rozgraniczenia" },
+      { val: "fa-solid fa-file-contract", label: "Dokumentacja / Umowa" },
+      { val: "fa-solid fa-road-barrier", label: "Bariera / Obsługa budowy" },
+      { val: "fa-solid fa-magnifying-glass", label: "Lupa / Analiza" },
+      { val: "fa-solid fa-list-check", label: "Lista / Synchronizacja" },
+      { val: "fa-solid fa-compass-drafting", label: "Cyrkiel / Projekt" },
+      { val: "fa-solid fa-ruler-combined", label: "Miarka / Wymiary" },
+      { val: "fa-solid fa-house-chimney", label: "Dom / Budynek" },
+      { val: "fa-solid fa-screwdriver-wrench", label: "Narzędzia" }
+    ];
+
+    // Initialize Sortable for main services
+    new Sortable(document.getElementById('services-container'), {
+      animation: 150,
+      handle: '.drag-handle',
+      ghostClass: 'bg-light'
+    });
+
+    // Initialize Sortable for tiles
+    const additionalContainer = document.getElementById('additional-services-container');
+    new Sortable(additionalContainer, {
+      animation: 150,
+      handle: '.drag-handle',
+      ghostClass: 'bg-light',
+      onEnd: function() {
+        additionalContainer.querySelectorAll('.additional-service-item').forEach((item, index) => {
+          const title = item.querySelector('h6');
+          if (title && !title.innerText.includes('Nowy')) {
+            title.innerText = `Kafelek #${index + 1}`;
+          }
+        });
+      }
+    });
+
+    function setupIconLogic(container) {
+      const select = container.querySelector('.icon-select');
+      const input = container.querySelector('.icon-input');
+      const preview = container.querySelector('.icon-preview');
+
+      select.addEventListener('change', function() {
+        if (this.value) {
+          input.value = this.value;
+          updatePreview();
+        }
+      });
+
+      input.addEventListener('input', function() {
+        updatePreview();
+        // Clear select if value doesn't match any option
+        let found = false;
+        Array.from(select.options).forEach(opt => {
+          if (opt.value === input.value) {
+            select.value = input.value;
+            found = true;
+          }
+        });
+        if (!found) select.value = "";
+      });
+
+      function updatePreview() {
+        preview.className = (input.value || 'fa-solid fa-question') + ' fs-3 icon-preview text-primary';
+      }
+    }
+
+    // Initialize existing icon logics
+    document.querySelectorAll('.additional-service-item').forEach(setupIconLogic);
+
+    // Services logic
+    const servicesContainer = document.getElementById('services-container');
+    const addServiceButton = document.getElementById('add-service');
+
+    addServiceButton.addEventListener('click', function() {
+      const newService = document.createElement('div');
+      newService.className = 'input-group mb-2 service-item';
+      newService.innerHTML = `
+        <div class="input-group-text bg-yellowMain text-navyBlue border-yellowMain drag-handle" style="cursor: move;">
+          <i class="fa-solid fa-grip-vertical"></i>
+        </div>
+        <input type="text" name="services" class="form-control" placeholder="Nowa usługa">
+        <button type="button" class="btn btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+      `;
+      servicesContainer.appendChild(newService);
+    });
+
+    // Additional Services logic
+    const addAdditionalButton = document.getElementById('add-additional-service');
+
+    addAdditionalButton.addEventListener('click', function() {
+      const newService = document.createElement('div');
+      newService.className = 'custom-section mb-4 additional-service-item border-start border-4 border-warning';
+      
+      let optionsHtml = '<option value="">-- Wybierz z listy --</option>';
+      commonIcons.forEach(icon => {
+        optionsHtml += `<option value="${icon.val}">${icon.label}</option>`;
+      });
+
+      newService.innerHTML = `
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <div class="d-flex align-items-center gap-2">
+            <div class="drag-handle badge bg-yellowMain text-navyBlue p-2 px-3" style="font-size: 0.8rem;">
+              <i class="fa-solid fa-grip-vertical me-2"></i> CHWYĆ I PRZECIĄGNIJ
+            </div>
+            <h6 class="fw-bold text-warning mb-0 ms-2">Nowy kafelek</h6>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-12">
+            <label class="form-label small fw-bold">Tytuł usługi</label>
+            <input type="text" name="additionalTitle" class="form-control">
+          </div>
+          <div class="col-md-5">
+            <label class="form-label small fw-bold">Wybierz ikonę</label>
+            <select class="form-select icon-select">
+              ${optionsHtml}
+            </select>
+          </div>
+          <div class="col-md-5">
+            <label class="form-label small fw-bold">Klasa ikony (FontAwesome)</label>
+            <input type="text" name="additionalIcon" class="form-control icon-input" placeholder="fa-solid fa-star">
+          </div>
+          <div class="col-md-2 text-center">
+            <label class="form-label small fw-bold d-block">Podgląd</label>
+            <div class="p-2 border rounded bg-light d-inline-block">
+              <i class="fa-solid fa-question fs-3 icon-preview text-primary"></i>
+            </div>
+          </div>
+          <div class="col-12">
+            <label class="form-label small fw-bold">Opis</label>
+            <textarea name="additionalDesc" class="form-control" rows="2"></textarea>
+          </div>
+        </div>
+      `;
+      additionalContainer.appendChild(newService);
+      setupIconLogic(newService);
+    });
+
+    // Global remove logic
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('.remove-item')) {
+        const item = e.target.closest('.service-item') || e.target.closest('.additional-service-item');
+        if (item) item.remove();
+      }
+    });
+  });
+</script>

@@ -1,0 +1,290 @@
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+      <h1 class="display-5 mb-0 font-Rubik fw-bold text-primary">Nieruchomości Gminne</h1>
+      <p class="text-muted">Baza danych nieruchomości Gminy Dobra (Razem: <%= total %>)</p>
+    </div>
+  </div>
+
+  <!-- Nowoczesna Wyszukiwarka -->
+  <div class="search-section mb-5">
+    <div class="card border-0 bg-transparent overflow-visible">
+      <div class="card-body p-0">
+        <form action="/properties" method="GET" class="row g-3 align-items-center" id="searchForm">
+          <div class="col position-relative">
+            <div class="input-group input-group-lg shadow-lg rounded-4 bg-white overflow-hidden border">
+              <span class="input-group-text bg-white border-0 text-primary ps-4">
+                <i class="fa-solid fa-magnifying-glass fs-4"></i>
+              </span>
+              <input type="text" id="propertySearch" name="search" 
+                     class="form-control border-0 shadow-none py-4 fs-5" 
+                     placeholder="Wyszukaj obręb lub numer działki..." 
+                     value="<%= search %>" 
+                     autocomplete="off">
+              <% if (search) { %>
+                <a href="/properties" class="btn btn-link text-muted pe-3 d-flex align-items-center text-decoration-none" title="Wyczyść">
+                  <i class="fa-solid fa-circle-xmark fs-5"></i>
+                </a>
+              <% } %>
+            </div>
+            
+            <!-- Kontener na podpowiedzi (Elegant suggestions) -->
+            <div id="suggestionsBox" class="suggestions-dropdown d-none shadow-lg rounded-4 border mt-2">
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary btn-lg rounded-4 px-5 py-4 shadow-lg fw-bold border-0">
+              <i class="fa-solid fa-search me-2"></i> Szukaj
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-container p-4 shadow-sm border-0 rounded-4 bg-white">
+    <div class="table-responsive">
+      <table class="table table-hover align-middle mb-0" id="propertiesTable">
+        <thead class="table-light">
+          <tr>
+            <th class="border-0 ps-3">Lp</th>
+            <th class="border-0">Obręb</th>
+            <th class="border-0">Nr Działki</th>
+            <th class="border-0">Powierzchnia</th>
+            <th class="border-0">Wartość</th>
+            <th class="border-0">Użytki</th>
+            <th class="border-0 text-end pe-3">Akcje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% properties.forEach(prop => { %>
+          <tr>
+            <td class="ps-3 text-muted"><%= prop.lp %></td>
+            <td class="fw-bold text-dark"><%= prop.obreb %></td>
+            <td><span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2"><%= prop.numerDzialki %></span></td>
+            <td><%= prop.powierzchnia ? prop.powierzchnia.toLocaleString('pl-PL') : '-' %> <small class="text-muted">m²</small></td>
+            <td class="fw-medium"><%= prop.wartosc ? prop.wartosc.toLocaleString('pl-PL', { style: 'currency', currency: 'PLN' }) : '-' %></td>
+            <td><span class="text-uppercase small fw-bold text-muted"><%= prop.uzytki || '-' %></span></td>
+            <td class="text-end pe-3">
+              <div class="d-flex justify-content-end gap-2">
+                <a href="/properties/edit/<%= prop._id %>" class="btn btn-sm btn-outline-primary rounded-pill px-3" title="Edytuj">
+                  <i class="fa-solid fa-pen-to-square me-1"></i> Edytuj
+                </a>
+                <form action="/properties/<%= prop._id %>?_method=DELETE" method="POST" onsubmit="return confirm('Czy na pewno chcesz usunąć tę nieruchomość?');" class="d-inline">
+                  <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill px-3" title="Usuń">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
+                </form>
+              </div>
+            </td>
+          </tr>
+          <% }) %>
+          <% if (properties.length === 0) { %>
+            <tr>
+              <td colspan="7" class="text-center py-5">
+                <div class="py-4">
+                    <i class="fa-solid fa-folder-open fs-1 text-muted mb-3 opacity-25"></i>
+                    <p class="text-muted fs-5">Brak wyników dla zapytania: <strong><%= search %></strong></p>
+                    <a href="/properties" class="btn btn-sm btn-link">Wyczyść filtry</a>
+                </div>
+              </td>
+            </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+    <% if (pages > 1) { %>
+    <nav aria-label="Page navigation" class="mt-4 pt-4 border-top">
+      <ul class="pagination justify-content-center mb-0">
+        <% if (current > 1) { %>
+          <li class="page-item mx-1"><a class="page-link rounded-circle border-0" href="/properties?page=<%= current - 1 %><%= search ? '&search=' + search : '' %>"><i class="fa-solid fa-chevron-left"></i></a></li>
+        <% } %>
+        
+        <% 
+          let startPage = Math.max(1, current - 2);
+          let endPage = Math.min(pages, current + 2);
+        %>
+
+        <% for(let i = startPage; i <= endPage; i++) { %>
+          <li class="page-item mx-1">
+            <a class="page-link rounded-3 border-0 <%= i === current ? 'bg-primary text-white shadow-sm' : 'text-muted' %>" 
+               href="/properties?page=<%= i %><%= search ? '&search=' + search : '' %>"><%= i %></a>
+          </li>
+        <% } %>
+
+        <% if (current < pages) { %>
+          <li class="page-item mx-1"><a class="page-link rounded-circle border-0" href="/properties?page=<%= current + 1 %><%= search ? '&search=' + search : '' %>"><i class="fa-solid fa-chevron-right"></i></a></li>
+        <% } %>
+      </ul>
+    </nav>
+    <% } %>
+  </div>
+</div>
+
+<style>
+  .suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 1050;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 0;
+    border: 1px solid #eee;
+  }
+  
+  .suggestion-item {
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-bottom: 1px solid #f8f9fa;
+  }
+  
+  .suggestion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .suggestion-item:hover, .suggestion-item.active {
+    background-color: #f0f7ff;
+  }
+  
+  .suggestion-icon {
+    width: 40px;
+    height: 40px;
+    background: #f1f5f9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+    margin-right: 15px;
+  }
+  
+  .suggestion-type {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('propertySearch');
+    const suggestionsBox = document.getElementById('suggestionsBox');
+    const searchForm = document.getElementById('searchForm');
+    let debounceTimer;
+    let selectedIndex = -1;
+
+    searchInput.addEventListener('input', function() {
+        clearTimeout(debounceTimer);
+        const query = this.value.trim();
+
+        if (query.length < 2) {
+            hideSuggestions();
+            return;
+        }
+
+        debounceTimer = setTimeout(() => {
+            fetch(`/properties/api/suggestions?query=${encodeURIComponent(query)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        renderSuggestions(data);
+                    } else {
+                        hideSuggestions();
+                    }
+                });
+        }, 200);
+    });
+
+    function renderSuggestions(data) {
+        suggestionsBox.innerHTML = '';
+        selectedIndex = -1;
+        
+        data.forEach((item, index) => {
+            const div = document.createElement('div');
+            div.className = 'suggestion-item d-flex align-items-center';
+            div.setAttribute('data-index', index);
+            
+            const subText = item.sub ? `<span class="text-muted ms-2 small">w obrębie ${item.sub}</span>` : '';
+            
+            div.innerHTML = `
+                <div class="suggestion-icon">
+                    <i class="fa-solid ${item.icon}"></i>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="suggestion-type">${item.type}</div>
+                    <div class="suggestion-text fw-bold text-dark">${item.text} ${subText}</div>
+                </div>
+            `;
+            
+            div.onclick = () => {
+                selectSuggestion(item.text);
+            };
+            
+            suggestionsBox.appendChild(div);
+        });
+        
+        suggestionsBox.classList.remove('d-none');
+    }
+
+    function selectSuggestion(text) {
+        searchInput.value = text;
+        hideSuggestions();
+        searchForm.submit();
+    }
+
+    function hideSuggestions() {
+        suggestionsBox.classList.add('d-none');
+        suggestionsBox.innerHTML = '';
+        selectedIndex = -1;
+    }
+
+    function updateActiveSuggestion() {
+        const items = suggestionsBox.querySelectorAll('.suggestion-item');
+        items.forEach((item, index) => {
+            if (index === selectedIndex) {
+                item.classList.add('active');
+                item.scrollIntoView({ block: 'nearest' });
+            } else {
+                item.classList.remove('active');
+            }
+        });
+    }
+
+    // Obsługa klawiatury
+    searchInput.addEventListener('keydown', function(e) {
+        const items = suggestionsBox.querySelectorAll('.suggestion-item');
+        
+        if (suggestionsBox.classList.contains('d-none')) return;
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            selectedIndex = (selectedIndex + 1) % items.length;
+            updateActiveSuggestion();
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            selectedIndex = (selectedIndex - 1 + items.length) % items.length;
+            updateActiveSuggestion();
+        } else if (e.key === 'Enter') {
+            if (selectedIndex > -1) {
+                e.preventDefault();
+                items[selectedIndex].click();
+            }
+        } else if (e.key === 'Escape') {
+            hideSuggestions();
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !suggestionsBox.contains(e.target)) {
+            hideSuggestions();
+        }
+    });
+});
+</script>

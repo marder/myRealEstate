@@ -1,0 +1,5322 @@
+[
+    {
+        "Lp": 1,
+        "Obręb": "Chrapczew",
+        "Numer działki": "436/1",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 900.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 2,
+        "Obręb": "Chrapczew",
+        "Numer działki": "436/2",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 1800.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 3,
+        "Obręb": "Chrapczew",
+        "Numer działki": "441/1",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 1980.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 4,
+        "Obręb": "Chrapczew",
+        "Numer działki": "441/2",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 4140.0,
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 5,
+        "Obręb": "Chrapczew",
+        "Numer działki": "438/1",
+        "Powierzchnia w m2": 600.0,
+        "Wartość": 1080.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 6,
+        "Obręb": "Chrapczew",
+        "Numer działki": "438/2",
+        "Powierzchnia w m2": 1800.0,
+        "Wartość": 3240.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 7,
+        "Obręb": "Chrapczew",
+        "Numer działki": "443/2",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 2160.0,
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 8,
+        "Obręb": "Chrapczew",
+        "Numer działki": "457/1",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 1980.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 9,
+        "Obręb": "Chrapczew",
+        "Numer działki": "457/2",
+        "Powierzchnia w m2": 2500.0,
+        "Wartość": 4500.0,
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 10,
+        "Obręb": "Chrapczew",
+        "Numer działki": "437/1",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 900.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 11,
+        "Obręb": "Chrapczew",
+        "Numer działki": "437/2",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 2160.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 12,
+        "Obręb": "Chrapczew",
+        "Numer działki": "447/1",
+        "Powierzchnia w m2": 700.0,
+        "Wartość": 1260.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 13,
+        "Obręb": "Chrapczew",
+        "Numer działki": "447/2",
+        "Powierzchnia w m2": 1900.0,
+        "Wartość": 3420.0,
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 14,
+        "Obręb": "Chrapczew",
+        "Numer działki": "453/1",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 1620.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 15,
+        "Obręb": "Chrapczew",
+        "Numer działki": "453/2",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 4680.0,
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 16,
+        "Obręb": "Chrapczew",
+        "Numer działki": "455/1",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 1800.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 17,
+        "Obręb": "Chrapczew",
+        "Numer działki": "455/2",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 4680.0,
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 18,
+        "Obręb": "Chrapczew",
+        "Numer działki": "439/1",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 1980.0,
+        "Dokumenty": "AN1487/2000",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 19,
+        "Obręb": "Chrapczew",
+        "Numer działki": "439/2",
+        "Powierzchnia w m2": 2700.0,
+        "Wartość": 4860.0,
+        "Dokumenty": "AN1487/2000",
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 20,
+        "Obręb": "Chrapczew",
+        "Numer działki": "451/2",
+        "Powierzchnia w m2": 2400.0,
+        "Wartość": 4320.0,
+        "Dokumenty": "AN1214/2005",
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 21,
+        "Obręb": "Chrapczew",
+        "Numer działki": "451/1",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 1620.0,
+        "Dokumenty": "AN1214/2005",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 22,
+        "Obręb": "Chrapczew",
+        "Numer działki": "445/1",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 1289.99,
+        "Dokumenty": "AN Rep. A Nr 5984/2025",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 23,
+        "Obręb": "Chrapczew",
+        "Numer działki": "445/2",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 5159.98,
+        "Dokumenty": "AN Rep. A Nr 5984/2025",
+        "Użytki": "TR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, nieczynne składowisko odpadów, obszary zalesień"
+    },
+    {
+        "Lp": 24,
+        "Obręb": "Chrapczew",
+        "Numer działki": "445/3",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 4729.98,
+        "Dokumenty": "AN Rep. A Nr 5984/2025",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 25,
+        "Obręb": "Chrapczew",
+        "Numer działki": "444",
+        "Powierzchnia w m2": 3000.0,
+        "Wartość": 12899.95,
+        "Dokumenty": "AN Rep. A Nr 5984/2025",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 26,
+        "Obręb": "Chrapczew",
+        "Numer działki": "237/7",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 1000.0,
+        "Dokumenty": "AN395/2001",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 27,
+        "Obręb": "Chrapczew",
+        "Numer działki": "90",
+        "Powierzchnia w m2": 10900.0,
+        "Wartość": 21800.0,
+        "Dokumenty": "D SN.VI-10-77230-813/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 28,
+        "Obręb": "Chrapczew",
+        "Numer działki": "384",
+        "Powierzchnia w m2": 11600.0,
+        "Wartość": 23200.0,
+        "Dokumenty": "D SN.VI-10-77230-813/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 29,
+        "Obręb": "Chrapczew",
+        "Numer działki": "385",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 600.0,
+        "Dokumenty": "D SN.VI-10-77230-813/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 30,
+        "Obręb": "Chrapczew",
+        "Numer działki": "83",
+        "Powierzchnia w m2": 5000.0,
+        "Wartość": 10000.0,
+        "Dokumenty": "D SN.VI-10-77230-813/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 31,
+        "Obręb": "Chrapczew",
+        "Numer działki": "235",
+        "Powierzchnia w m2": 14100.0,
+        "Wartość": 42300.0,
+        "Dokumenty": "D7228/14425/97",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy"
+    },
+    {
+        "Lp": 32,
+        "Obręb": "Chrapczew",
+        "Numer działki": "229",
+        "Powierzchnia w m2": 600.0,
+        "Wartość": 1200.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny obiektów produkcyjnych, składów i magazynów, drogi gminne"
+    },
+    {
+        "Lp": 33,
+        "Obręb": "Chrapczew",
+        "Numer działki": "285",
+        "Powierzchnia w m2": 7200.0,
+        "Wartość": 21600.0,
+        "Dokumenty": "SN.IV-9.7710-115/10",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 34,
+        "Obręb": "Chrapczew",
+        "Numer działki": "86",
+        "Powierzchnia w m2": 11000.0,
+        "Wartość": 28600.0,
+        "Dokumenty": "GKG.III.7228-11187/93",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 35,
+        "Obręb": "Chrapczew",
+        "Numer działki": "87/2",
+        "Powierzchnia w m2": 4000.0,
+        "Wartość": 10400.0,
+        "Dokumenty": "GKG.III.7228-11187/93",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 36,
+        "Obręb": "Chrapczew",
+        "Numer działki": "123/6",
+        "Powierzchnia w m2": 550.0,
+        "Wartość": 22363.66,
+        "Dokumenty": "AN8359/2023",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 37,
+        "Obręb": "Czajków",
+        "Numer działki": "62",
+        "Powierzchnia w m2": 9600.0,
+        "Wartość": 19200.0,
+        "Dokumenty": "D SN.VI-4.77230-535/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 38,
+        "Obręb": "Czajków",
+        "Numer działki": "25/1",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 1700.0,
+        "Dokumenty": "SN-VI.7531.1.77.2024.4",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary mokradłowe, drogi gminne"
+    },
+    {
+        "Lp": 39,
+        "Obręb": "Czajków",
+        "Numer działki": "25/2",
+        "Powierzchnia w m2": 1761.0,
+        "Wartość": 29937.0,
+        "Dokumenty": "SN-VI.7531.1.77.2024.4",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary mokradłowe, drogi gminne"
+    },
+    {
+        "Lp": 40,
+        "Obręb": "Dąbrowica",
+        "Numer działki": "138",
+        "Powierzchnia w m2": 5200.0,
+        "Wartość": 10400.0,
+        "Dokumenty": "D SN.VI-4.77230-533/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 41,
+        "Obręb": "Czyste",
+        "Numer działki": "51",
+        "Powierzchnia w m2": 7600.0,
+        "Wartość": 15200.0,
+        "Dokumenty": "D SN.VI-10-77230-523-2008",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 42,
+        "Obręb": "Czyste",
+        "Numer działki": "48/7",
+        "Powierzchnia w m2": 21400.0,
+        "Wartość": 64200.0,
+        "Dokumenty": "GKG.III.7228-11187/93",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 43,
+        "Obręb": "Czyste",
+        "Numer działki": "40/6",
+        "Powierzchnia w m2": 2200.0,
+        "Wartość": 6600.0,
+        "Dokumenty": "GG.6011-1-52/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 44,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "129/1",
+        "Powierzchnia w m2": 1723.0,
+        "Wartość": 6892.0,
+        "Dokumenty": "SG.6831.3.2.2015SS",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, U1 usługi oświaty, "
+    },
+    {
+        "Lp": 45,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "129/2",
+        "Powierzchnia w m2": 8800.0,
+        "Wartość": 35200.0,
+        "Dokumenty": "SG.6831.3.2.2015SS",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, US terenu usług sportu i rekreacji"
+    },
+    {
+        "Lp": 46,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "66",
+        "Powierzchnia w m2": 11300.0,
+        "Wartość": 22600.0,
+        "Dokumenty": "SN.VI-4.77230-534/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 47,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "242",
+        "Powierzchnia w m2": 30200.0,
+        "Wartość": 60400.0,
+        "Dokumenty": "SN.VI-4.77230-534/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 48,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "99",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 2400.0,
+        "Dokumenty": "SN.VI-4.77230-534/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 49,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "67",
+        "Powierzchnia w m2": 7500.0,
+        "Wartość": 45000.0,
+        "Dokumenty": "SN.VI.7532.1.351.2017.6",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 50,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "72/3",
+        "Powierzchnia w m2": 1300.0,
+        "Wartość": 7800.0,
+        "Dokumenty": "SN.VI.7532.1.351.2017.6",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, US terenu usług sportu i rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 51,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "127",
+        "Powierzchnia w m2": 4600.0,
+        "Wartość": 27600.0,
+        "Dokumenty": "SN.VI.7532.1.351.2017.6",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 52,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "480",
+        "Powierzchnia w m2": 4900.0,
+        "Wartość": 29400.0,
+        "Dokumenty": "SN.VI.7532.1.351.2017.6",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 53,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "75/3",
+        "Powierzchnia w m2": 1500.0,
+        "Wartość": 33813.09,
+        "Dokumenty": "Rep. A nr 3490/2019",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 54,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "75/5",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 4508.41,
+        "Dokumenty": "Rep. A nr 3490/2019",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 55,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "85/14",
+        "Powierzchnia w m2": 1957.0,
+        "Wartość": 10399.29,
+        "Dokumenty": "PS I Ns 61/21, IGOŚR.WZ.6831.10.2022",
+        "Użytki": "dr, Ls",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 56,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "85/15",
+        "Powierzchnia w m2": 1187.0,
+        "Wartość": 6307.59,
+        "Dokumenty": "PS I Ns 61/21, IGOŚR.WZ.6831.10.2022",
+        "Użytki": "Ls",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 57,
+        "Obręb": "Dąbrowica- Kolonia",
+        "Numer działki": "85/16",
+        "Powierzchnia w m2": 2772.0,
+        "Wartość": 14730.12,
+        "Dokumenty": "PS I Ns 61/21, IGOŚR.WZ.6831.10.2022",
+        "Użytki": "Ps, Ls",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 58,
+        "Obręb": "Dąbrowa",
+        "Numer działki": "240/1",
+        "Powierzchnia w m2": 2400.0,
+        "Wartość": 4800.0,
+        "Dokumenty": "D SN.VI-10-77230-474/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 59,
+        "Obręb": "Dąbrowa",
+        "Numer działki": "240/3",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 4200.0,
+        "Dokumenty": "D SN.VI-10-77230-474/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 60,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "457/4",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 3600.0,
+        "Dokumenty": "AN3660/92",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 61,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "456/1",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 800.0,
+        "Dokumenty": "AN3660/92",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 62,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "457/2",
+        "Powierzchnia w m2": 1400.0,
+        "Wartość": 5600.0,
+        "Dokumenty": "AN3660/92",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 63,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "484",
+        "Powierzchnia w m2": 4300.0,
+        "Wartość": 51500.0,
+        "Dokumenty": "D7228/10347/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 64,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "486",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 1200.0,
+        "Dokumenty": "D7228/10347/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 65,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "489",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 6000.0,
+        "Dokumenty": "D7228/10347/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 66,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "487/1",
+        "Powierzchnia w m2": 2757.0,
+        "Wartość": 33084.0,
+        "Dokumenty": "AN7564/2012",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 67,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "491/1",
+        "Powierzchnia w m2": 5842.0,
+        "Wartość": 70104.0,
+        "Dokumenty": "D7228/10347/92",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 68,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "487/4",
+        "Powierzchnia w m2": 161.0,
+        "Wartość": 1932.0,
+        "Dokumenty": "D7228/10347/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 69,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "487/3",
+        "Powierzchnia w m2": 3206.0,
+        "Wartość": 38472.0,
+        "Dokumenty": "D7228/10347/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 70,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "481",
+        "Powierzchnia w m2": 3000.0,
+        "Wartość": 36000.0,
+        "Dokumenty": "D7228/10223/92",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 71,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "480",
+        "Powierzchnia w m2": 496.0,
+        "Wartość": 5952.0,
+        "Dokumenty": "D7228/10223/92",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 72,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "574",
+        "Powierzchnia w m2": 28300.0,
+        "Wartość": 141500.0,
+        "Dokumenty": "D7228-12511/94",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny usług sportu i rekreacji, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 73,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "539",
+        "Powierzchnia w m2": 10700.0,
+        "Wartość": 53500.0,
+        "Dokumenty": "GKG.III.7228-14568/97",
+        "Użytki": "LS",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, lasy, obszary mokradłowe"
+    },
+    {
+        "Lp": 74,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "538",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 2000.0,
+        "Dokumenty": "GKGIII.7220-11190/93",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 75,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "543",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 1200.0,
+        "Dokumenty": "GKGIII.7220-11190/93",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 76,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "483/1",
+        "Powierzchnia w m2": 27400.0,
+        "Wartość": 76720.0,
+        "Dokumenty": "D7228/14302/97, GN7437/167/2008, IGOŚR.6831.20.2024",
+        "Użytki": "PS",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 77,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "483/2",
+        "Powierzchnia w m2": 2401.0,
+        "Wartość": 6722.8,
+        "Dokumenty": "D7228/14302/97, GN7437/167/2008, IGOŚR.6831.20.2024",
+        "Użytki": "Bi",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 78,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "488",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 13200.0,
+        "Dokumenty": "AN2782/2006",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 79,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "479",
+        "Powierzchnia w m2": 14000.0,
+        "Wartość": 112000.0,
+        "Dokumenty": "AN2782/2006",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 80,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "497/4",
+        "Powierzchnia w m2": 60376.0,
+        "Wartość": 169052.8,
+        "Dokumenty": "GKGIII.7220-11190/93",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, podstrefa przemysłu, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 81,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "497/5",
+        "Powierzchnia w m2": 23076.0,
+        "Wartość": 64612.8,
+        "Dokumenty": "GKGIII.7220-11190/93",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny usług sportu i rekreacji, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 82,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "575",
+        "Powierzchnia w m2": 8200.0,
+        "Wartość": 16400.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki, obszary mokradłowe, drogi gminne"
+    },
+    {
+        "Lp": 83,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "81",
+        "Powierzchnia w m2": 4100.0,
+        "Wartość": 8200.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 84,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "52",
+        "Powierzchnia w m2": 4300.0,
+        "Wartość": 8600.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 85,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "57",
+        "Powierzchnia w m2": 5600.0,
+        "Wartość": 11200.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 86,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "298",
+        "Powierzchnia w m2": 8100.0,
+        "Wartość": 16200.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 87,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "385",
+        "Powierzchnia w m2": 4400.0,
+        "Wartość": 8800.0,
+        "Dokumenty": "D NS.VI-10-77230-472/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 88,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "493",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 2200.0,
+        "Dokumenty": "SN.VI-6.77230-957/09",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 89,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "510/4 ",
+        "Powierzchnia w m2": 800.0,
+        "Wartość": 21036.4,
+        "Dokumenty": "Rep. A Nr 7718/2019",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 90,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "482/5",
+        "Powierzchnia w m2": 9732.0,
+        "Wartość": 77856.0,
+        "Dokumenty": "D7228/14302/97, GN7437/167/2008, IGOŚR.6831.20.2024",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi oświaty"
+    },
+    {
+        "Lp": 91,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "482/6",
+        "Powierzchnia w m2": 750.0,
+        "Wartość": 6000.0,
+        "Dokumenty": "D7228/14302/97, GN7437/167/2008, IGOŚR.6831.20.2024",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi oświaty"
+    },
+    {
+        "Lp": 92,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "482/7",
+        "Powierzchnia w m2": 9222.0,
+        "Wartość": 73776.0,
+        "Dokumenty": "D7228/14302/97, GN7437/167/2008, IGOŚR.6831.20.2024",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi oświaty"
+    },
+    {
+        "Lp": 93,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "491/2",
+        "Powierzchnia w m2": 258.0,
+        "Wartość": 3096.0,
+        "Dokumenty": "AN2293/2013",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 94,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "487/5",
+        "Powierzchnia w m2": 1390.0,
+        "Wartość": 16680.0,
+        "Dokumenty": "AN9792/2013",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obsługi obiektów produkcyjnych, składów i magazynów, obiekty objęte w rejestrze zabytków WWKZ"
+    },
+    {
+        "Lp": 95,
+        "Obręb": "Długa Wieś",
+        "Numer działki": "276",
+        "Powierzchnia w m2": 5400.0,
+        "Wartość": 5940.0,
+        "Dokumenty": "PS I Ns 27/17 ",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 96,
+        "Obręb": "Januszówka",
+        "Numer działki": "145",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 8400.0,
+        "Dokumenty": "D7228/14299/97",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 97,
+        "Obręb": "Januszówka",
+        "Numer działki": "271",
+        "Powierzchnia w m2": 8400.0,
+        "Wartość": 16800.0,
+        "Dokumenty": "D SN.VI-10-77230-471/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 98,
+        "Obręb": "Januszówka",
+        "Numer działki": "270/1",
+        "Powierzchnia w m2": 43000.0,
+        "Wartość": 86000.0,
+        "Dokumenty": "D SN.VI-10-77230-471/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 99,
+        "Obręb": "Januszówka",
+        "Numer działki": "266",
+        "Powierzchnia w m2": 8700.0,
+        "Wartość": 17400.0,
+        "Dokumenty": "D SN.VI-10-77230-471/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 100,
+        "Obręb": "Januszówka",
+        "Numer działki": "267",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 1000.0,
+        "Dokumenty": "D SN.VI-10-77230-471/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 101,
+        "Obręb": "Januszówka",
+        "Numer działki": "262/2",
+        "Powierzchnia w m2": 4300.0,
+        "Wartość": 30100.0,
+        "Dokumenty": "SN-VI.7532.1.543.2018.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 102,
+        "Obręb": "Januszówka",
+        "Numer działki": "262/3",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 18200.0,
+        "Dokumenty": "SN-VI.7532.1.543.2018.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 103,
+        "Obręb": "Januszówka",
+        "Numer działki": "265/2",
+        "Powierzchnia w m2": 5300.0,
+        "Wartość": 37100.0,
+        "Dokumenty": "SN-VI.7532.1.544.2018.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 104,
+        "Obręb": "Januszówka",
+        "Numer działki": "265/3",
+        "Powierzchnia w m2": 3000.0,
+        "Wartość": 21000.0,
+        "Dokumenty": "SN-VI.7532.1.544.2018.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 105,
+        "Obręb": "Józefów",
+        "Numer działki": "83/3",
+        "Powierzchnia w m2": 6719.0,
+        "Wartość": 11960.0,
+        "Dokumenty": "D7228/14293/97",
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne, łąki"
+    },
+    {
+        "Lp": 106,
+        "Obręb": "Józefów",
+        "Numer działki": "83/2",
+        "Powierzchnia w m2": 511.0,
+        "Wartość": 1022.0,
+        "Dokumenty": "D7228/14293/97",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne, łąki"
+    },
+    {
+        "Lp": 107,
+        "Obręb": "Józefów",
+        "Numer działki": "83/1",
+        "Powierzchnia w m2": 3610.0,
+        "Wartość": 9887.61,
+        "Dokumenty": "D7228/14293/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 108,
+        "Obręb": "Józefów",
+        "Numer działki": "42",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 4600.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne, obszary specjalnej ochrony ptaków Natura 2000, \"Dolina Środkowej Warty\""
+    },
+    {
+        "Lp": 109,
+        "Obręb": "Kaczka",
+        "Numer działki": "112",
+        "Powierzchnia w m2": 3900.0,
+        "Wartość": 7800.0,
+        "Dokumenty": "D SN.VI-10-77230-524/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy wodochronne, drogi gminne, "
+    },
+    {
+        "Lp": 110,
+        "Obręb": "Kościanki",
+        "Numer działki": "113",
+        "Powierzchnia w m2": 1589.0,
+        "Wartość": 7945.0,
+        "Dokumenty": "AN2535/2004",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 111,
+        "Obręb": "Kościanki",
+        "Numer działki": "2/14",
+        "Powierzchnia w m2": 396.0,
+        "Wartość": 418.08,
+        "Dokumenty": "GG.6011-1-45/93",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 112,
+        "Obręb": "Kościanki",
+        "Numer działki": "4/22",
+        "Powierzchnia w m2": 1907.0,
+        "Wartość": 29558.0,
+        "Dokumenty": "GG.6011-1-194/95",
+        "Użytki": "PS",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 113,
+        "Obręb": "Kościanki",
+        "Numer działki": "4/23",
+        "Powierzchnia w m2": 1494.0,
+        "Wartość": 23157.0,
+        "Dokumenty": "GG.6011-1-194/95",
+        "Użytki": "PS",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 114,
+        "Obręb": "Kościanki",
+        "Numer działki": "120",
+        "Powierzchnia w m2": 956.0,
+        "Wartość": 4780.0,
+        "Dokumenty": "D7430-8/2/2007",
+        "Użytki": "R, Ls",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 115,
+        "Obręb": "Kościanki",
+        "Numer działki": "127",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 5000.0,
+        "Dokumenty": "D7430-9/2/2007",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 116,
+        "Obręb": "Kościanki",
+        "Numer działki": "1/2",
+        "Powierzchnia w m2": 4100.0,
+        "Wartość": 8200.0,
+        "Dokumenty": "D SN.VI-10-77230-468/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 117,
+        "Obręb": "Kościanki",
+        "Numer działki": "1/1",
+        "Powierzchnia w m2": 4900.0,
+        "Wartość": 9800.0,
+        "Dokumenty": "D SN.VI-10-77230-468/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 118,
+        "Obręb": "Kościanki",
+        "Numer działki": "58/3",
+        "Powierzchnia w m2": 1300.0,
+        "Wartość": 2600.0,
+        "Dokumenty": "D SN.VI-10-77230-815/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 119,
+        "Obręb": "Kościanki",
+        "Numer działki": "59",
+        "Powierzchnia w m2": 4900.0,
+        "Wartość": 9800.0,
+        "Dokumenty": "D SN.VI-10-77230-468/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 120,
+        "Obręb": "Kościanki",
+        "Numer działki": "58/1",
+        "Powierzchnia w m2": 700.0,
+        "Wartość": 1400.0,
+        "Dokumenty": "D SN.VI-10-77230-815/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 121,
+        "Obręb": "Kościanki",
+        "Numer działki": "2/4",
+        "Powierzchnia w m2": 156.0,
+        "Wartość": 165.36,
+        "Dokumenty": "D6011-1-19/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 122,
+        "Obręb": "Kościanki",
+        "Numer działki": "2/9",
+        "Powierzchnia w m2": 676.0,
+        "Wartość": 716.56,
+        "Dokumenty": "D6011-1-63/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 123,
+        "Obręb": "Kościanki",
+        "Numer działki": "2/32",
+        "Powierzchnia w m2": 308.0,
+        "Wartość": 761.76,
+        "Dokumenty": "AN3573/2014",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 124,
+        "Obręb": "Kościanki",
+        "Numer działki": "116",
+        "Powierzchnia w m2": 318.0,
+        "Wartość": 788.64,
+        "Dokumenty": "AN3573/2014",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 125,
+        "Obręb": "Kościanki",
+        "Numer działki": "56/9",
+        "Powierzchnia w m2": 397.0,
+        "Wartość": 2146.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 126,
+        "Obręb": "Kościanki",
+        "Numer działki": "56/7",
+        "Powierzchnia w m2": 319.0,
+        "Wartość": 1806.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 127,
+        "Obręb": "Kościanki",
+        "Numer działki": "57/4",
+        "Powierzchnia w m2": 424.0,
+        "Wartość": 2086.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 128,
+        "Obręb": "Kościanki",
+        "Numer działki": "74/15",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 1000.0,
+        "Dokumenty": "D6011/1/81/94",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 129,
+        "Obręb": "Kościanki",
+        "Numer działki": "74/20",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 1500.0,
+        "Dokumenty": "D6011/1/81/94",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 130,
+        "Obręb": "Linne",
+        "Numer działki": "550",
+        "Powierzchnia w m2": 6100.0,
+        "Wartość": 17256.3,
+        "Dokumenty": "AN6814/2014",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I P podstrefa przemysłu, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 131,
+        "Obręb": "Linne",
+        "Numer działki": "353",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 3528.0,
+        "Dokumenty": "AN9278/2014",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 132,
+        "Obręb": "Linne",
+        "Numer działki": "546",
+        "Powierzchnia w m2": 8400.0,
+        "Wartość": 24652.64,
+        "Dokumenty": "AN9278/2014",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I P podstrefa przemysłu, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 133,
+        "Obręb": "Linne",
+        "Numer działki": "352/2",
+        "Powierzchnia w m2": 3800.0,
+        "Wartość": 11172.0,
+        "Dokumenty": "AN9278/2014",
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 134,
+        "Obręb": "Linne",
+        "Numer działki": "21",
+        "Powierzchnia w m2": 15200.0,
+        "Wartość": 10400.0,
+        "Dokumenty": "SN.VI-10-77230-811/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 135,
+        "Obręb": "Linne",
+        "Numer działki": "96",
+        "Powierzchnia w m2": 10600.0,
+        "Wartość": 21200.0,
+        "Dokumenty": "SN.VI-10-77230-811/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 136,
+        "Obręb": "Linne",
+        "Numer działki": "573",
+        "Powierzchnia w m2": 6800.0,
+        "Wartość": 13600.0,
+        "Dokumenty": "SN.VI-10-77230-811/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 137,
+        "Obręb": "Linne",
+        "Numer działki": "599",
+        "Powierzchnia w m2": 26600.0,
+        "Wartość": 53200.0,
+        "Dokumenty": "SN.VI-10-77230-811/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 138,
+        "Obręb": "Linne",
+        "Numer działki": "352/1",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 294.0,
+        "Dokumenty": "AN9278/2014",
+        "Użytki": "WP",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 139,
+        "Obręb": "Linne",
+        "Numer działki": "689",
+        "Powierzchnia w m2": 10600.0,
+        "Wartość": 21200.0,
+        "Dokumenty": "SN.VI.10-77230-491/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 140,
+        "Obręb": "Linne",
+        "Numer działki": "692",
+        "Powierzchnia w m2": 3400.0,
+        "Wartość": 6800.0,
+        "Dokumenty": "SN.VI.10-77230-491/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 141,
+        "Obręb": "Linne",
+        "Numer działki": "694",
+        "Powierzchnia w m2": 1300.0,
+        "Wartość": 2600.0,
+        "Dokumenty": "SN.VI.10-77230-491/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 142,
+        "Obręb": "Linne",
+        "Numer działki": "699",
+        "Powierzchnia w m2": 3300.0,
+        "Wartość": 6600.0,
+        "Dokumenty": "SN.VI.10-77230-491/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 143,
+        "Obręb": "Linne",
+        "Numer działki": "188",
+        "Powierzchnia w m2": 2500.0,
+        "Wartość": 42500.0,
+        "Dokumenty": "SN-VI.7531.1.78.2024.4",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary mokradłowe"
+    },
+    {
+        "Lp": 144,
+        "Obręb": "Linne",
+        "Numer działki": "685/1",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 1700.0,
+        "Dokumenty": "SN-VI.7531.1.78.2024.4",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary mokradłowe, drogi gminne"
+    },
+    {
+        "Lp": 145,
+        "Obręb": "Linne",
+        "Numer działki": "685/2",
+        "Powierzchnia w m2": 1700.0,
+        "Wartość": 28900.0,
+        "Dokumenty": "SN-VI.7531.1.78.2024.4",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary mokradłowe, drogi gminne"
+    },
+    {
+        "Lp": 146,
+        "Obręb": "Łęg Piekarski",
+        "Numer działki": "92",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 2000.0,
+        "Dokumenty": "SN.VI.10-77230-478/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne, Nadwarciański Szlak Rowerowy"
+    },
+    {
+        "Lp": 147,
+        "Obręb": "Łęg Piekarski",
+        "Numer działki": "135",
+        "Powierzchnia w m2": 1800.0,
+        "Wartość": 3600.0,
+        "Dokumenty": "SN.VI.10-77230-478/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 148,
+        "Obręb": "Łęg Piekarski",
+        "Numer działki": "7",
+        "Powierzchnia w m2": 13800.0,
+        "Wartość": 27600.0,
+        "Dokumenty": "SN.VI.10-77230-478/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne, Nadwarciański Szlak Rowerowy"
+    },
+    {
+        "Lp": 149,
+        "Obręb": "Łęg Piekarski",
+        "Numer działki": "46/1",
+        "Powierzchnia w m2": 1131.0,
+        "Wartość": 9300.73,
+        "Dokumenty": "Rep. A numer 9749/2022",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne"
+    },
+    {
+        "Lp": 150,
+        "Obręb": "Miłkowice",
+        "Numer działki": "490",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 7700.0,
+        "Dokumenty": "D7228-10212/92",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 151,
+        "Obręb": "Miłkowice",
+        "Numer działki": "701",
+        "Powierzchnia w m2": 2437.0,
+        "Wartość": 12185.0,
+        "Dokumenty": "D7228-11188/93",
+        "Użytki": "dr, R, Tp",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 152,
+        "Obręb": "Miłkowice",
+        "Numer działki": "681",
+        "Powierzchnia w m2": 4600.0,
+        "Wartość": 23000.0,
+        "Dokumenty": "D7228-11188/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 153,
+        "Obręb": "Miłkowice",
+        "Numer działki": "534/8",
+        "Powierzchnia w m2": 195.0,
+        "Wartość": 975.0,
+        "Dokumenty": "D6011-1-103/94",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 154,
+        "Obręb": "Miłkowice",
+        "Numer działki": "187/1",
+        "Powierzchnia w m2": 4400.0,
+        "Wartość": 8800.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 155,
+        "Obręb": "Miłkowice",
+        "Numer działki": "163",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 4200.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 156,
+        "Obręb": "Miłkowice",
+        "Numer działki": "392",
+        "Powierzchnia w m2": 12500.0,
+        "Wartość": 25000.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 157,
+        "Obręb": "Miłkowice",
+        "Numer działki": "428",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 4600.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 158,
+        "Obręb": "Miłkowice",
+        "Numer działki": "429",
+        "Powierzchnia w m2": 6000.0,
+        "Wartość": 12000.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 159,
+        "Obręb": "Miłkowice",
+        "Numer działki": "469",
+        "Powierzchnia w m2": 3700.0,
+        "Wartość": 7400.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 160,
+        "Obręb": "Miłkowice",
+        "Numer działki": "495",
+        "Powierzchnia w m2": 5900.0,
+        "Wartość": 11800.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 161,
+        "Obręb": "Miłkowice",
+        "Numer działki": "541",
+        "Powierzchnia w m2": 11600.0,
+        "Wartość": 23200.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 162,
+        "Obręb": "Miłkowice",
+        "Numer działki": "543",
+        "Powierzchnia w m2": 6600.0,
+        "Wartość": 13200.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 163,
+        "Obręb": "Miłkowice",
+        "Numer działki": "544",
+        "Powierzchnia w m2": 4600.0,
+        "Wartość": 9600.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, obszary zalesień"
+    },
+    {
+        "Lp": 164,
+        "Obręb": "Miłkowice",
+        "Numer działki": "633",
+        "Powierzchnia w m2": 9700.0,
+        "Wartość": 19400.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 165,
+        "Obręb": "Miłkowice",
+        "Numer działki": "161",
+        "Powierzchnia w m2": 2800.0,
+        "Wartość": 5600.0,
+        "Dokumenty": "SN.VI-6.77230-505/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 166,
+        "Obręb": "Miłkowice",
+        "Numer działki": "528/4",
+        "Powierzchnia w m2": 1541.0,
+        "Wartość": 7705.0,
+        "Dokumenty": "AN1208/2004",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 167,
+        "Obręb": "Miłkowice",
+        "Numer działki": "528/6",
+        "Powierzchnia w m2": 989.0,
+        "Wartość": 4945.0,
+        "Dokumenty": "GW7430-6/2/03",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 168,
+        "Obręb": "Miłkowice",
+        "Numer działki": "532/9",
+        "Powierzchnia w m2": 1252.0,
+        "Wartość": 6260.0,
+        "Dokumenty": "GG.6011-1-143/95",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 169,
+        "Obręb": "Miłkowice",
+        "Numer działki": "534/16",
+        "Powierzchnia w m2": 1856.0,
+        "Wartość": 9280.0,
+        "Dokumenty": "D6011-1-103/94",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 170,
+        "Obręb": "Miłkowice",
+        "Numer działki": "535/2",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 5500.0,
+        "Dokumenty": "D6011/1/118/96",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 171,
+        "Obręb": "Miłkowice",
+        "Numer działki": "535/37",
+        "Powierzchnia w m2": 4800.0,
+        "Wartość": 24000.0,
+        "Dokumenty": "D6011/1/118/96",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 172,
+        "Obręb": "Miłkowice",
+        "Numer działki": "536/30",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 6000.0,
+        "Dokumenty": "D6011/1/67/96",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 173,
+        "Obręb": "Miłkowice",
+        "Numer działki": "536/31",
+        "Powierzchnia w m2": 3800.0,
+        "Wartość": 19000.0,
+        "Dokumenty": "D6011/1/67/96",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 174,
+        "Obręb": "Miłkowice",
+        "Numer działki": "537/16",
+        "Powierzchnia w m2": 174.0,
+        "Wartość": 870.0,
+        "Dokumenty": "AN3986/2004",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 175,
+        "Obręb": "Miłkowice",
+        "Numer działki": "537/18",
+        "Powierzchnia w m2": 499.0,
+        "Wartość": 2495.0,
+        "Dokumenty": "AN3986/2004",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 176,
+        "Obręb": "Miłkowice",
+        "Numer działki": "537/2",
+        "Powierzchnia w m2": 367.0,
+        "Wartość": 1835.0,
+        "Dokumenty": "GG,6011-1-181/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 177,
+        "Obręb": "Miłkowice",
+        "Numer działki": "538/2",
+        "Powierzchnia w m2": 1006.0,
+        "Wartość": 5030.0,
+        "Dokumenty": "GG.6011-1-180/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 178,
+        "Obręb": "Miłkowice",
+        "Numer działki": "538/23",
+        "Powierzchnia w m2": 1229.0,
+        "Wartość": 6145.0,
+        "Dokumenty": "AN3986/2004",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 179,
+        "Obręb": "Miłkowice",
+        "Numer działki": "530/9",
+        "Powierzchnia w m2": 1054.0,
+        "Wartość": 5049.18,
+        "Dokumenty": "Rep. A182/2016 z dn. 14.01.2016",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne"
+    },
+    {
+        "Lp": 180,
+        "Obręb": "Moczydła",
+        "Numer działki": "220",
+        "Powierzchnia w m2": 26000.0,
+        "Wartość": 52000.0,
+        "Dokumenty": "D SN.VI-10-77230-481/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 181,
+        "Obręb": "Moczydła",
+        "Numer działki": "99",
+        "Powierzchnia w m2": 6600.0,
+        "Wartość": 112200.0,
+        "Dokumenty": "SN-VI.7532.3.1662.2024.5",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne, drogi gminne"
+    },
+    {
+        "Lp": 182,
+        "Obręb": "Moczydła",
+        "Numer działki": "156",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 5100.0,
+        "Dokumenty": "SN-VI.7532.3.1662.2024.5",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 183,
+        "Obręb": "Moczydła",
+        "Numer działki": "157",
+        "Powierzchnia w m2": 7700.0,
+        "Wartość": 130900.0,
+        "Dokumenty": "SN-VI.7532.3.1662.2024.5",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne, drogi gminne"
+    },
+    {
+        "Lp": 184,
+        "Obręb": "Moczydła",
+        "Numer działki": "72/3",
+        "Powierzchnia w m2": 7100.0,
+        "Wartość": 22365.0,
+        "Dokumenty": "PS I Ns 27/17 ",
+        "Użytki": "LS",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy"
+    },
+    {
+        "Lp": 185,
+        "Obręb": "Młyny Piekarskie",
+        "Numer działki": "751",
+        "Powierzchnia w m2": 26800.0,
+        "Wartość": 53600.0,
+        "Dokumenty": "D SN.VI-10-77230-812/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 186,
+        "Obręb": "Mikulice",
+        "Numer działki": "553",
+        "Powierzchnia w m2": 13200.0,
+        "Wartość": 19800.0,
+        "Dokumenty": "D7228/14436/97",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 187,
+        "Obręb": "Mikulice",
+        "Numer działki": "245",
+        "Powierzchnia w m2": 400.0,
+        "Wartość": 1600.0,
+        "Dokumenty": "AN11535/98",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 188,
+        "Obręb": "Mikulice",
+        "Numer działki": "247/1",
+        "Powierzchnia w m2": 4300.0,
+        "Wartość": 17200.0,
+        "Dokumenty": "AN11535/98",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 189,
+        "Obręb": "Mikulice",
+        "Numer działki": "615",
+        "Powierzchnia w m2": 600.0,
+        "Wartość": 1800.0,
+        "Dokumenty": "D7228/14435/97",
+        "Użytki": "LZ",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy"
+    },
+    {
+        "Lp": 190,
+        "Obręb": "Mikulice",
+        "Numer działki": "310/1",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 600.0,
+        "Dokumenty": "AN2684/2006",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy"
+    },
+    {
+        "Lp": 191,
+        "Obręb": "Mikulice",
+        "Numer działki": "246/1",
+        "Powierzchnia w m2": 4900.0,
+        "Wartość": 14700.0,
+        "Dokumenty": "AN11535/98",
+        "Użytki": "Ł",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 192,
+        "Obręb": "Mikulice",
+        "Numer działki": "248",
+        "Powierzchnia w m2": 16400.0,
+        "Wartość": 49200.0,
+        "Dokumenty": "D7228/14296/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, tereny zieleni urządzonej, strefa ochrony konserwatorskiej, dwór"
+    },
+    {
+        "Lp": 193,
+        "Obręb": "Mikulice",
+        "Numer działki": "251/1",
+        "Powierzchnia w m2": 2541.0,
+        "Wartość": 7623.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, tereny zieleni urządzonej, strefa ochrony konserwatorskiej, dwór"
+    },
+    {
+        "Lp": 194,
+        "Obręb": "Mikulice",
+        "Numer działki": "152",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 4200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 195,
+        "Obręb": "Mikulice",
+        "Numer działki": "166",
+        "Powierzchnia w m2": 5600.0,
+        "Wartość": 11200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 196,
+        "Obręb": "Mikulice",
+        "Numer działki": "218",
+        "Powierzchnia w m2": 1600.0,
+        "Wartość": 3200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 197,
+        "Obręb": "Mikulice",
+        "Numer działki": "574",
+        "Powierzchnia w m2": 5700.0,
+        "Wartość": 11400.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 198,
+        "Obręb": "Mikulice",
+        "Numer działki": "253",
+        "Powierzchnia w m2": 11600.0,
+        "Wartość": 23200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 199,
+        "Obręb": "Mikulice",
+        "Numer działki": "312",
+        "Powierzchnia w m2": 14600.0,
+        "Wartość": 29200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 200,
+        "Obręb": "Mikulice",
+        "Numer działki": "48",
+        "Powierzchnia w m2": 5100.0,
+        "Wartość": 10200.0,
+        "Dokumenty": "SN.VI-6.77230-526/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 201,
+        "Obręb": "Mikulice",
+        "Numer działki": "158",
+        "Powierzchnia w m2": 1800.0,
+        "Wartość": 18000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 202,
+        "Obręb": "Mikulice",
+        "Numer działki": "162",
+        "Powierzchnia w m2": 800.0,
+        "Wartość": 8000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 203,
+        "Obręb": "Mikulice",
+        "Numer działki": "191",
+        "Powierzchnia w m2": 600.0,
+        "Wartość": 6000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 204,
+        "Obręb": "Mikulice",
+        "Numer działki": "269",
+        "Powierzchnia w m2": 2900.0,
+        "Wartość": 29000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, lasy"
+    },
+    {
+        "Lp": 205,
+        "Obręb": "Mikulice",
+        "Numer działki": "285",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 10000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, obszary zalesień"
+    },
+    {
+        "Lp": 206,
+        "Obręb": "Mikulice",
+        "Numer działki": "594",
+        "Powierzchnia w m2": 4500.0,
+        "Wartość": 45000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki, obszary mokradłowe"
+    },
+    {
+        "Lp": 207,
+        "Obręb": "Mikulice",
+        "Numer działki": "308",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 3000.0,
+        "Dokumenty": "SN-VI.7531.1.177.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 208,
+        "Obręb": "Mikulice",
+        "Numer działki": "190/1",
+        "Powierzchnia w m2": 1304.0,
+        "Wartość": 5216.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, grunty orne"
+    },
+    {
+        "Lp": 209,
+        "Obręb": "Mikulice",
+        "Numer działki": "190/2",
+        "Powierzchnia w m2": 1590.0,
+        "Wartość": 6360.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 210,
+        "Obręb": "Mikulice",
+        "Numer działki": "190/3",
+        "Powierzchnia w m2": 225.0,
+        "Wartość": 900.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 211,
+        "Obręb": "Mikulice",
+        "Numer działki": "252/1",
+        "Powierzchnia w m2": 2277.0,
+        "Wartość": 9108.0,
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, tereny zieleni urządzonej, strefa ochrony konserwatorskiej, dwór"
+    },
+    {
+        "Lp": 212,
+        "Obręb": "Mikulice",
+        "Numer działki": "238/14",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 200.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, łąki"
+    },
+    {
+        "Lp": 213,
+        "Obręb": "Mikulice",
+        "Numer działki": "254",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 10618.81,
+        "Dokumenty": "Rep. A numer 1029/2022",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, grunty orne"
+    },
+    {
+        "Lp": 214,
+        "Obręb": "Potworów",
+        "Numer działki": "146",
+        "Powierzchnia w m2": 7400.0,
+        "Wartość": 14800.0,
+        "Dokumenty": "SN.VI-4.77230-536/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 215,
+        "Obręb": "Potworów",
+        "Numer działki": "375",
+        "Powierzchnia w m2": 821.0,
+        "Wartość": 3694.5,
+        "Dokumenty": "IGOŚR.6831.26.2024",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług - pozostałe usługi, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 216,
+        "Obręb": "Potworów",
+        "Numer działki": "376",
+        "Powierzchnia w m2": 467.0,
+        "Wartość": 2101.5,
+        "Dokumenty": "IGOŚR.6831.26.2024",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług - pozostałe usługi"
+    },
+    {
+        "Lp": 217,
+        "Obręb": "Potworów",
+        "Numer działki": "377",
+        "Powierzchnia w m2": 2003.0,
+        "Wartość": 9013.5,
+        "Dokumenty": "IGOŚR.6831.26.2024",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług - pozostałe usługi, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 218,
+        "Obręb": "Potworów",
+        "Numer działki": "19",
+        "Powierzchnia w m2": 3900.0,
+        "Wartość": 60450.0,
+        "Dokumenty": "SN-VI.7532.3.404.2024.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa przyrodnicza, "
+    },
+    {
+        "Lp": 219,
+        "Obręb": "Potworów",
+        "Numer działki": "21",
+        "Powierzchnia w m2": 8200.0,
+        "Wartość": 127100.0,
+        "Dokumenty": "SN-VI.7532.3.404.2024.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolna, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 220,
+        "Obręb": "Potworów",
+        "Numer działki": "31",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 32550.0,
+        "Dokumenty": "SN-VI.7532.3.404.2024.10",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolna, obszary zalesień"
+    },
+    {
+        "Lp": 221,
+        "Obręb": "Rzymsko",
+        "Numer działki": "6/1",
+        "Powierzchnia w m2": 3800.0,
+        "Wartość": 15200.0,
+        "Dokumenty": "D7228/14563/97",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług - pozostałe usługi, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 222,
+        "Obręb": "Rzymsko",
+        "Numer działki": "13",
+        "Powierzchnia w m2": 11900.0,
+        "Wartość": 23800.0,
+        "Dokumenty": "SN.VI-6.77230-506/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 223,
+        "Obręb": "Rzymsko",
+        "Numer działki": "31",
+        "Powierzchnia w m2": 1300.0,
+        "Wartość": 2600.0,
+        "Dokumenty": "SN.VI-6.77230-506/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 224,
+        "Obręb": "Rzymsko",
+        "Numer działki": "160",
+        "Powierzchnia w m2": 3400.0,
+        "Wartość": 6800.0,
+        "Dokumenty": "SN.VI-6.77230-506/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 225,
+        "Obręb": "Rzymsko",
+        "Numer działki": "466",
+        "Powierzchnia w m2": 8200.0,
+        "Wartość": 16400.0,
+        "Dokumenty": "SN.VI-6.77230-506/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 226,
+        "Obręb": "Rzymsko",
+        "Numer działki": "6/5",
+        "Powierzchnia w m2": 625.0,
+        "Wartość": 1875.0,
+        "Dokumenty": "D7228/14291/97 IGOŚR.GK.6831.24.2021",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, grunty orne"
+    },
+    {
+        "Lp": 227,
+        "Obręb": "Rzymsko Bg",
+        "Numer działki": "51",
+        "Powierzchnia w m2": 14300.0,
+        "Wartość": 28600.0,
+        "Dokumenty": "DSN.VI-10-77230-473/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 228,
+        "Obręb": "Rzymsko Bg",
+        "Numer działki": "4/5",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 2500.0,
+        "Dokumenty": "AN7138/93",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, grunty orne"
+    },
+    {
+        "Lp": 229,
+        "Obręb": "Rzechta",
+        "Numer działki": "181",
+        "Powierzchnia w m2": 24200.0,
+        "Wartość": 48400.0,
+        "Dokumenty": "DSN.VI-6.77230-510/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 230,
+        "Obręb": "Stawki",
+        "Numer działki": "118",
+        "Powierzchnia w m2": 29100.0,
+        "Wartość": 58200.0,
+        "Dokumenty": "SN.VI-7.77230-537/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 231,
+        "Obręb": "Piekary",
+        "Numer działki": "145",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 800.0,
+        "Dokumenty": "D7228/14430/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 232,
+        "Obręb": "Piekary",
+        "Numer działki": "94/4",
+        "Powierzchnia w m2": 400.0,
+        "Wartość": 2000.0,
+        "Dokumenty": "D7228/14565/97",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny usług sportu i rekreacji, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 233,
+        "Obręb": "Piekary",
+        "Numer działki": "37/2",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 3600.0,
+        "Dokumenty": "D7228/14566/97",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 234,
+        "Obręb": "Piekary",
+        "Numer działki": "39/2",
+        "Powierzchnia w m2": 1400.0,
+        "Wartość": 5600.0,
+        "Dokumenty": "D7228/14566/97",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 235,
+        "Obręb": "Piekary",
+        "Numer działki": "41/3",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 4800.0,
+        "Dokumenty": "D7228/14566/97",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 236,
+        "Obręb": "Piekary",
+        "Numer działki": "147",
+        "Powierzchnia w m2": 4900.0,
+        "Wartość": 9800.0,
+        "Dokumenty": "D7228/14430/97",
+        "Użytki": "W",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne"
+    },
+    {
+        "Lp": 237,
+        "Obręb": "Piekary",
+        "Numer działki": "94/3",
+        "Powierzchnia w m2": 2800.0,
+        "Wartość": 8400.0,
+        "Dokumenty": "D7228/14297/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny usług sportu i rekreacji, tereny usług - usługi oświaty"
+    },
+    {
+        "Lp": 238,
+        "Obręb": "Piekary",
+        "Numer działki": "95/1",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 7800.0,
+        "Dokumenty": "D7228/14297/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, tereny usług sportu i rekreacji, tereny usług - usługi oświaty"
+    },
+    {
+        "Lp": 239,
+        "Obręb": "Piekary",
+        "Numer działki": "95/5",
+        "Powierzchnia w m2": 8511.0,
+        "Wartość": 34044.0,
+        "Dokumenty": "D7228/14297/97",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 240,
+        "Obręb": "Piekary",
+        "Numer działki": "323",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 2200.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 241,
+        "Obręb": "Piekary",
+        "Numer działki": "324",
+        "Powierzchnia w m2": 3800.0,
+        "Wartość": 7600.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 242,
+        "Obręb": "Piekary",
+        "Numer działki": "325",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 4200.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 243,
+        "Obręb": "Piekary",
+        "Numer działki": "326",
+        "Powierzchnia w m2": 800.0,
+        "Wartość": 1600.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 244,
+        "Obręb": "Piekary",
+        "Numer działki": "330",
+        "Powierzchnia w m2": 8400.0,
+        "Wartość": 16800.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne, łąki"
+    },
+    {
+        "Lp": 245,
+        "Obręb": "Piekary",
+        "Numer działki": "332",
+        "Powierzchnia w m2": 3800.0,
+        "Wartość": 7600.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 246,
+        "Obręb": "Piekary",
+        "Numer działki": "322",
+        "Powierzchnia w m2": 1900.0,
+        "Wartość": 3800.0,
+        "Dokumenty": "SN.VI-6.77230-509/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne"
+    },
+    {
+        "Lp": 247,
+        "Obręb": "Skęczniew",
+        "Numer działki": "315/4",
+        "Powierzchnia w m2": 4600.0,
+        "Wartość": 13800.0,
+        "Dokumenty": "D7228/14426/97",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny zieleni urządzonej, strefa ochrony konserwatorskiej"
+    },
+    {
+        "Lp": 248,
+        "Obręb": "Skęczniew",
+        "Numer działki": "321/1",
+        "Powierzchnia w m2": 15800.0,
+        "Wartość": 39500.0,
+        "Dokumenty": "D7228/14426/97",
+        "Użytki": "PS",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny zieleni urządzonej, strefa ochrony konserwatorskiej"
+    },
+    {
+        "Lp": 249,
+        "Obręb": "Skęczniew",
+        "Numer działki": "192/4",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 250,
+        "Obręb": "Skęczniew",
+        "Numer działki": "188/2",
+        "Powierzchnia w m2": 600.0,
+        "Wartość": 1200.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 251,
+        "Obręb": "Skęczniew",
+        "Numer działki": "188/3",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 252,
+        "Obręb": "Skęczniew",
+        "Numer działki": "188/4",
+        "Powierzchnia w m2": 100.0,
+        "Wartość": 200.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 253,
+        "Obręb": "Skęczniew",
+        "Numer działki": "192/2",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 254,
+        "Obręb": "Skęczniew",
+        "Numer działki": "192/3",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 255,
+        "Obręb": "Skęczniew",
+        "Numer działki": "437/2",
+        "Powierzchnia w m2": 19700.0,
+        "Wartość": 39400.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 256,
+        "Obręb": "Skęczniew",
+        "Numer działki": "192/6",
+        "Użytki": "WP"
+    },
+    {
+        "Lp": 257,
+        "Obręb": "Skęczniew",
+        "Numer działki": "194/14",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 258,
+        "Obręb": "Skęczniew",
+        "Numer działki": "438/22",
+        "Powierzchnia w m2": 2634.0,
+        "Wartość": 13170.0,
+        "Dokumenty": "GKG.III.7228-14766/98",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 259,
+        "Obręb": "Skęczniew",
+        "Numer działki": "438/28",
+        "Powierzchnia w m2": 512.0,
+        "Wartość": 2560.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 260,
+        "Obręb": "Skęczniew",
+        "Numer działki": "438/5",
+        "Powierzchnia w m2": 5300.0,
+        "Wartość": 53000.0,
+        "Dokumenty": "GKG.III.7228-12632/94",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 261,
+        "Obręb": "Skęczniew",
+        "Numer działki": "80",
+        "Powierzchnia w m2": 4200.0,
+        "Wartość": 42000.0,
+        "Dokumenty": "GKG.III.7228-14429/97",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, U2 usługi administracji"
+    },
+    {
+        "Lp": 262,
+        "Obręb": "Skęczniew",
+        "Numer działki": "193/23",
+        "Powierzchnia w m2": 386.0,
+        "Wartość": 1930.0,
+        "Dokumenty": "GN7437/382/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 263,
+        "Obręb": "Skęczniew",
+        "Numer działki": "193/31",
+        "Powierzchnia w m2": 180.0,
+        "Wartość": 900.0,
+        "Dokumenty": "GN7437/382/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 264,
+        "Obręb": "Skęczniew",
+        "Numer działki": "202/17",
+        "Dokumenty": "GG.6011-1-17/92",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 265,
+        "Obręb": "Skęczniew",
+        "Numer działki": "12",
+        "Powierzchnia w m2": 19100.0,
+        "Wartość": 38200.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 266,
+        "Obręb": "Skęczniew",
+        "Numer działki": "63",
+        "Powierzchnia w m2": 900.0,
+        "Wartość": 1800.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 267,
+        "Obręb": "Skęczniew",
+        "Numer działki": "111",
+        "Powierzchnia w m2": 10300.0,
+        "Wartość": 20600.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 268,
+        "Obręb": "Skęczniew",
+        "Numer działki": "209",
+        "Powierzchnia w m2": 1800.0,
+        "Wartość": 3600.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 269,
+        "Obręb": "Skęczniew",
+        "Numer działki": "231",
+        "Powierzchnia w m2": 4600.0,
+        "Wartość": 9200.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 270,
+        "Obręb": "Skęczniew",
+        "Numer działki": "245",
+        "Powierzchnia w m2": 5600.0,
+        "Wartość": 11200.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 271,
+        "Obręb": "Skęczniew",
+        "Numer działki": "318",
+        "Powierzchnia w m2": 2000.0,
+        "Wartość": 4000.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, "
+    },
+    {
+        "Lp": 272,
+        "Obręb": "Skęczniew",
+        "Numer działki": "414",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 2200.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 273,
+        "Obręb": "Skęczniew",
+        "Numer działki": "287/1",
+        "Powierzchnia w m2": 5085.0,
+        "Wartość": 10170.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 274,
+        "Obręb": "Skęczniew",
+        "Numer działki": "287/3",
+        "Powierzchnia w m2": 494.0,
+        "Wartość": 988.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 275,
+        "Obręb": "Skęczniew",
+        "Numer działki": "314/1",
+        "Powierzchnia w m2": 5659.0,
+        "Wartość": 11318.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 276,
+        "Obręb": "Skęczniew",
+        "Numer działki": "320/8",
+        "Powierzchnia w m2": 3913.0,
+        "Wartość": 7826.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, grunty orne wykorzystywane rolniczo, tereny zieleni urządzonej"
+    },
+    {
+        "Lp": 277,
+        "Obręb": "Skęczniew",
+        "Numer działki": "282",
+        "Powierzchnia w m2": 7900.0,
+        "Wartość": 15800.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 278,
+        "Obręb": "Skęczniew",
+        "Numer działki": "155/1",
+        "Powierzchnia w m2": 4800.0,
+        "Wartość": 9600.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 279,
+        "Obręb": "Skęczniew",
+        "Numer działki": "155/3",
+        "Powierzchnia w m2": 6600.0,
+        "Wartość": 13200.0,
+        "Dokumenty": "D SN.VI-10-77230-817/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 280,
+        "Obręb": "Skęczniew",
+        "Numer działki": "193/24",
+        "Powierzchnia w m2": 831.0,
+        "Wartość": 4155.0,
+        "Dokumenty": "AN2045/2006",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 281,
+        "Obręb": "Skęczniew",
+        "Numer działki": "193/15",
+        "Powierzchnia w m2": 269.0,
+        "Wartość": 1345.0,
+        "Dokumenty": "GG.6011-1-18/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 282,
+        "Obręb": "Skęczniew",
+        "Numer działki": "193/11",
+        "Powierzchnia w m2": 427.0,
+        "Wartość": 2135.0,
+        "Dokumenty": "GG.6011-1-18/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 283,
+        "Obręb": "Skęczniew",
+        "Numer działki": "194/7",
+        "Powierzchnia w m2": 328.0,
+        "Wartość": 1640.0,
+        "Dokumenty": "GG.6011-1-18/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 284,
+        "Obręb": "Skęczniew",
+        "Numer działki": "186/8",
+        "Powierzchnia w m2": 685.0,
+        "Wartość": 3425.0,
+        "Dokumenty": "DEC.7430-6/2/06",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 285,
+        "Obręb": "Skęczniew",
+        "Numer działki": "438/39",
+        "Powierzchnia w m2": 3952.0,
+        "Wartość": 71408.92,
+        "Dokumenty": "A6457 z dn. 05.08.2016",
+        "Użytki": "dr",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 286,
+        "Obręb": "Skęczniew",
+        "Numer działki": "186/17",
+        "Powierzchnia w m2": 1640.0,
+        "Wartość": 8200.0,
+        "Dokumenty": "IGŚ7430-12/2/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 287,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/8",
+        "Powierzchnia w m2": 665.0,
+        "Wartość": 9310.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 288,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/7",
+        "Powierzchnia w m2": 651.0,
+        "Wartość": 9114.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 289,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/6",
+        "Powierzchnia w m2": 651.0,
+        "Wartość": 9114.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 290,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/5",
+        "Powierzchnia w m2": 651.0,
+        "Wartość": 9114.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 291,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/4",
+        "Powierzchnia w m2": 682.0,
+        "Wartość": 9548.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 292,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/3",
+        "Powierzchnia w m2": 682.0,
+        "Wartość": 9548.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 293,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/2",
+        "Powierzchnia w m2": 682.0,
+        "Wartość": 9548.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 294,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/1",
+        "Powierzchnia w m2": 980.0,
+        "Wartość": 13720.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 295,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/9",
+        "Powierzchnia w m2": 1120.0,
+        "Wartość": 2240.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "dr",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 296,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/25",
+        "Powierzchnia w m2": 619.0,
+        "Wartość": 8666.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 297,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/17",
+        "Powierzchnia w m2": 682.0,
+        "Wartość": 9548.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 298,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/16",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 299,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/24",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 300,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/23",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 301,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/15",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 302,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/14",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 303,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/22",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 304,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/21",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 305,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/13",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 306,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/12",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 307,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/20",
+        "Powierzchnia w m2": 588.0,
+        "Wartość": 8232.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 308,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/19",
+        "Powierzchnia w m2": 644.0,
+        "Wartość": 9016.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 309,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/18",
+        "Powierzchnia w m2": 1064.0,
+        "Wartość": 14896.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 310,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/11",
+        "Powierzchnia w m2": 644.0,
+        "Wartość": 9016.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 311,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/10",
+        "Powierzchnia w m2": 921.0,
+        "Wartość": 12894.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 312,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/26",
+        "Powierzchnia w m2": 1164.0,
+        "Wartość": 2328.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "dr",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 313,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/27",
+        "Powierzchnia w m2": 917.0,
+        "Wartość": 12838.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 314,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/28",
+        "Powierzchnia w m2": 622.0,
+        "Wartość": 8708.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 315,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/29",
+        "Powierzchnia w m2": 650.0,
+        "Wartość": 9100.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 316,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/32",
+        "Powierzchnia w m2": 631.0,
+        "Wartość": 8834.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 317,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/31",
+        "Powierzchnia w m2": 840.0,
+        "Wartość": 11760.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 318,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/30",
+        "Powierzchnia w m2": 916.0,
+        "Wartość": 12824.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 319,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/35",
+        "Powierzchnia w m2": 1081.0,
+        "Wartość": 15134.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 320,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/39",
+        "Powierzchnia w m2": 9894.0,
+        "Wartość": 138516.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 321,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/37",
+        "Powierzchnia w m2": 829.0,
+        "Wartość": 11606.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 322,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/36",
+        "Powierzchnia w m2": 866.0,
+        "Wartość": 12124.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 323,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/33",
+        "Powierzchnia w m2": 8.0,
+        "Wartość": 112.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej"
+    },
+    {
+        "Lp": 324,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/34",
+        "Powierzchnia w m2": 8.0,
+        "Wartość": 112.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 325,
+        "Obręb": "Skęczniew",
+        "Numer działki": "455/38",
+        "Powierzchnia w m2": 12.0,
+        "Wartość": 168.0,
+        "Dokumenty": "IGŚR 6831.27.2.2012",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 326,
+        "Obręb": "Skęczniew",
+        "Numer działki": "192/5",
+        "Powierzchnia w m2": 400.0,
+        "Wartość": 6724.0,
+        "Dokumenty": "Rep. A nr 10980/2020",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny oczyszczalni ścieków"
+    },
+    {
+        "Lp": 327,
+        "Obręb": "Skęczniew",
+        "Numer działki": "437/4",
+        "Powierzchnia w m2": 300.0,
+        "Wartość": 5043.0,
+        "Dokumenty": "Rep. A nr 10980/2020",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny oczyszczalni ścieków"
+    },
+    {
+        "Lp": 328,
+        "Obręb": "Skęczniew",
+        "Numer działki": "441/2",
+        "Powierzchnia w m2": 2900.0,
+        "Wartość": 48749.0,
+        "Dokumenty": "Rep. A nr 10980/2020",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny oczyszczalni ścieków"
+    },
+    {
+        "Lp": 329,
+        "Obręb": "Skęczniew",
+        "Numer działki": "181/16",
+        "Powierzchnia w m2": 2416.0,
+        "Wartość": 17543.98,
+        "Dokumenty": "Rep. A nr 5363/2021",
+        "Użytki": "dr",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 330,
+        "Obręb": "Skęczniew",
+        "Numer działki": "181/27",
+        "Powierzchnia w m2": 264.0,
+        "Wartość": 2479.97,
+        "Dokumenty": "Rep. A nr 5363/2021",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 331,
+        "Obręb": "Żeronice",
+        "Numer działki": "11/1",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 4000.0,
+        "Dokumenty": "DGKN7228/14564/97",
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, ujęcia wód podziemnych"
+    },
+    {
+        "Lp": 332,
+        "Obręb": "Żeronice",
+        "Numer działki": "15",
+        "Powierzchnia w m2": 9700.0,
+        "Wartość": 19400.0,
+        "Dokumenty": "SN.VI-6.77230-525/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 333,
+        "Obręb": "Stefanów",
+        "Numer działki": "114/1",
+        "Powierzchnia w m2": 2500.0,
+        "Wartość": 3750.0,
+        "Dokumenty": "AN2684/2006",
+        "Użytki": "W",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki"
+    },
+    {
+        "Lp": 334,
+        "Obręb": "Stefanów",
+        "Numer działki": "115/1",
+        "Powierzchnia w m2": 800.0,
+        "Wartość": 1200.0,
+        "Dokumenty": "AN2684/2006",
+        "Użytki": "W",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki"
+    },
+    {
+        "Lp": 335,
+        "Obręb": "Stefanów",
+        "Numer działki": "116/1",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 300.0,
+        "Dokumenty": "AN2684/2006",
+        "Użytki": "W",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki"
+    },
+    {
+        "Lp": 336,
+        "Obręb": "Stefanów",
+        "Numer działki": "117/1",
+        "Powierzchnia w m2": 200.0,
+        "Wartość": 300.0,
+        "Dokumenty": "AN2684/2006",
+        "Użytki": "W",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, łąki"
+    },
+    {
+        "Lp": 337,
+        "Obręb": "Stefanów",
+        "Numer działki": "92",
+        "Powierzchnia w m2": 2200.0,
+        "Wartość": 4400.0,
+        "Dokumenty": "D SN.VI-10-77230-522/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 338,
+        "Obręb": "Stefanów",
+        "Numer działki": "102",
+        "Powierzchnia w m2": 5800.0,
+        "Wartość": 11600.0,
+        "Dokumenty": "D SN.VI-10-77230-522/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 339,
+        "Obręb": "Stefanów",
+        "Numer działki": "104",
+        "Powierzchnia w m2": 4300.0,
+        "Wartość": 8600.0,
+        "Dokumenty": "D SN.VI-10-77230-522/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 340,
+        "Obręb": "Stefanów",
+        "Numer działki": "57",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 4600.0,
+        "Dokumenty": "D SN.VI-10-77230-522/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 341,
+        "Obręb": "Stefanów",
+        "Numer działki": "83",
+        "Powierzchnia w m2": 5800.0,
+        "Wartość": 11600.0,
+        "Dokumenty": "D SN.VI-10-77230-522/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 342,
+        "Obręb": "Stefanów",
+        "Numer działki": "204",
+        "Powierzchnia w m2": 6300.0,
+        "Wartość": 63000.0,
+        "Dokumenty": "SN-VI.7531.1.184.2021.13",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 343,
+        "Obręb": "Stefanów",
+        "Numer działki": "69",
+        "Powierzchnia w m2": 1000.0,
+        "Wartość": 17000.0,
+        "Dokumenty": "SN-VI.7532.3.1112.2024.11",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza"
+    },
+    {
+        "Lp": 344,
+        "Obręb": "Stefanów",
+        "Numer działki": "77",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 39100.0,
+        "Dokumenty": "SN-VI.7532.3.1112.2024.11",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza"
+    },
+    {
+        "Lp": 345,
+        "Obręb": "Stefanów",
+        "Numer działki": "141",
+        "Powierzchnia w m2": 2100.0,
+        "Wartość": 35700.0,
+        "Dokumenty": "SN-VI.7532.3.1112.2024.11",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza"
+    },
+    {
+        "Lp": 346,
+        "Obręb": "Stefanów",
+        "Numer działki": "142",
+        "Powierzchnia w m2": 500.0,
+        "Wartość": 8500.0,
+        "Dokumenty": "SN-VI.7532.3.1112.2024.11",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza"
+    },
+    {
+        "Lp": 347,
+        "Obręb": "Strachocice",
+        "Numer działki": "328",
+        "Powierzchnia w m2": 5600.0,
+        "Wartość": 28000.0,
+        "Dokumenty": "D7228/14294/97",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi oświaty, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 348,
+        "Obręb": "Strachocice",
+        "Numer działki": "206",
+        "Powierzchnia w m2": 11700.0,
+        "Wartość": 23400.0,
+        "Dokumenty": "SN.VI-10-77230-954/09",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 349,
+        "Obręb": "Strachocice",
+        "Numer działki": "243",
+        "Powierzchnia w m2": 3400.0,
+        "Wartość": 6800.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 350,
+        "Obręb": "Strachocice",
+        "Numer działki": "288",
+        "Powierzchnia w m2": 7200.0,
+        "Wartość": 14400.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 351,
+        "Obręb": "Strachocice",
+        "Numer działki": "268",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 5200.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 352,
+        "Obręb": "Strachocice",
+        "Numer działki": "309",
+        "Powierzchnia w m2": 3300.0,
+        "Wartość": 6600.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 353,
+        "Obręb": "Strachocice",
+        "Numer działki": "351",
+        "Powierzchnia w m2": 12200.0,
+        "Wartość": 24400.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 354,
+        "Obręb": "Strachocice",
+        "Numer działki": "396",
+        "Powierzchnia w m2": 8600.0,
+        "Wartość": 17200.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 355,
+        "Obręb": "Strachocice",
+        "Numer działki": "686",
+        "Powierzchnia w m2": 34700.0,
+        "Wartość": 69400.0,
+        "Dokumenty": "SN.VI-6.77230-507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 356,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "89/6",
+        "Powierzchnia w m2": 576.0,
+        "Wartość": 864.0,
+        "Dokumenty": "DGG6011/1/73/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 357,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "70",
+        "Powierzchnia w m2": 9800.0,
+        "Wartość": 19600.0,
+        "Dokumenty": "SN.VI-6.77230-504/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 358,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "86/6",
+        "Dokumenty": "D6011/1/75/96",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 359,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "86/7",
+        "Dokumenty": "D6011-1-81/96",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 360,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "87/1",
+        "Powierzchnia w m2": 6300.0,
+        "Wartość": 12600.0,
+        "Dokumenty": "SN.VI-6.77230-504/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 361,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "87/3",
+        "Powierzchnia w m2": 2500.0,
+        "Wartość": 5000.0,
+        "Dokumenty": "SN.VI-6.77230-504/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 362,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "133/1",
+        "Powierzchnia w m2": 104.0,
+        "Wartość": 1235.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 363,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "136/1",
+        "Powierzchnia w m2": 81.0,
+        "Wartość": 1171.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 364,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "139/1",
+        "Powierzchnia w m2": 67.0,
+        "Wartość": 1132.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 365,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "130/5",
+        "Powierzchnia w m2": 21.0,
+        "Wartość": 1040.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 366,
+        "Obręb": "Strachocice-Kolonia",
+        "Numer działki": "130/3",
+        "Powierzchnia w m2": 46.0,
+        "Wartość": 1152.53,
+        "Dokumenty": "AN2659/2015",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 367,
+        "Obręb": "Szymany",
+        "Numer działki": "109",
+        "Powierzchnia w m2": 9900.0,
+        "Wartość": 19800.0,
+        "Dokumenty": "D SN.VI-5.77230-518/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 368,
+        "Obręb": "Szymany",
+        "Numer działki": "110",
+        "Powierzchnia w m2": 6800.0,
+        "Wartość": 13500.0,
+        "Dokumenty": "D SN.VI-5.77230-518/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 369,
+        "Obręb": "Ugory",
+        "Numer działki": "174",
+        "Powierzchnia w m2": 14900.0,
+        "Wartość": 29800.0,
+        "Dokumenty": "D SN.VI-10-77230-521/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 370,
+        "Obręb": "Ugory",
+        "Numer działki": "189",
+        "Powierzchnia w m2": 7100.0,
+        "Wartość": 14200.0,
+        "Dokumenty": "D SN.VI-10-77230-521/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 371,
+        "Obręb": "Ugory",
+        "Numer działki": "102",
+        "Powierzchnia w m2": 11100.0,
+        "Wartość": 22200.0,
+        "Dokumenty": "D SN.VI-10-77230-521/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 372,
+        "Obręb": "Ugory",
+        "Numer działki": "84/7",
+        "Powierzchnia w m2": 1774.0,
+        "Wartość": 3548.0,
+        "Dokumenty": "AN727/2013",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 373,
+        "Obręb": "Ugory",
+        "Numer działki": "137",
+        "Powierzchnia w m2": 26400.0,
+        "Wartość": 43560.0,
+        "Dokumenty": "PS I Ns 27/17 ",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 374,
+        "Obręb": "Ugory",
+        "Numer działki": "138",
+        "Powierzchnia w m2": 3100.0,
+        "Wartość": 17189.5,
+        "Dokumenty": "PS I Ns 27/17 ",
+        "Użytki": "Br-R, R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 375,
+        "Obręb": "Ugory",
+        "Numer działki": "85/7",
+        "Powierzchnia w m2": 1680.0,
+        "Wartość": 27505.9,
+        "Dokumenty": "Rep A nr 5963/2025",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 376,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "124",
+        "Powierzchnia w m2": 2300.0,
+        "Wartość": 4140.0,
+        "Dokumenty": "D7228/14438/97",
+        "Użytki": "N",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 377,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "127",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 1980.0,
+        "Dokumenty": "D7228/14438/97",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 378,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "90",
+        "Powierzchnia w m2": 8600.0,
+        "Wartość": 17200.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 379,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "152",
+        "Powierzchnia w m2": 1200.0,
+        "Wartość": 2400.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 380,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "217",
+        "Powierzchnia w m2": 2600.0,
+        "Wartość": 5200.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 381,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "261",
+        "Powierzchnia w m2": 2500.0,
+        "Wartość": 5000.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 382,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "262",
+        "Powierzchnia w m2": 1600.0,
+        "Wartość": 3200.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 383,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "367",
+        "Powierzchnia w m2": 1700.0,
+        "Wartość": 3400.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 384,
+        "Obręb": "Wola Piekarska",
+        "Numer działki": "65",
+        "Powierzchnia w m2": 10700.0,
+        "Wartość": 21400.0,
+        "Dokumenty": "SN.VI-10-77230-476/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 385,
+        "Obręb": "Zagaj",
+        "Numer działki": "110/1",
+        "Powierzchnia w m2": 9500.0,
+        "Wartość": 19000.0,
+        "Dokumenty": "DSN.VI-6.77230-527/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 386,
+        "Obręb": "Zborów",
+        "Numer działki": "101",
+        "Powierzchnia w m2": 3929.0,
+        "Wartość": 7858.0,
+        "Dokumenty": "AN4019/2004 GN7437/507/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 387,
+        "Obręb": "Zborów",
+        "Numer działki": "130/5",
+        "Powierzchnia w m2": 142.0,
+        "Wartość": 284.0,
+        "Dokumenty": "D7430-8/2/2005",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 388,
+        "Obręb": "Zborów",
+        "Numer działki": "67/23",
+        "Dokumenty": "GG.6011-1-52/92",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 389,
+        "Obręb": "Zborów",
+        "Numer działki": "105",
+        "Dokumenty": "GG.6011-1-83/93",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 390,
+        "Obręb": "Zborów",
+        "Numer działki": "114.",
+        "Dokumenty": "GG.6011-1-59/96",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 391,
+        "Obręb": "Zborów",
+        "Numer działki": "52/1",
+        "Powierzchnia w m2": 7000.0,
+        "Wartość": 14000.0,
+        "Dokumenty": "D SN.VI-10-77230-469/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 392,
+        "Obręb": "Zborów",
+        "Numer działki": "52/3",
+        "Powierzchnia w m2": 3400.0,
+        "Wartość": 6800.0,
+        "Dokumenty": "D SN.VI-10-77230-469/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 393,
+        "Obręb": "Zborów",
+        "Numer działki": "68/1",
+        "Powierzchnia w m2": 5800.0,
+        "Wartość": 11600.0,
+        "Dokumenty": "D SN.VI-10-77230-469/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, lasy"
+    },
+    {
+        "Lp": 394,
+        "Obręb": "Zborów",
+        "Numer działki": "68/3",
+        "Powierzchnia w m2": 1300.0,
+        "Wartość": 2600.0,
+        "Dokumenty": "D SN.VI-10-77230-469/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, drogi gminne"
+    },
+    {
+        "Lp": 395,
+        "Obręb": "Zborów",
+        "Numer działki": "46",
+        "Powierzchnia w m2": 3200.0,
+        "Wartość": 6400.0,
+        "Dokumenty": "D SN.VI-10-77230-814/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 396,
+        "Obręb": "Zborów",
+        "Numer działki": "128",
+        "Powierzchnia w m2": 1678.0,
+        "Wartość": 6857.41,
+        "Dokumenty": "Rep. A 1671/2016 z 10.03.2016",
+        "Użytki": "dr",
+        "Przeznaczenie nieruchomości w studium": "II SR podstrefa rekreacji, tereny zabudowy letniskowej, drogi gminne"
+    },
+    {
+        "Lp": 397,
+        "Obręb": "Dobra",
+        "Numer działki": "1817/1",
+        "Powierzchnia w m2": 21821.0,
+        "Wartość": 130926.0,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zieleni urządzonej"
+    },
+    {
+        "Lp": 398,
+        "Obręb": "Dobra",
+        "Numer działki": "1954",
+        "Powierzchnia w m2": 610.0,
+        "Wartość": 9150.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 399,
+        "Obręb": "Dobra",
+        "Numer działki": "1961",
+        "Powierzchnia w m2": 1100.0,
+        "Wartość": 16500.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 400,
+        "Obręb": "Dobra",
+        "Numer działki": "1917",
+        "Powierzchnia w m2": 1749.0,
+        "Wartość": 26235.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 401,
+        "Obręb": "Dobra",
+        "Numer działki": "1915",
+        "Powierzchnia w m2": 712.0,
+        "Wartość": 10680.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 402,
+        "Obręb": "Dobra",
+        "Numer działki": "2001",
+        "Powierzchnia w m2": 573.0,
+        "Wartość": 8595.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 403,
+        "Obręb": "Dobra",
+        "Numer działki": "2002",
+        "Powierzchnia w m2": 1235.0,
+        "Wartość": 18525.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 404,
+        "Obręb": "Dobra",
+        "Numer działki": "2003",
+        "Powierzchnia w m2": 590.0,
+        "Wartość": 8850.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 405,
+        "Obręb": "Dobra",
+        "Numer działki": "2004",
+        "Powierzchnia w m2": 2747.0,
+        "Wartość": 41205.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 406,
+        "Obręb": "Dobra",
+        "Numer działki": "2005",
+        "Powierzchnia w m2": 445.0,
+        "Wartość": 6675.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 407,
+        "Obręb": "Dobra",
+        "Numer działki": "2006",
+        "Powierzchnia w m2": 308.0,
+        "Wartość": 4620.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 408,
+        "Obręb": "Dobra",
+        "Numer działki": "2007",
+        "Powierzchnia w m2": 374.0,
+        "Wartość": 5610.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 409,
+        "Obręb": "Dobra",
+        "Numer działki": "2009",
+        "Powierzchnia w m2": 1742.0,
+        "Wartość": 26130.0,
+        "Dokumenty": "D1513/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 410,
+        "Obręb": "Dobra",
+        "Numer działki": "1732/6",
+        "Powierzchnia w m2": 78.0,
+        "Wartość": 1170.0,
+        "Dokumenty": "D7228/14437/97                   IGOŚR.GK.6831.12.2020",
+        "Użytki": "Tp"
+    },
+    {
+        "Lp": 411,
+        "Obręb": "Dobra",
+        "Numer działki": "1732/7",
+        "Powierzchnia w m2": 3850.0,
+        "Wartość": 57750.0,
+        "Dokumenty": "D7228/14437/97                   IGOŚR.GK.6831.12.2020",
+        "Użytki": "Bz"
+    },
+    {
+        "Lp": 412,
+        "Obręb": "Dobra",
+        "Numer działki": "1732/2",
+        "Powierzchnia w m2": 2556.0,
+        "Wartość": 38340.0,
+        "Dokumenty": "D7228/14437/97",
+        "Użytki": "DR"
+    },
+    {
+        "Lp": 413,
+        "Obręb": "Dobra",
+        "Numer działki": "2110",
+        "Powierzchnia w m2": 39.0,
+        "Wartość": 585.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 414,
+        "Obręb": "Dobra",
+        "Numer działki": "1677/7",
+        "Powierzchnia w m2": 48.0,
+        "Wartość": 720.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 415,
+        "Obręb": "Dobra",
+        "Numer działki": "1866",
+        "Powierzchnia w m2": 7161.0,
+        "Wartość": 43753.71,
+        "Dokumenty": "Uchwała XXI/170/16 oraz XLI/272/21 RM w Dobrej",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 416,
+        "Obręb": "Dobra",
+        "Numer działki": "1867",
+        "Powierzchnia w m2": 1697.0,
+        "Wartość": 50910.0,
+        "Dokumenty": "D10210/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi oświaty"
+    },
+    {
+        "Lp": 417,
+        "Obręb": "Dobra",
+        "Numer działki": "1734",
+        "Powierzchnia w m2": 1252.0,
+        "Wartość": 37560.0,
+        "Dokumenty": "D10448/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi administracji"
+    },
+    {
+        "Lp": 418,
+        "Obręb": "Dobra",
+        "Numer działki": "1686/1",
+        "Powierzchnia w m2": 140.0,
+        "Wartość": 4200.0,
+        "Dokumenty": "AN1614/2000",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 419,
+        "Obręb": "Dobra",
+        "Numer działki": "1677/14",
+        "Powierzchnia w m2": 253.0,
+        "Wartość": 7590.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 420,
+        "Obręb": "Dobra",
+        "Numer działki": "89/6",
+        "Powierzchnia w m2": 36863.0,
+        "Wartość": 221178.0,
+        "Użytki": "BA",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny oczyszczalni ścieków"
+    },
+    {
+        "Lp": 421,
+        "Obręb": "Dobra",
+        "Numer działki": "2033",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 422,
+        "Obręb": "Dobra",
+        "Numer działki": "2035",
+        "Powierzchnia w m2": 18.0,
+        "Wartość": 324.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 423,
+        "Obręb": "Dobra",
+        "Numer działki": "2083/5",
+        "Powierzchnia w m2": 194.0,
+        "Wartość": 1940.0,
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 424,
+        "Obręb": "Dobra",
+        "Numer działki": "2083/6",
+        "Powierzchnia w m2": 1514.0,
+        "Wartość": 15140.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 425,
+        "Obręb": "Dobra",
+        "Numer działki": "2022",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 426,
+        "Obręb": "Dobra",
+        "Numer działki": "2042",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 427,
+        "Obręb": "Dobra",
+        "Numer działki": "2044",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 428,
+        "Obręb": "Dobra",
+        "Numer działki": "2046",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 429,
+        "Obręb": "Dobra",
+        "Numer działki": "2051",
+        "Powierzchnia w m2": 18.0,
+        "Wartość": 324.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 430,
+        "Obręb": "Dobra",
+        "Numer działki": "2054",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 431,
+        "Obręb": "Dobra",
+        "Numer działki": "2057",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 432,
+        "Obręb": "Dobra",
+        "Numer działki": "2067",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 433,
+        "Obręb": "Dobra",
+        "Numer działki": "2066",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 434,
+        "Obręb": "Dobra",
+        "Numer działki": "2063",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 435,
+        "Obręb": "Dobra",
+        "Numer działki": "2074",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 436,
+        "Obręb": "Dobra",
+        "Numer działki": "2073",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 437,
+        "Obręb": "Dobra",
+        "Numer działki": "2072",
+        "Powierzchnia w m2": 17.0,
+        "Wartość": 306.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 438,
+        "Obręb": "Dobra",
+        "Numer działki": "2082",
+        "Powierzchnia w m2": 2488.0,
+        "Wartość": 24880.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 439,
+        "Obręb": "Dobra",
+        "Numer działki": "2020",
+        "Powierzchnia w m2": 3356.0,
+        "Wartość": 50340.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej, drogi gminne"
+    },
+    {
+        "Lp": 440,
+        "Obręb": "Dobra",
+        "Numer działki": "675/2",
+        "Powierzchnia w m2": 580.0,
+        "Wartość": 11600.0,
+        "Dokumenty": "D10446/92",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej, drogi gminne"
+    },
+    {
+        "Lp": 441,
+        "Obręb": "Dobra",
+        "Numer działki": "672/6",
+        "Powierzchnia w m2": 1022.0,
+        "Wartość": 12264.0,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 442,
+        "Obręb": "Dobra",
+        "Numer działki": "1717/6",
+        "Powierzchnia w m2": 143.0,
+        "Wartość": 4290.0,
+        "Dokumenty": "D11293/93",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 443,
+        "Obręb": "Dobra",
+        "Numer działki": "1717/1",
+        "Powierzchnia w m2": 2075.0,
+        "Wartość": 51875.0,
+        "Dokumenty": "D11293/93",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny usług sportu i rekreacji"
+    },
+    {
+        "Lp": 444,
+        "Obręb": "Dobra",
+        "Numer działki": "1717/2",
+        "Powierzchnia w m2": 1654.0,
+        "Wartość": 24810.0,
+        "Dokumenty": "D11293/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 445,
+        "Obręb": "Dobra",
+        "Numer działki": "1713/3",
+        "Powierzchnia w m2": 3032.0,
+        "Wartość": 75800.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi zdrowia"
+    },
+    {
+        "Lp": 446,
+        "Obręb": "Dobra",
+        "Numer działki": "1635",
+        "Powierzchnia w m2": 197.0,
+        "Wartość": 4925.0,
+        "Dokumenty": "AN6906/87",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 447,
+        "Obręb": "Dobra",
+        "Numer działki": "2101/1",
+        "Powierzchnia w m2": 98.0,
+        "Wartość": 1764.0,
+        "Dokumenty": "IGOŚR.6831.5.2025",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 448,
+        "Obręb": "Dobra",
+        "Numer działki": "2101/2",
+        "Powierzchnia w m2": 21.0,
+        "Wartość": 378.0,
+        "Dokumenty": "IGOŚR.6831.5.2025",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 449,
+        "Obręb": "Dobra",
+        "Numer działki": "2101/3",
+        "Powierzchnia w m2": 41.0,
+        "Wartość": 738.0,
+        "Dokumenty": "IGOŚR.6831.5.2025",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 450,
+        "Obręb": "Dobra",
+        "Numer działki": "2103",
+        "Powierzchnia w m2": 154.0,
+        "Wartość": 2772.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 451,
+        "Obręb": "Dobra",
+        "Numer działki": "2109",
+        "Powierzchnia w m2": 37.0,
+        "Wartość": 666.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 452,
+        "Obręb": "Dobra",
+        "Numer działki": "2111",
+        "Powierzchnia w m2": 7.0,
+        "Wartość": 126.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 453,
+        "Obręb": "Dobra",
+        "Numer działki": "2108",
+        "Powierzchnia w m2": 129.0,
+        "Wartość": 1935.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 454,
+        "Obręb": "Dobra",
+        "Numer działki": "2112",
+        "Powierzchnia w m2": 129.0,
+        "Wartość": 1935.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 455,
+        "Obręb": "Dobra",
+        "Numer działki": "2102",
+        "Powierzchnia w m2": 348.0,
+        "Wartość": 5220.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 456,
+        "Obręb": "Dobra",
+        "Numer działki": "1630/7",
+        "Powierzchnia w m2": 3.0,
+        "Wartość": 45.0,
+        "Dokumenty": "AN6906/87",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, "
+    },
+    {
+        "Lp": 457,
+        "Obręb": "Dobra",
+        "Numer działki": "1968",
+        "Powierzchnia w m2": 603.0,
+        "Wartość": 9045.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 458,
+        "Obręb": "Dobra",
+        "Numer działki": "1936",
+        "Powierzchnia w m2": 2113.0,
+        "Wartość": 31695.0,
+        "Dokumenty": "D1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 459,
+        "Obręb": "Dobra",
+        "Numer działki": "1634/1",
+        "Powierzchnia w m2": 45.0,
+        "Wartość": 675.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 460,
+        "Obręb": "Dobra",
+        "Numer działki": "1634/2",
+        "Powierzchnia w m2": 15.0,
+        "Wartość": 225.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi gminne"
+    },
+    {
+        "Lp": 461,
+        "Obręb": "Dobra",
+        "Numer działki": "1575",
+        "Powierzchnia w m2": 1891.0,
+        "Wartość": 56730.0,
+        "Dokumenty": "AN10875/94",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów, ubojnie"
+    },
+    {
+        "Lp": 462,
+        "Obręb": "Dobra",
+        "Numer działki": "1576",
+        "Powierzchnia w m2": 1984.0,
+        "Wartość": 59520.0,
+        "Użytki": "S",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów, ubojnie"
+    },
+    {
+        "Lp": 463,
+        "Obręb": "Dobra",
+        "Numer działki": "1636/1",
+        "Powierzchnia w m2": 422.0,
+        "Wartość": 6330.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 464,
+        "Obręb": "Dobra",
+        "Numer działki": "1636/2",
+        "Powierzchnia w m2": 622.0,
+        "Wartość": 9330.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 465,
+        "Obręb": "Dobra",
+        "Numer działki": "88",
+        "Powierzchnia w m2": 6481.0,
+        "Wartość": 261906.0,
+        "Dokumenty": "PS20/23",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 466,
+        "Obręb": "Dobra",
+        "Numer działki": "1618/3",
+        "Powierzchnia w m2": 2.0,
+        "Wartość": 30.0,
+        "Dokumenty": "PS355/93",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 467,
+        "Obręb": "Dobra",
+        "Numer działki": "1618/2",
+        "Powierzchnia w m2": 47.0,
+        "Wartość": 705.0,
+        "Dokumenty": "PS355/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 468,
+        "Obręb": "Dobra",
+        "Numer działki": "1671/1",
+        "Powierzchnia w m2": 1610.0,
+        "Wartość": 24150.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 469,
+        "Obręb": "Dobra",
+        "Numer działki": "1671/2",
+        "Powierzchnia w m2": 1121.0,
+        "Wartość": 16815.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 470,
+        "Obręb": "Dobra",
+        "Numer działki": "1713/6",
+        "Powierzchnia w m2": 240.0,
+        "Wartość": 6000.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 471,
+        "Obręb": "Dobra",
+        "Numer działki": "1713/5",
+        "Powierzchnia w m2": 181.0,
+        "Wartość": 4525.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 472,
+        "Obręb": "Dobra",
+        "Numer działki": "1713/4",
+        "Powierzchnia w m2": 89.0,
+        "Wartość": 2225.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 473,
+        "Obręb": "Dobra",
+        "Numer działki": "1715/2",
+        "Powierzchnia w m2": 18.0,
+        "Wartość": 450.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi zdrowia"
+    },
+    {
+        "Lp": 474,
+        "Obręb": "Dobra",
+        "Numer działki": "1715/1",
+        "Powierzchnia w m2": 163.0,
+        "Wartość": 4075.0,
+        "Dokumenty": "AN595/84",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 475,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/7",
+        "Powierzchnia w m2": 2174.0,
+        "Wartość": 32610.0,
+        "Dokumenty": "PS249/93 PS249/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi powiatowe"
+    },
+    {
+        "Lp": 476,
+        "Obręb": "Dobra",
+        "Numer działki": "1728/10",
+        "Powierzchnia w m2": 524.0,
+        "Wartość": 6074.2,
+        "Dokumenty": "AN4659/2015",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 477,
+        "Obręb": "Dobra",
+        "Numer działki": "1946",
+        "Powierzchnia w m2": 4955.0,
+        "Wartość": 74325.0,
+        "Dokumenty": "D1565/91 GKG.III.7728-1565/91",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 478,
+        "Obręb": "Dobra",
+        "Numer działki": "2018",
+        "Powierzchnia w m2": 696.0,
+        "Wartość": 1718.15,
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 479,
+        "Obręb": "Dobra",
+        "Numer działki": "2061",
+        "Powierzchnia w m2": 853.0,
+        "Wartość": 25590.0,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": 480,
+        "Obręb": "Dobra",
+        "Numer działki": "1714/1",
+        "Powierzchnia w m2": 373.0,
+        "Wartość": 11190.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 481,
+        "Obręb": "Dobra",
+        "Numer działki": "1714/2",
+        "Powierzchnia w m2": 5.0,
+        "Wartość": 150.0,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 482,
+        "Obręb": "Dobra",
+        "Numer działki": "1639/2",
+        "Powierzchnia w m2": 24.0,
+        "Wartość": 360.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 483,
+        "Obręb": "Dobra",
+        "Numer działki": "1676/4",
+        "Powierzchnia w m2": 90.0,
+        "Wartość": 2700.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 484,
+        "Obręb": "Dobra",
+        "Numer działki": "1677/16",
+        "Powierzchnia w m2": 9.0,
+        "Wartość": 270.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 485,
+        "Obręb": "Dobra",
+        "Numer działki": "1676/8",
+        "Powierzchnia w m2": 41.0,
+        "Wartość": 1230.0,
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 486,
+        "Obręb": "Dobra",
+        "Numer działki": "2119",
+        "Powierzchnia w m2": 19.0,
+        "Wartość": 285.0,
+        "Dokumenty": "D7228/14060/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny obiektów produkcyjnych, składów i magazynów"
+    },
+    {
+        "Lp": 487,
+        "Obręb": "Dobra",
+        "Numer działki": "2120",
+        "Powierzchnia w m2": 64.0,
+        "Wartość": 960.0,
+        "Dokumenty": "D7228/14060/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 488,
+        "Obręb": "Dobra",
+        "Numer działki": "2121",
+        "Powierzchnia w m2": 62.0,
+        "Wartość": 930.0,
+        "Dokumenty": "D7228/14060/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 489,
+        "Obręb": "Dobra",
+        "Numer działki": "2122",
+        "Powierzchnia w m2": 1262.0,
+        "Wartość": 18930.0,
+        "Dokumenty": "D7228/14060/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 490,
+        "Obręb": "Dobra",
+        "Numer działki": "1819/5",
+        "Powierzchnia w m2": 412.0,
+        "Wartość": 12360.0,
+        "Dokumenty": "AN1766/2005",
+        "Użytki": "BR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 491,
+        "Obręb": "Dobra",
+        "Numer działki": "1716/2",
+        "Powierzchnia w m2": 331.0,
+        "Wartość": 2863.88,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 492,
+        "Obręb": "Dobra",
+        "Numer działki": "1577/3",
+        "Powierzchnia w m2": 2828.0,
+        "Wartość": 84840.0,
+        "Dokumenty": "AN4124/2006",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 493,
+        "Obręb": "Dobra",
+        "Numer działki": "1816/3",
+        "Powierzchnia w m2": 497.0,
+        "Wartość": 14910.0,
+        "Dokumenty": "D72502/207/99/2000",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi kultury"
+    },
+    {
+        "Lp": 494,
+        "Obręb": "Dobra",
+        "Numer działki": "1816/4",
+        "Powierzchnia w m2": 1761.0,
+        "Wartość": 52830.0,
+        "Dokumenty": "D72502/207/99/2000",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi kultury"
+    },
+    {
+        "Lp": 495,
+        "Obręb": "Dobra",
+        "Numer działki": "1620/1",
+        "Powierzchnia w m2": 243.0,
+        "Wartość": 7290.0,
+        "Dokumenty": "AN4118/2006",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 496,
+        "Obręb": "Dobra",
+        "Numer działki": "1621/3",
+        "Powierzchnia w m2": 11.0,
+        "Wartość": 330.0,
+        "Dokumenty": "AN6906/87 AN6914/87",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 497,
+        "Obręb": "Dobra",
+        "Numer działki": "2019/5",
+        "Powierzchnia w m2": 67.0,
+        "Wartość": 1005.0,
+        "Dokumenty": "D7228-1/2/98",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej"
+    },
+    {
+        "Lp": 498,
+        "Obręb": "Dobra",
+        "Numer działki": "1803",
+        "Powierzchnia w m2": 1851.0,
+        "Wartość": 3702.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej jednorodzinnej i zabudowy zagrodowej, drogi powiatowe"
+    },
+    {
+        "Lp": 499,
+        "Obręb": "Dobra",
+        "Numer działki": "1533/2",
+        "Powierzchnia w m2": 257.0,
+        "Wartość": 514.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 500,
+        "Obręb": "Dobra",
+        "Numer działki": "638/2",
+        "Powierzchnia w m2": 440.0,
+        "Wartość": 880.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I P podstrefa przemysłu, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 501,
+        "Obręb": "Dobra",
+        "Numer działki": "1883",
+        "Powierzchnia w m2": 312.0,
+        "Wartość": 624.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 502,
+        "Obręb": "Dobra",
+        "Numer działki": "858/3",
+        "Powierzchnia w m2": 159.0,
+        "Wartość": 318.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, drogi gminne"
+    },
+    {
+        "Lp": 503,
+        "Obręb": "Dobra",
+        "Numer działki": "139/13",
+        "Powierzchnia w m2": 7854.0,
+        "Wartość": 15708.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, drogi gminne"
+    },
+    {
+        "Lp": 504,
+        "Obręb": "Dobra",
+        "Numer działki": "858/2",
+        "Powierzchnia w m2": 1359.0,
+        "Wartość": 2718.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 505,
+        "Obręb": "Dobra",
+        "Numer działki": "653",
+        "Powierzchnia w m2": 783.0,
+        "Wartość": 1566.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, drogi gminne"
+    },
+    {
+        "Lp": 506,
+        "Obręb": "Dobra",
+        "Numer działki": "139/6",
+        "Powierzchnia w m2": 3335.0,
+        "Wartość": 6670.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR ",
+        "Przeznaczenie nieruchomości w studium": "I P podstrefa przemysłu, drogi gminne"
+    },
+    {
+        "Lp": 507,
+        "Obręb": "Dobra",
+        "Numer działki": "2114",
+        "Powierzchnia w m2": 3222.0,
+        "Wartość": 6444.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, droga krajowa"
+    },
+    {
+        "Lp": 508,
+        "Obręb": "Dobra",
+        "Numer działki": "1498",
+        "Powierzchnia w m2": 775.0,
+        "Wartość": 1550.0,
+        "Dokumenty": "SN.VI-7.77230-538/08",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej, drogi gminne"
+    },
+    {
+        "Lp": 509,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/8",
+        "Powierzchnia w m2": 211.0,
+        "Wartość": 7385.0,
+        "Dokumenty": "AN567/96",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 510,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/5",
+        "Powierzchnia w m2": 167.0,
+        "Wartość": 5845.0,
+        "Dokumenty": "AN567/96",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 511,
+        "Obręb": "Dobra",
+        "Numer działki": "676/3",
+        "Powierzchnia w m2": 960.0,
+        "Wartość": 14400.0,
+        "Dokumenty": "SN.IV-9.7710-114/10",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 512,
+        "Obręb": "Dobra",
+        "Numer działki": "674",
+        "Powierzchnia w m2": 1643.0,
+        "Wartość": 24645.0,
+        "Dokumenty": "SN.IV-9.7710-114/10",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "II strefa rolnicza, grunty orne wykorzystywane rolniczo"
+    },
+    {
+        "Lp": 513,
+        "Obręb": "Dobra",
+        "Numer działki": "1536",
+        "Powierzchnia w m2": 55.0,
+        "Wartość": 1925.0,
+        "Dokumenty": "KN1T/00049612/7",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 514,
+        "Obręb": "Dobra",
+        "Numer działki": "1533/1",
+        "Powierzchnia w m2": 49.0,
+        "Wartość": 1715.0,
+        "Dokumenty": "KN1T/00049612/7",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 515,
+        "Obręb": "Dobra",
+        "Numer działki": "1730/26",
+        "Powierzchnia w m2": 119.0,
+        "Wartość": 3289.0,
+        "Dokumenty": "AB.6740.1.8.2021",
+        "Użytki": "Tp",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 516,
+        "Obręb": "Dobra",
+        "Numer działki": "1728/24",
+        "Powierzchnia w m2": 525.0,
+        "Wartość": 14511.0,
+        "Dokumenty": "AB.6740.1.8.2021",
+        "Użytki": "Tp",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 517,
+        "Obręb": "Dobra",
+        "Numer działki": "1716/3",
+        "Powierzchnia w m2": 627.0,
+        "Wartość": 10849.9,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 518,
+        "Obręb": "Dobra",
+        "Numer działki": "1716/4",
+        "Powierzchnia w m2": 43.0,
+        "Wartość": 744.08,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 519,
+        "Obręb": "Dobra",
+        "Numer działki": "1716/7",
+        "Powierzchnia w m2": 1808.0,
+        "Wartość": 31286.51,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, usługi zdrowia"
+    },
+    {
+        "Lp": 520,
+        "Obręb": "Dobra",
+        "Numer działki": "1730/20",
+        "Powierzchnia w m2": 293.0,
+        "Wartość": 4102.0,
+        "Dokumenty": "IGOŚR.6831.11.2.2013SS",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa"
+    },
+    {
+        "Lp": 521,
+        "Obręb": "Dobra",
+        "Numer działki": "1730/23",
+        "Powierzchnia w m2": 1115.0,
+        "Wartość": 16275.0,
+        "Dokumenty": "AN8067/2009",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa"
+    },
+    {
+        "Lp": 522,
+        "Obręb": "Dobra",
+        "Numer działki": "1685/4",
+        "Powierzchnia w m2": 5.0,
+        "Wartość": 175.0,
+        "Dokumenty": "D11537/93",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 523,
+        "Obręb": "Dobra",
+        "Numer działki": "1685/5",
+        "Powierzchnia w m2": 61.0,
+        "Wartość": 2135.0,
+        "Dokumenty": "D11537/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, droga krajowa"
+    },
+    {
+        "Lp": 524,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/14",
+        "Powierzchnia w m2": 25.0,
+        "Wartość": 875.0,
+        "Dokumenty": "PS249/93",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, droga krajowa"
+    },
+    {
+        "Lp": 525,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/15",
+        "Powierzchnia w m2": 68.0,
+        "Wartość": 2380.0,
+        "Dokumenty": "PS249/93",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 526,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/13",
+        "Powierzchnia w m2": 5.0,
+        "Wartość": 175.0,
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 527,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/16",
+        "Powierzchnia w m2": 66.0,
+        "Wartość": 2310.0,
+        "Dokumenty": "D7228-10499/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, droga krajowa"
+    },
+    {
+        "Lp": 528,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/17",
+        "Powierzchnia w m2": 271.0,
+        "Wartość": 9485.0,
+        "Dokumenty": "D7228-10499/92",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 529,
+        "Obręb": "Dobra",
+        "Numer działki": "1682/18",
+        "Powierzchnia w m2": 63.0,
+        "Wartość": 2205.0,
+        "Dokumenty": "D7228-10499/92",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, droga powiatowa"
+    },
+    {
+        "Lp": 530,
+        "Obręb": "Dobra",
+        "Numer działki": "1750/2",
+        "Powierzchnia w m2": 1058.0,
+        "Wartość": 31740.0,
+        "Dokumenty": "KN1T/00027850/7",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 531,
+        "Obręb": "Dobra",
+        "Numer działki": "1828",
+        "Powierzchnia w m2": 1053.0,
+        "Wartość": 18945.0,
+        "Dokumenty": "KN1T/00027990/0",
+        "Użytki": "BZ",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 532,
+        "Obręb": "Dobra",
+        "Numer działki": "1681/1",
+        "Powierzchnia w m2": 793.0,
+        "Wartość": 23790.0,
+        "Dokumenty": "KN1T/00027704/9",
+        "Użytki": "BI",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, pozostałe usługi"
+    },
+    {
+        "Lp": 533,
+        "Obręb": "Dobra",
+        "Numer działki": "1709",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, teren tradycyjnej tkanki miejskiej"
+    },
+    {
+        "Lp": 534,
+        "Obręb": "Dobra",
+        "Numer działki": "1124",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "III strefa przyrodnicza, tereny mokradłowe"
+    },
+    {
+        "Lp": 535,
+        "Obręb": "Dobra",
+        "Numer działki": "1050",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 536,
+        "Obręb": "Dobra",
+        "Numer działki": "1729/4",
+        "Powierzchnia w m2": 476.0,
+        "Wartość": 7140.0,
+        "Dokumenty": " D IGŚ 7430-7/2/08     GG.6011-1-131/97",
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa"
+    },
+    {
+        "Lp": 537,
+        "Obręb": "Dobra",
+        "Numer działki": "1729/13",
+        "Powierzchnia w m2": 788.0,
+        "Wartość": 11820.0,
+        "Dokumenty": "D IGŚ 7430-7/2/08",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 538,
+        "Obręb": "Dobra",
+        "Numer działki": "1729/17",
+        "Powierzchnia w m2": 431.0,
+        "Wartość": 6465.0,
+        "Dokumenty": "D IGŚ 7430-7/2/08",
+        "Użytki": "R",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 539,
+        "Obręb": "Dobra",
+        "Numer działki": "1729/1",
+        "Powierzchnia w m2": 292.0,
+        "Wartość": 4380.0,
+        "Dokumenty": "AN113/2009",
+        "Użytki": "BP",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 540,
+        "Obręb": "Dobra",
+        "Numer działki": "1730/18",
+        "Powierzchnia w m2": 4673.0,
+        "Wartość": 70095.0,
+        "Użytki": "DR",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa, drogi gminne"
+    },
+    {
+        "Lp": 541,
+        "Obręb": "Dobra",
+        "Numer działki": "33/6",
+        "Powierzchnia w m2": 633.0,
+        "Wartość": 1139.0,
+        "Dokumenty": "SN-VI.7532.1.212.2015.7",
+        "Użytki": "RÓW",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 542,
+        "Obręb": "Dobra",
+        "Numer działki": "1188",
+        "Powierzchnia w m2": 1900.0,
+        "Wartość": 3420.0,
+        "Dokumenty": "SN-VI.7532.1.212.2015.7",
+        "Użytki": "RÓW",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 543,
+        "Obręb": "Dobra",
+        "Numer działki": "1885",
+        "Powierzchnia w m2": 852.0,
+        "Wartość": 1534.0,
+        "Dokumenty": "SN-VI.7532.1.212.2015.7",
+        "Użytki": "RÓW",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 544,
+        "Obręb": "Dobra",
+        "Numer działki": "1815",
+        "Powierzchnia w m2": 164.0,
+        "Wartość": 295.0,
+        "Dokumenty": "SN-VI.7532.1.212.2015.7",
+        "Użytki": "RÓW",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana"
+    },
+    {
+        "Lp": 545,
+        "Obręb": "Dobra",
+        "Numer działki": "1729/5",
+        "Powierzchnia w m2": 374.0,
+        "Wartość": 3850.4,
+        "Dokumenty": "Rep. A 8484/2016 z dn. 17.10.2016",
+        "Przeznaczenie nieruchomości w studium": "I M podstrefa mieszkaniowa"
+    },
+    {
+        "Lp": 546,
+        "Obręb": "Dobra",
+        "Numer działki": "676/2",
+        "Powierzchnia w m2": 495.0,
+        "Wartość": 11759.0,
+        "Dokumenty": "Rep. A 5327/2024 z dn. 15.07.2024",
+        "Użytki": "B",
+        "Przeznaczenie nieruchomości w studium": "I strefa zurbanizowana, tereny zabudowy mieszkaniowej wielorodzinnej"
+    },
+    {
+        "Lp": "SUMA ŁĄCZNA:",
+        "Powierzchnia w m2": 1851598.0,
+        "Wartość": 8321788.779999999
+    }
+]

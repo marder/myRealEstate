@@ -1,0 +1,49 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-4">
+        <h1 class="display-5 font-Rubik fw-bold text-primary"><%= title %></h1>
+        <p class="text-muted">Edytuj szczegóły nieruchomości gminnej.</p>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form id="propertyForm" class="row g-4" action="<%= action %>" method="POST">
+          <div class="col-md-6">
+            <label for="obreb" class="form-label">Obręb</label>
+            <input type="text" class="form-control" id="obreb" name="obreb" value="<%= property.obreb %>" required />
+          </div>
+          <div class="col-md-6">
+            <label for="numerDzialki" class="form-label">Numer działki</label>
+            <input type="text" class="form-control" id="numerDzialki" name="numerDzialki" value="<%= property.numerDzialki %>" required />
+          </div>
+          <div class="col-md-6">
+            <label for="powierzchnia" class="form-label">Powierzchnia (m2)</label>
+            <input type="number" step="0.01" class="form-control" id="powierzchnia" name="powierzchnia" value="<%= property.powierzchnia %>" />
+          </div>
+          <div class="col-md-6">
+            <label for="wartosc" class="form-label">Wartość (zł)</label>
+            <input type="number" step="0.01" class="form-control" id="wartosc" name="wartosc" value="<%= property.wartosc %>" />
+          </div>
+          <div class="col-md-6">
+            <label for="uzytki" class="form-label">Użytki</label>
+            <input type="text" class="form-control" id="uzytki" name="uzytki" value="<%= property.uzytki %>" />
+          </div>
+          <div class="col-12">
+            <label for="przeznaczenie" class="form-label">Przeznaczenie w studium</label>
+            <textarea class="form-control" id="przeznaczenie" rows="3" name="przeznaczenie"><%= property.przeznaczenie %></textarea>
+          </div>
+
+          <div class="col-12 pt-3">
+            <hr class="mb-4 opacity-10">
+            <div class="d-flex gap-2 justify-content-end align-items-center">
+              <a href="/properties" class="btn btn-outline-secondary btn-lg px-4">Anuluj</a>
+              <button type="submit" class="btn btn-primary px-5 btn-lg shadow-sm">
+                <i class="fa-solid fa-save me-1"></i> Zapisz zmiany
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

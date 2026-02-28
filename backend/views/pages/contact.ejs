@@ -1,0 +1,55 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-5">
+        <h1 class="display-4 mb-1">Kontakt</h1>
+        <p class="text-muted">Zarządzaj danymi teleadresowymi, godzinami otwarcia oraz mapą.</p>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form class="row g-4" action="/pages/contact?_method=PUT" method="POST">
+          <div class="col-12">
+            <h5 class="mb-3 text-primary font-Rubik fw-bold"><i class="fa-solid fa-address-card me-2"></i>Dane Kontaktowe</h5>
+            <div class="custom-section">
+              <div class="row g-3">
+                <div class="col-md-12">
+                  <label for="contactAddress" class="form-label">Pełny adres</label>
+                  <textarea class="form-control" id="contactAddress" name="contactAddress" rows="2"><%= data.contact.address %></textarea>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactPhone" class="form-label">Numer telefonu</label>
+                  <input type="text" class="form-control" id="contactPhone" name="contactPhone" value="<%= data.contact.phone %>" />
+                </div>
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Adres e-mail</label>
+                  <input type="email" class="form-control" id="contactEmail" name="contactEmail" value="<%= data.contact.email %>" />
+                </div>
+                <div class="col-md-12">
+                  <label for="workingHours" class="form-label">Godziny pracy</label>
+                  <input type="text" class="form-control" id="workingHours" name="workingHours" value="<%= data.contact.workingHours %>" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <h5 class="mb-3 text-primary font-Rubik fw-bold"><i class="fa-solid fa-map-location-dot me-2"></i>Google Maps</h5>
+            <div class="custom-section">
+              <label for="googleMapsEmbed" class="form-label">Link osadzenia (Embed URL)</label>
+              <textarea class="form-control font-monospace" id="googleMapsEmbed" name="googleMapsEmbed" rows="4"><%= data.contact.googleMapsEmbed %></textarea>
+              <div class="form-text text-muted">Skopiuj wartość atrybutu 'src' z kodu osadzania iFrame z Google Maps.</div>
+            </div>
+          </div>
+
+          <div class="col-12 pt-3">
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary px-5 btn-lg shadow-sm">
+                <i class="fa-solid fa-save me-1"></i> Zapisz kontakt
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

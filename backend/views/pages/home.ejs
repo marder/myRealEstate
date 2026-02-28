@@ -1,0 +1,186 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-5">
+        <h1 class="display-4 mb-1">Strona Główna</h1>
+        <p class="text-muted">Zarządzaj slajdami, nagłówkiem oraz paskiem informacyjnym.</p>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form class="row g-4" action="/pages/home?_method=PUT" method="POST">
+          <!-- Pasek Informacyjny -->
+          <div class="col-12">
+            <h5 class="mb-3 text-primary font-Rubik fw-bold"><i class="fa-solid fa-bullhorn me-2"></i>Pasek Informacyjny</h5>
+            <div class="custom-section">
+              <div class="row g-3">
+                <div class="col-md-12">
+                  <label for="stripe" class="form-label">Tekst na pasku (np. "Zapraszamy do współpracy!")</label>
+                  <input type="text" class="form-control" id="stripe" name="stripe" value="<%= data.stripe %>" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slajdy Karuzeli -->
+          <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="text-primary font-Rubik fw-bold mb-0"><i class="fa-solid fa-images me-2"></i>Slajdy Karuzeli</h5>
+              <div class="d-flex gap-2 align-items-center">
+                <div class="alert alert-warning py-1 px-3 mb-0 small border-0 shadow-sm" style="font-size: 0.8rem;">
+                  <i class="fa-solid fa-up-down-left-right me-1"></i> Możesz zmieniać kolejność slajdów przeciągając je za żółte uchwyty.
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-primary" id="add-slide">
+                  <i class="fa-solid fa-plus me-1"></i> Dodaj slajd
+                </button>
+              </div>
+            </div>
+            
+            <div id="slides-container">
+              <% data.slides.forEach((slide, index) => { %>
+                <div class="custom-section mb-4 slide-item border-start border-4 border-info">
+                  <div class="d-flex justify-content-between align-items-start mb-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="drag-handle badge bg-yellowMain text-navyBlue p-2 px-3" style="font-size: 0.8rem;">
+                        <i class="fa-solid fa-grip-vertical me-2"></i> CHWYĆ I PRZECIĄGNIJ
+                      </div>
+                      <h6 class="fw-bold text-info mb-0 ms-2">Slajd #<%= index + 1 %></h6>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label small fw-bold">Etykieta (Label)</label>
+                      <input type="text" name="slideLabel" class="form-control" value="<%= slide.label %>" placeholder="Np. Nowoczesność">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label small fw-bold">Tytuł (Title)</label>
+                      <input type="text" name="slideTitle" class="form-control" value="<%= slide.title %>" placeholder="Np. Innowacyjne Pomiary">
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label small fw-bold">Treść (Content)</label>
+                      <textarea name="slideContent" class="form-control" rows="2"><%= slide.content %></textarea>
+                    </div>
+                    <div class="col-md-9">
+                      <label class="form-label small fw-bold">Wybierz zdjęcie tła</label>
+                      <select name="slideImage" class="form-select slide-image-select">
+                        <option value="slide1.jpg" <%= slide.image === 'slide1.jpg' ? 'selected' : '' %>>Zdjęcie 1 (Tradycja)</option>
+                        <option value="slide2.jpg" <%= slide.image === 'slide2.jpg' ? 'selected' : '' %>>Zdjęcie 2 (Nowoczesność)</option>
+                        <option value="slide3.jpg" <%= slide.image === 'slide3.jpg' ? 'selected' : '' %>>Zdjęcie 3 (Bezpieczeństwo)</option>
+                        <option value="slide4.jpg" <%= slide.image === 'slide4.jpg' ? 'selected' : '' %>>Zdjęcie 4 (Inwestycja)</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label class="form-label small fw-bold">Podgląd</label>
+                      <div class="p-1 border rounded bg-light text-center">
+                        <img src="/img/<%= slide.image %>" class="img-fluid slide-preview rounded" style="max-height: 38px;" onerror="this.src='https://placehold.co/100x40?text=Brak'">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <% }) %>
+            </div>
+          </div>
+
+          <div class="col-12 pt-3">
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary px-5 btn-lg shadow-sm">
+                <i class="fa-solid fa-save me-1"></i> Zapisz wszystko
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('slides-container');
+    const addButton = document.getElementById('add-slide');
+
+    // Initialize SortableJS
+    new Sortable(container, {
+      animation: 150,
+      handle: '.drag-handle',
+      ghostClass: 'bg-light',
+      onEnd: function() {
+        // Renumber labels after dragging
+        container.querySelectorAll('.slide-item').forEach((item, index) => {
+          const title = item.querySelector('h6');
+          if (title && !title.innerText.includes('Nowy')) {
+            title.innerText = `Slajd #${index + 1}`;
+          }
+        });
+      }
+    });
+
+    function updatePreview(select) {
+      const preview = select.closest('.row').querySelector('.slide-preview');
+      if (preview) {
+        preview.src = '/img/' + select.value;
+      }
+    }
+
+    // Initial event listeners for selects
+    container.querySelectorAll('.slide-image-select').forEach(select => {
+      select.addEventListener('change', () => updatePreview(select));
+    });
+
+    addButton.addEventListener('click', function() {
+      const slideCount = container.querySelectorAll('.slide-item').length;
+      const newSlide = document.createElement('div');
+      newSlide.className = 'custom-section mb-4 slide-item border-start border-4 border-info';
+      newSlide.innerHTML = `
+        <div class="d-flex justify-content-between align-items-start mb-3">
+          <div class="d-flex align-items-center gap-2">
+            <div class="drag-handle badge bg-yellowMain text-navyBlue p-2 px-3" style="font-size: 0.8rem;">
+              <i class="fa-solid fa-grip-vertical me-2"></i> CHWYĆ I PRZECIĄGNIJ
+            </div>
+            <h6 class="fw-bold text-info mb-0 ms-2">Nowy Slajd</h6>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-danger remove-item"><i class="fa-solid fa-trash"></i></button>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Etykieta (Label)</label>
+            <input type="text" name="slideLabel" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Tytuł (Title)</label>
+            <input type="text" name="slideTitle" class="form-control">
+          </div>
+          <div class="col-12">
+            <label class="form-label small fw-bold">Treść (Content)</label>
+            <textarea name="slideContent" class="form-control" rows="2"></textarea>
+          </div>
+          <div class="col-md-9">
+            <label class="form-label small fw-bold">Wybierz zdjęcie tła</label>
+            <select name="slideImage" class="form-select slide-image-select">
+              <option value="slide1.jpg">Zdjęcie 1 (Tradycja)</option>
+              <option value="slide2.jpg">Zdjęcie 2 (Nowoczesność)</option>
+              <option value="slide3.jpg">Zdjęcie 3 (Bezpieczeństwo)</option>
+              <option value="slide4.jpg">Zdjęcie 4 (Inwestycja)</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label class="form-label small fw-bold">Podgląd</label>
+            <div class="p-1 border rounded bg-light text-center">
+              <img src="/img/slide1.jpg" class="img-fluid slide-preview rounded" style="max-height: 38px;">
+            </div>
+          </div>
+        </div>
+      `;
+      container.appendChild(newSlide);
+      
+      const newSelect = newSlide.querySelector('.slide-image-select');
+      newSelect.addEventListener('change', () => updatePreview(newSelect));
+    });
+
+    container.addEventListener('click', function(e) {
+      if (e.target.closest('.remove-item')) {
+        e.target.closest('.slide-item').remove();
+      }
+    });
+  });
+</script>

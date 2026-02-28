@@ -1,0 +1,38 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-4">
+        <h1 class="display-5 font-Rubik fw-bold text-primary">Edytuj Stronę: O projekcie</h1>
+        <p class="text-muted">Zarządzaj treścią informacyjną o projekcie bazy danych nieruchomości.</p>
+      </div>
+
+      <form action="/pages/about?_method=PUT" method="POST" class="row g-4">
+        <div class="col-12">
+          <div class="table-container p-4 p-md-5">
+            <h4 class="fw-bold mb-4 border-bottom pb-2">Główna treść</h4>
+            
+            <div class="mb-4">
+              <label for="aboutHeader" class="form-label fw-bold">Nagłówek sekcji</label>
+              <input type="text" class="form-control" id="aboutHeader" name="aboutHeader" value="<%= data.about.header %>" required>
+            </div>
+
+            <div class="mb-0">
+              <label for="aboutContent" class="form-label fw-bold">Treść opisu</label>
+              <textarea class="form-control" id="aboutContent" name="aboutContent" rows="10" required><%= data.about.content %></textarea>
+              <div class="form-text mt-2">Użyj tej sekcji, aby opisać cel powstania bazy danych oraz sposób jej wykorzystania.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-4">
+          <div class="d-flex justify-content-end gap-2">
+            <a href="/dashboard" class="btn btn-outline-secondary px-4">Anuluj</a>
+            <button type="submit" class="btn btn-primary btn-lg px-5 shadow-sm">
+              <i class="fa-solid fa-save me-2"></i> Zapisz zmiany
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

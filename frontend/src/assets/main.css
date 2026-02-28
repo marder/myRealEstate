@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  /* Nowoczesny, prestiżowy zestaw: Crimson & Soft Warmth */
+  --color-midnight: #334155;                 /* Slate-700 - neutralny ciemny */
+  --color-portalAccent: #dc2626;             /* Red-600 - profesjonalna czerwień urzędowa */
+  --color-accentHover: #b91c1c;              /* Red-700 */
+  --color-slateBg: #fffcfc;                  /* Bardzo jasne, lekko ciepłe tło */
+  --color-steel: #64748b;                    /* Slate-500 */
+  
+  /* Mapowanie dla kompatybilności */
+  --color-brandGreen: var(--color-midnight);
+  --color-lightGreen: var(--color-portalAccent);
+  --color-softGreen: #fef2f2;                /* Bardzo jasna czerwień / róż */
+  --color-navyBlue: var(--color-midnight);
+
+  --font-Outfit: "Outfit", sans-serif;
+  --font-Jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-Jakarta);
+  color: var(--color-midnight);
+  background-color: var(--color-slateBg);
+}
+
+h1, h2, h3, h4, .font-outfit {
+  font-family: var(--font-Outfit);
+}
+
+/* Szklany efekt (Lighter Glassmorphism) */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+  position: absolute;
+  top: 0; left: 0;
+  width: 24px; height: 2px;
+  background: currentColor;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger-middle { transform: translateY(7px); }
+.hamburger-bottom { transform: translateY(14px); }
+
+.open .hamburger-top { transform: rotate(45deg) translateY(6px) translate(6px); }
+.open .hamburger-middle { opacity: 0; }
+.open .hamburger-bottom { transform: rotate(-45deg) translateY(6px) translate(-6px); }

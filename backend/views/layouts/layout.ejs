@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Comtatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css" />
+  <link rel="stylesheet" href="https://cdn.quilljs.com/1.3.6/quill.snow.css" />
+  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>mySimpleCMS ver. 0.2.0</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Toast Container -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1060">
+    <div id="liveToast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body d-flex align-items-center">
+          <i id="toastIcon" class="me-2 fa-solid"></i>
+          <span id="toastMsg"></span>
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <%- include('../partials/header.ejs') %>
+    <%- body %>
+      <%- include('../partials/footer.ejs') %>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+        <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
+        <script>
+          // Toast Notification Handler
+          const showToast = (message, type) => {
+            const toastEl = document.getElementById('liveToast');
+            const toastMsg = document.getElementById('toastMsg');
+            const toastIcon = document.getElementById('toastIcon');
+            const toast = new bootstrap.Toast(toastEl);
+            
+            toastEl.classList.remove('bg-success', 'bg-danger', 'bg-warning', 'text-white');
+            toastIcon.classList.remove('fa-check-circle', 'fa-exclamation-circle', 'fa-triangle-exclamation');
+            
+            if (type === 'success') {
+              toastEl.classList.add('bg-success', 'text-white');
+              toastIcon.classList.add('fa-check-circle');
+            } else if (type === 'danger') {
+              toastEl.classList.add('bg-danger', 'text-white');
+              toastIcon.classList.add('fa-exclamation-circle');
+            } else {
+              toastEl.classList.add('bg-warning', 'text-dark');
+              toastIcon.classList.add('fa-triangle-exclamation');
+            }
+            
+            toastMsg.innerText = message;
+            toast.show();
+          };
+
+          // Check for server-side messages
+          <% if (locals.message) { %>
+            showToast("<%= locals.message.message %>", "<%= locals.message.type %>");
+          <% } %>
+
+          // Theme Management
+          const themeToggle = document.getElementById('theme-toggle');
+          const htmlElement = document.documentElement;
+
+          // Check for saved theme or system preference
+          const getPreferredTheme = () => {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) return savedTheme;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          };
+
+          const setTheme = (theme) => {
+            htmlElement.setAttribute('data-bs-theme', theme);
+            localStorage.setItem('theme', theme);
+            
+            // Update icon if themeToggle exists
+            if (themeToggle) {
+              const themeIcon = themeToggle.querySelector('i');
+              if (themeIcon) {
+                if (theme === 'dark') {
+                  themeIcon.classList.replace('fa-moon', 'fa-sun');
+                } else {
+                  themeIcon.classList.replace('fa-sun', 'fa-moon');
+                }
+              }
+            }
+          };
+
+          // Initialize theme
+          setTheme(getPreferredTheme());
+
+          if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+              const currentTheme = htmlElement.getAttribute('data-bs-theme');
+              setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+            });
+          }
+
+          // DataTable Initialization
+          let table = new DataTable("#table", {
+            language: {
+              info: "Strona _PAGE_ z _PAGES_",
+              infoEmpty: "Brak dostępnych rekordów",
+              infoFiltered: "(filtrowano z _MAX_ wszystkich postów)",
+              lengthMenu: "Wyświetl _MENU_ postów na stronę",
+              zeroRecords: "Przepraszam, nic nie znaleziono",
+              search: "Wyszukaj",
+            },
+            pageLength: 25
+          });
+        </script>
+</body>
+
+</html>

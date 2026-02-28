@@ -1,0 +1,89 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-5">
+        <h1 class="display-4 mb-1">Zarządzanie SEO</h1>
+        <p class="text-muted">Dostosuj tytuły i opisy meta dla wszystkich statycznych stron serwisu.</p>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form action="/pages/seo" method="POST">
+          <div class="row g-4">
+            <% const slugs = ['home', 'offer', 'about', 'contact', 'blog']; %>
+            <% const labels = { home: 'Strona Główna', offer: 'Oferta', about: 'O nas', contact: 'Kontakt', blog: 'Aktualności' }; %>
+            <% const colors = { home: 'primary', offer: 'success', about: 'info', contact: 'warning', blog: 'danger' }; %>
+            <% const placeholders = {
+              home: 'Profesjonalne usługi geodezyjne i kartograficzne. Pomiar, wycena, doradztwo.',
+              offer: 'Mapy do celów projektowych, tyczenia, inwentaryzacje i podziały nieruchomości.',
+              about: 'Poznaj zespół i historię pracowni geodezyjnej JUNKIERT INVESTMENT.',
+              contact: 'Kontakt, adres i telefon. Darmowa wycena usług geodezyjnych w Turku.',
+              blog: 'Aktualności z branży geodezyjnej i relacje z naszych projektów.'
+            }; %>
+            
+            <% slugs.forEach(slug => { %>
+              <div class="col-12">
+                <div class="custom-section mb-3 border-start border-4 border-<%= colors[slug] %>">
+                  <h5 class="mb-4 text-<%= colors[slug] %> font-Rubik fw-bold">
+                    <i class="fa-solid fa-file-lines me-2"></i><%= labels[slug] %>
+                  </h5>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="<%= slug %>_metaTitle" class="form-label x-small fw-bold text-muted uppercase mb-1">Meta Title</label>
+                      <input type="text" class="form-control form-control-sm border-2 shadow-none py-2" id="<%= slug %>_metaTitle" name="<%= slug %>_metaTitle" value="<%= pages[slug] ? pages[slug].metaTitle : '' %>" placeholder="<%= labels[slug] %> - JUNKIERT INVESTMENT">
+                      <div class="form-text small">Zalecana długość: 50-60 znaków.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="<%= slug %>_metaDescription" class="form-label x-small fw-bold text-muted uppercase mb-1">Meta Description</label>
+                      <textarea class="form-control form-control-sm border-2 shadow-none py-2" id="<%= slug %>_metaDescription" name="<%= slug %>_metaDescription" rows="3" placeholder="<%= placeholders[slug] %>"><%= pages[slug] ? pages[slug].metaDescription : '' %></textarea>
+                      <div class="form-text small">Zalecana długość: 150-160 znaków.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% }) %>
+
+            <div class="col-12 pt-4">
+              <div class="d-flex justify-content-center justify-content-md-end">
+                <button type="submit" class="btn btn-primary px-5 py-2 btn-lg shadow-sm fw-bold">
+                  <i class="fa-solid fa-save me-2"></i> Zapisz zmiany SEO
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .font-Rubik {
+    font-family: 'Rubik', sans-serif;
+  }
+  .table-container {
+    background-color: var(--bs-body-bg);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  .custom-section {
+    background-color: rgba(var(--bs-tertiary-bg-rgb), 0.5);
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  .form-control {
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  .form-control:focus {
+    border-color: #ff9900;
+    box-shadow: none;
+  }
+  .uppercase {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .x-small {
+    font-size: 0.7rem;
+  }
+</style>

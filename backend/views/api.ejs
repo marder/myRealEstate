@@ -1,0 +1,89 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="mb-5">
+        <h1 class="display-3 mb-1">Dokumentacja API</h1>
+        <p class="text-muted">
+          Poniżej znajdują się dostępne punkty końcowe (endpoints) umożliwiające integrację z systemem mySimpleCMS.
+        </p>
+      </div>
+
+      <!-- Blog API Section -->
+      <div class="mb-5">
+        <h3 class="h4 mb-4 text-primary d-flex align-items-center">
+          <i class="fa-regular fa-newspaper me-2"></i> Zarządzanie Blogiem
+        </h3>
+        <div class="table-container p-0 overflow-hidden">
+          <div class="table-responsive">
+            <table class="table mb-0">
+              <thead class="bg-light">
+                <tr>
+                  <th style="width: 100px;">Metoda</th>
+                  <th>Endpoint</th>
+                  <th>Opis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="badge bg-success">GET</span></td>
+                  <td><code>/api/posts</code></td>
+                  <td>Pobiera listę wszystkich opublikowanych artykułów.</td>
+                </tr>
+                <tr>
+                  <td><span class="badge bg-success">GET</span></td>
+                  <td><code>/api/posts/pages?page={1}&limit={10}</code></td>
+                  <td>Pobiera listę artykułów z podziałem na strony.</td>
+                </tr>
+                <tr>
+                  <td><span class="badge bg-success">GET</span></td>
+                  <td><code>/api/posts/{id}</code></td>
+                  <td>Pobiera szczegółowe dane pojedynczego artykułu na podstawie ID.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontpage API Section -->
+      <div class="mb-5">
+        <h3 class="h4 mb-4 text-primary d-flex align-items-center">
+          <i class="fa-solid fa-house me-2"></i> Dane stron i konfiguracja
+        </h3>
+        <div class="table-container p-0 overflow-hidden">
+          <div class="table-responsive">
+            <table class="table mb-0">
+              <thead class="bg-light">
+                <tr>
+                  <th style="width: 100px;">Metoda</th>
+                  <th>Endpoint</th>
+                  <th>Opis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="badge bg-success">GET</span></td>
+                  <td><code>/api/frontpage</code></td>
+                  <td>Pobiera pełną konfigurację treści (slajdy, usługi, zespół, o nas, kontakt).</td>
+                </tr>
+                <tr>
+                  <td><span class="badge bg-success">GET</span></td>
+                  <td><code>/api/pages/{slug}</code></td>
+                  <td>Pobiera dane SEO (meta title, description) dla określonej strony (np. <code>home</code>, <code>offer</code>, <code>about</code>, <code>contact</code>, <code>blog</code>).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tip Section -->
+      <div class="custom-section mt-5 border-primary border-start border-4">
+        <h5 class="fw-bold mb-2">Wskazówka</h5>
+        <p class="text-muted mb-0">
+          Wszystkie odpowiedzi API są zwracane w formacie <strong>JSON</strong>. W przypadku błędu system zwróci odpowiedni kod statusu HTTP wraz z opisem problemu.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

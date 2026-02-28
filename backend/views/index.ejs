@@ -1,0 +1,50 @@
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="display-3 mb-0">Zarządzanie blogiem</h1>
+    <a href="/add" class="btn btn-primary">
+      <i class="fa-solid fa-plus-circle me-1"></i> Dodaj post
+    </a>
+  </div>
+
+  <div class="table-container">
+    <table id="table" class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Data</th>
+          <th scope="col">Tytuł artykułu</th>
+          <th scope="col">Kategoria</th>
+          <th scope="col">Status</th>
+          <th scope="col" class="text-end">Akcje</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% posts.forEach(post => { %>
+          <tr>
+            <td class="text-muted small">
+              <%= post.createdAt.toLocaleDateString('pl-PL') %>
+            </td>
+            <td class="fw-medium">
+              <%= (post.title.length > 60) ? post.title.substring(0, 60) + '...' : post.title %>
+            </td>
+            <td>
+              <span class="badge border fw-normal text-muted"><%= post.category %></span>
+            </td>
+            <td>
+              <span class="badge <%= post.status === 'Opublikowano' ? 'bg-success' : 'bg-warning' %> text-dark">
+                <%= post.status %>
+              </span>
+            </td>
+            <td class="text-end">
+              <div class="d-flex justify-content-end gap-2">
+                <a href="/edit/<%= post._id %>" class="btn btn-outline-success btn-sm" title="Edytuj">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <%- include('./deleteForm', { url: `/${post._id}` }) %>
+              </div>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</div>

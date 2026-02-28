@@ -1,0 +1,132 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="d-flex justify-content-between align-items-end mb-4">
+        <div>
+          <h1 class="display-3 mb-1">Dodaj nowy wpis</h1>
+          <p class="text-muted mb-0">
+            Wypełnij formularz, aby opublikować nowy artykuł na blogu.
+          </p>
+        </div>
+        <div class="text-end text-muted small pb-2">
+          Data publikacji: <strong><%= post.createdAt.toLocaleString('pl-PL', { dateStyle: 'long' }) %></strong>
+        </div>
+      </div>
+
+      <div class="table-container p-4 p-md-5">
+        <form id="postForm" class="row g-4" action="/add" enctype="multipart/form-data" method="POST">
+          <div class="col-md-8">
+            <label for="title" class="form-label">Tytuł artykułu</label>
+            <input type="text" class="form-control form-control-lg" id="title" name="title" value="<%= post.title %>" placeholder="Wpisz chwytliwy tytuł..." required />
+          </div>
+          <div class="col-md-4">
+            <label for="category" class="form-label">Kategoria</label>
+            <select class="form-select form-select-lg" name="category" id="category">
+              <option value="Ogólne" <%= post.category === 'Ogólne' ? 'selected' : '' %>>Ogólne</option>
+              <option value="Technologia" <%= post.category === 'Technologia' ? 'selected' : '' %>>Technologia</option>
+              <option value="Lifestyle" <%= post.category === 'Lifestyle' ? 'selected' : '' %>>Lifestyle</option>
+              <option value="Biznes" <%= post.category === 'Biznes' ? 'selected' : '' %>>Biznes</option>
+            </select>
+          </div>
+          
+          <div class="col-md-6">
+            <label for="author" class="form-label">Autor</label>
+            <div class="input-group input-group-lg">
+              <span class="input-group-text border-end-0"><i class="fa-regular fa-user"></i></span>
+              <input type="text" class="form-control border-start-0" id="author" name="author" value="<%= post.author %>" placeholder="Twoje imię i nazwisko" required />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="status" class="form-label">Status publikacji</label>
+            <select class="form-select form-select-lg" name="status" id="status">
+              <option value="Opublikowano" <%= post.status === 'Opublikowano' ? 'selected' : '' %>>Opublikowano</option>
+              <option value="Szkic" <%= post.status === 'Szkic' ? 'selected' : '' %>>Szkic (ukryty)</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">Treść posta</label>
+            <!-- Quill Editor Container -->
+            <div id="editor-container" style="height: 400px; background: var(--input-bg); border-radius: 0.5rem;">
+              <%- post.content %>
+            </div>
+            <!-- Hidden input to store Quill HTML -->
+            <input type="hidden" name="content" id="content">
+          </div>
+
+          <div class="col-md-6">
+            <label for="image" class="form-label">Obraz wyróżniający</label>
+            <div class="input-group">
+              <input class="form-control" type="file" name="image" id="image" accept="image/*" />
+              <label class="input-group-text border-start-0" for="image"><i class="fa-solid fa-image me-1"></i> Wybierz</label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="image-preview-container" class="d-none">
+              <label class="form-label">Podgląd obrazu</label>
+              <div class="position-relative d-inline-block">
+                <img id="image-preview" src="#" alt="Podgląd" class="img-thumbnail" style="max-height: 150px;">
+                <button type="button" id="remove-image" class="btn btn-danger btn-sm position-absolute top-0 end-0 m-1 rounded-circle" style="width: 25px; height: 25px; padding: 0;">&times;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 pt-3">
+            <hr class="mb-4 opacity-10">
+            <div class="d-flex gap-2 justify-content-end align-items-center">
+              <a href="/posts" class="btn btn-outline-secondary btn-lg">Anuluj</a>
+              <button type="submit" class="btn btn-primary px-5 btn-lg">
+                <i class="fa-solid fa-paper-plane me-1"></i> Zapisz zmiany
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <script>
+        // Initialize Quill Editor
+        var quill = new Quill('#editor-container', {
+          modules: {
+            toolbar: [
+              [{ header: [1, 2, 3, false] }],
+              ['bold', 'italic', 'underline', 'strike'],
+              ['blockquote', 'code-block'],
+              [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+              ['link', 'clean']
+            ]
+          },
+          placeholder: 'Tutaj wpisz treść swojego artykułu...',
+          theme: 'snow'
+        });
+
+        // Form Submission - transfer Quill content to hidden input
+        var form = document.getElementById('postForm');
+        form.addEventListener('submit', function(e) {
+          var contentInput = document.querySelector('input[name=content]');
+          contentInput.value = quill.root.innerHTML;
+        });
+
+        // Image Preview Logic
+        const imageInput = document.getElementById('image');
+        const previewContainer = document.getElementById('image-preview-container');
+        const previewImage = document.getElementById('image-preview');
+        const removeButton = document.getElementById('remove-image');
+
+        imageInput.onchange = evt => {
+          const [file] = imageInput.files;
+          if (file) {
+            previewImage.src = URL.createObjectURL(file);
+            previewContainer.classList.remove('d-none');
+          }
+        };
+
+        removeButton.onclick = () => {
+          imageInput.value = "";
+          previewContainer.classList.add('d-none');
+          previewImage.src = "#";
+        };
+      </script>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --bg-color: #f9fafb;
+    --text-color: #111827;
+    --text-muted: #6b7280;
+    --card-bg: #ffffff;
+    --border-color: #e5e7eb;
+    --navbar-bg: #ffffff;
+    --input-bg: #ffffff;
+    --section-bg: #f8fafc;
+}
+
+[data-bs-theme="dark"] {
+    --primary-color: #818cf8;
+    --primary-hover: #6366f1;
+    --bg-color: #020617;
+    --text-color: #94a3b8;
+    --text-muted: #64748b;
+    --card-bg: #0f172a;
+    --border-color: #1e293b;
+    --navbar-bg: rgba(2, 6, 23, 0.9);
+    --input-bg: #1e293b;
+    --section-bg: #162032;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography & Headings */
+h1, h2, h3, h4, h5, h6, .fw-bold {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+[data-bs-theme="dark"] h1, 
+[data-bs-theme="dark"] h2, 
+[data-bs-theme="dark"] h3, 
+[data-bs-theme="dark"] h4, 
+[data-bs-theme="dark"] h5, 
+[data-bs-theme="dark"] h6,
+[data-bs-theme="dark"] .fw-bold {
+    color: #cbd5e1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 0;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: var(--primary-hover) !important;
+    opacity: 0.85;
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-muted) !important;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--primary-color) !important;
+    background-color: rgba(79, 70, 229, 0.1);
+    border-radius: 0.5rem;
+}
+
+/* UI Components */
+.table-container {
+    background: var(--card-bg);
+    border-radius: 0.75rem;
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-section {
+    background-color: var(--section-bg);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+}
+
+/* Forms & Inputs */
+.form-control, .form-select, .input-group-text {
+    background-color: var(--input-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    color: inherit !important;
+}
+
+[data-bs-theme="dark"] .form-control, 
+[data-bs-theme="dark"] .form-select, 
+[data-bs-theme="dark"] .input-group-text {
+    color: #cbd5e1 !important;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.1) !important;
+}
+
+/* Badges */
+.badge.border {
+    border-color: var(--border-color) !important;
+    color: var(--text-muted) !important;
+}
+
+[data-bs-theme="dark"] .badge.border {
+    color: #cbd5e1 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    color: white !important;
+}
+
+[data-bs-theme="dark"] .btn-primary {
+    background-color: #818cf8 !important;
+    border-color: #818cf8 !important;
+    color: #020617 !important;
+}
+
+/* Theme Toggle */
+#theme-toggle {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+#theme-toggle:hover {
+    color: var(--primary-color);
+}
+
+/* Custom Branding & Utilities */
+.bg-yellowMain {
+    background-color: #ff9900 !important;
+}
+.text-navyBlue {
+    color: #001f3f !important;
+}
+
+.drag-handle {
+    cursor: move;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.drag-handle:hover {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+[data-bs-theme="dark"] .drag-handle {
+    border-color: rgba(255,255,255,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+}
+
+/* Quill Editor Dark Mode Fix */
+.ql-toolbar.ql-snow, .ql-container.ql-snow {
+    border-color: var(--border-color) !important;
+}
+
+[data-bs-theme="dark"] .ql-toolbar.ql-snow {
+    background-color: #1e293b;
+}
+
+[data-bs-theme="dark"] .ql-editor {
+    color: #cbd5e1;
+}
+
+[data-bs-theme="dark"] .ql-snow .ql-stroke {
+    stroke: #94a3b8;
+}
+
+[data-bs-theme="dark"] .ql-snow .ql-fill {
+    fill: #94a3b8;
+}
+
+[data-bs-theme="dark"] .ql-snow .ql-picker {
+    color: #94a3b8;
+}
