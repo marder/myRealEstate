@@ -57,7 +57,14 @@ const searchParcel = async () => {
 };
 
 const selectParcel = (parcel) => {
-  selectedParcel.value = parcel;
+  // Mapowanie pól, gdy klikamy na mapie (ULDK zwraca inne nazwy niż nasza baza)
+  const normalizedParcel = {
+    ...parcel,
+    name: parcel.name || parcel.numerDzialki || parcel.id?.split('.').pop() || 'Działka',
+    id: parcel.id || `${parcel.obreb} ${parcel.numerDzialki}`
+  };
+  
+  selectedParcel.value = normalizedParcel;
   searchResults.value = [];
   searchQuery.value = '';
   if (window.innerWidth < 768) {
@@ -235,16 +242,9 @@ watch(isSidebarOpen, async () => {
         :allParcels="allParcels"
         :center="[51.914, 18.614]"
         :zoom="13"
+        @parcel-selected="selectParcel"
       />
       
-      <!-- UI Overlays -->
-      <div class="absolute bottom-6 right-20 z-30 flex flex-col items-end gap-3">
-          <div class="bg-white px-4 py-2.5 rounded-full shadow-2xl border border-slate-100 flex items-center gap-3">
-              <div class="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e]"></div>
-              <span class="text-[9px] font-black text-slate-800 uppercase tracking-[0.2em]">Live Data</span>
-          </div>
-      </div>
-
       <button 
         v-if="!isSidebarOpen"
         @click="toggleSidebar"

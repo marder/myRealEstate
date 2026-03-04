@@ -131,8 +131,8 @@ app.get("/api/geoportal/search", (req, res) => {
   const { id } = req.query;
   if (!id) return res.status(400).json({ error: "Missing query" });
 
-  // Prawidłowa metoda to GetParcelByIdOrNr (id może być nazwą obrębu + numerem)
-  // Format: id=NazwaObrebu NumerDzialki
+  // Używamy GetParcelByIdOrNr, który lepiej radzi sobie z formatem "NazwaObrebu NumerDzialki"
+  // result=id,geom_wkt zwraca pełną geometrię obrysu
   const cleanId = id.replace(',', ''); 
   const url = `https://uldk.gugik.gov.pl/?request=GetParcelByIdOrNr&id=${encodeURIComponent(cleanId)}&result=id,geom_wkt&srid=4326`;
 
