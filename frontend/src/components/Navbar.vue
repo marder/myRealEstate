@@ -145,20 +145,20 @@ onUnmounted(() => {
           v-if="isMenuOpen"
           class="fixed top-0 right-0 h-dvh w-[85%] max-w-sm bg-white shadow-[-20px_0_60px_rgba(0,0,0,0.05)] z-[108] p-10 flex flex-col pt-24"
         >
-          <div class="flex flex-col space-y-4">
-            <span class="text-[10px] text-portalAccent font-black uppercase tracking-[0.4em] mb-4 text-center">Nawigacja</span>
+          <div class="flex flex-col space-y-3">
+            <span class="text-[10px] text-portalAccent font-black uppercase tracking-[0.4em] mb-2 text-center">Nawigacja</span>
             <RouterLink 
               v-for="link in navLinks" 
               :key="link.path"
               :to="link.path" 
               @click="closeMenu" 
-              class="font-outfit font-black uppercase tracking-wider flex items-center gap-5 p-5 rounded-[1.5rem] transition-all"
+              class="font-outfit font-black uppercase tracking-wider flex items-center gap-4 p-3.5 rounded-2xl transition-all"
               :class="isActiveLink(link.path) ? 'bg-red-50 text-portalAccent' : 'text-midnight hover:bg-gray-50'"
             >
-              <div class="w-12 h-12 rounded-2xl bg-white shadow-sm flex items-center justify-center">
-                <i :class="['pi', link.icon, 'text-xl', isActiveLink(link.path) ? 'text-portalAccent' : 'text-gray-400']"></i>
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center shrink-0">
+                <i :class="['pi', link.icon, 'text-lg', isActiveLink(link.path) ? 'text-portalAccent' : 'text-gray-400']"></i>
               </div>
-              {{ link.label }}
+              <span class="text-sm">{{ link.label }}</span>
             </RouterLink>
           </div>
 

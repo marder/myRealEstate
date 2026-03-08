@@ -8,7 +8,7 @@ const searchResults = ref([]);
 const selectedParcel = ref(null);
 const allParcels = ref([]);
 const isLoading = ref(false);
-const isSidebarOpen = ref(true);
+const isSidebarOpen = ref(window.innerWidth >= 768);
 const mapComponent = ref(null);
 
 // Pobierz wszystkie działki z bazy przy starcie
@@ -248,7 +248,7 @@ watch(isSidebarOpen, async () => {
       <button 
         v-if="!isSidebarOpen"
         @click="toggleSidebar"
-        class="md:hidden absolute top-4 left-4 z-30 w-12 h-12 bg-white rounded-2xl shadow-xl flex items-center justify-center text-slate-800 border border-slate-100"
+        class="md:hidden absolute top-24 left-4 z-30 w-12 h-12 bg-white rounded-2xl shadow-xl flex items-center justify-center text-slate-800 border border-slate-100"
       >
         <i class="pi pi-bars text-lg"></i>
       </button>
