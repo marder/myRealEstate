@@ -5,6 +5,7 @@ import { getPropertyById } from "@/services/api";
 import { updateMetaTags } from "@/utils/seo";
 import GeoportalMap from "@/components/GeoportalMap.vue";
 import heroImage from "@/assets/img/dobra.jpg";
+import Wicket from "wicket";
 
 const route = useRoute();
 const property = ref(null);
@@ -28,6 +29,36 @@ onMounted(async () => {
   } finally {
     loading.value = false;
   }
+});
+
+const centroid = computed(() => {
+    if (!property.value || !property.value.wkt) return null;
+    try {
+        const wkt = new Wicket.Wkt();
+        wkt.read(property.value.wkt);
+        const obj = wkt.toJson();
+        
+        let coords = [];
+        if (obj.type === "Polygon") {
+            coords = obj.coordinates[0];
+        } else if (obj.type === "MultiPolygon") {
+            coords = obj.coordinates[0][0];
+        } else {
+            return null;
+        }
+
+        const lat = coords.reduce((sum, c) => sum + c[1], 0) / coords.length;
+        const lng = coords.reduce((sum, c) => sum + c[0], 0) / coords.length;
+        return { lat, lng };
+    } catch (e) {
+        console.error("Centroid error:", e);
+        return null;
+    }
+});
+
+const googleMapsLink = computed(() => {
+    if (!centroid.value) return "";
+    return `https://www.google.com/maps/dir/?api=1&destination=${centroid.value.lat},${centroid.value.lng}`;
 });
 
 const formatCurrency = (value) => {
@@ -155,6 +186,10 @@ const eMapaLink = computed(() => {
                     <span class="text-sm font-bold">Drukuj kartę</span>
                     <i class="pi pi-print text-portalAccent"></i>
                 </button>
+                <a v-if="centroid" :href="googleMapsLink" target="_blank" class="flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 rounded-2xl transition-all group border border-white/5 cursor-pointer">
+                    <span class="text-sm font-bold">Nawiguj do celu</span>
+                    <i class="pi pi-directions text-portalAccent"></i>
+                </a>
             </div>
           </div>
         </div>
@@ -162,13 +197,6 @@ const eMapaLink = computed(() => {
         <!-- Main: Map & Visuals -->
         <div class="lg:col-span-2 space-y-8 print:block">
           <div class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 h-[500px] md:h-[600px] relative print:h-[400px] print:rounded-none print:border-2 print:border-slate-200">
-            <div class="absolute top-6 left-6 z-30 pointer-events-none print:hidden">
-                <div class="bg-white/90 backdrop-blur px-4 py-2 rounded-xl shadow-lg border border-white flex items-center gap-3">
-                    <i class="pi pi-map-marker text-portalAccent"></i>
-                    <span class="text-[10px] font-black text-slate-800 uppercase tracking-widest">Lokalizacja na mapie</span>
-                </div>
-            </div>
-            
             <GeoportalMap 
               v-if="property.wkt"
               :selectedParcel="{ id: property.obreb + ' ' + property.numerDzialki, name: property.numerDzialki, wkt: property.wkt }"

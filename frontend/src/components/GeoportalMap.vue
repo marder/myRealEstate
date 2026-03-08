@@ -29,6 +29,7 @@ let parcelLayer = null;
 let allParcelsLayer = null; 
 
 const activeLayer = ref('standard'); 
+const colorMode = ref('category'); // 'category' or 'uniform'
 
 let osmLayer = null;
 let orthoLayer = null;
@@ -90,7 +91,7 @@ onMounted(() => {
   }).setView(props.center, props.zoom);
   
   L.control.zoom({
-    position: 'bottomright'
+    position: 'topleft'
   }).addTo(map);
 
   osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -148,7 +149,7 @@ const updateAllParcels = (parcels) => {
     
     parcels.forEach(p => {
       if (p.wkt) {
-        const color = getCategoryColor(p.uzytki);
+        const color = colorMode.value === 'uniform' ? '#ef4444' : getCategoryColor(p.uzytki);
         const layer = drawWkt(p.wkt, {
           color: color,
           weight: 1.5,
@@ -208,6 +209,10 @@ watch(() => props.allParcels, (newParcels) => {
 watch(() => props.selectedParcel, (parcel) => {
   updateSelectedParcel(parcel);
 }, { deep: true });
+
+watch(colorMode, () => {
+  updateAllParcels(props.allParcels);
+});
 </script>
 
 <template>
@@ -215,70 +220,91 @@ watch(() => props.selectedParcel, (parcel) => {
     <div ref="mapContainer" class="w-full h-full z-10 bg-slate-50"></div>
     
     <!-- Custom Controls Overlay -->
-    <div class="absolute top-6 right-6 z-30 flex flex-col gap-2">
-        <div class="bg-white/90 backdrop-blur p-1.5 rounded-2xl shadow-2xl border border-slate-100 flex flex-col gap-1">
+    <div class="absolute top-4 right-4 z-30 flex flex-col gap-2">
+        <!-- Layer Switcher -->
+        <div class="bg-white/90 backdrop-blur p-1 rounded-xl shadow-2xl border border-slate-100 flex flex-col gap-1">
             <button 
                 @click="setLayer('standard')"
-                class="w-12 h-12 rounded-xl flex items-center justify-center transition-all"
-                :class="activeLayer === 'standard' ? 'bg-portalAccent text-white shadow-lg shadow-red-200' : 'text-slate-400 hover:bg-slate-50'"
+                class="w-10 h-10 rounded-lg flex items-center justify-center transition-all"
+                :class="activeLayer === 'standard' ? 'bg-portalAccent text-white shadow-lg' : 'text-slate-400 hover:bg-slate-50'"
                 title="Mapa Standardowa"
             >
-                <i class="pi pi-map"></i>
+                <i class="pi pi-map text-sm"></i>
             </button>
             <button 
                 @click="setLayer('ortho')"
-                class="w-12 h-12 rounded-xl flex items-center justify-center transition-all"
-                :class="activeLayer === 'ortho' ? 'bg-portalAccent text-white shadow-lg shadow-red-200' : 'text-slate-400 hover:bg-slate-50'"
-                title="Satelita (Ortofotomapa)"
+                class="w-10 h-10 rounded-lg flex items-center justify-center transition-all"
+                :class="activeLayer === 'ortho' ? 'bg-portalAccent text-white shadow-lg' : 'text-slate-400 hover:bg-slate-50'"
+                title="Ortofotomapa"
             >
-                <i class="pi pi-images"></i>
+                <i class="pi pi-globe text-sm"></i>
+            </button>
+        </div>
+
+        <!-- Color Mode Switcher -->
+        <div class="bg-white/90 backdrop-blur p-1 rounded-xl shadow-2xl border border-slate-100 flex flex-col gap-1">
+            <button 
+                @click="colorMode = 'category'"
+                class="w-10 h-10 rounded-lg flex items-center justify-center transition-all"
+                :class="colorMode === 'category' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:bg-slate-50'"
+                title="Kolory wg kategorii"
+            >
+                <i class="pi pi-palette text-sm"></i>
+            </button>
+            <button 
+                @click="colorMode = 'uniform'"
+                class="w-10 h-10 rounded-lg flex items-center justify-center transition-all"
+                :class="colorMode === 'uniform' ? 'bg-red-500 text-white shadow-lg' : 'text-slate-400 hover:bg-slate-50'"
+                title="Jednolity kolor (Czerwony)"
+            >
+                <i class="pi pi-clone text-sm"></i>
             </button>
         </div>
     </div>
 
     <!-- Data Source Badge -->
-    <div class="absolute bottom-6 left-6 z-30 pointer-events-none flex flex-col gap-2">
-        <div class="bg-slate-900/80 backdrop-blur px-4 py-2 rounded-full border border-white/10 shadow-2xl flex items-center gap-3 w-fit">
-            <div class="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e]"></div>
-            <span class="text-[9px] font-black text-white uppercase tracking-widest opacity-80">Live Data</span>
+    <div class="absolute bottom-4 left-4 z-30 pointer-events-none flex flex-col gap-1.5">
+        <div class="bg-slate-900/80 backdrop-blur px-3 py-1.5 rounded-full border border-white/10 shadow-2xl flex items-center gap-2 w-fit">
+            <div class="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_8px_#22c55e]"></div>
+            <span class="text-[8px] font-black text-white uppercase tracking-widest opacity-80">Live Data</span>
         </div>
-        <div class="bg-slate-900/80 backdrop-blur px-4 py-2 rounded-full border border-white/10 shadow-2xl flex items-center gap-3 w-fit">
-            <div class="flex -space-x-2">
-                <div class="w-5 h-5 rounded-full bg-red-500 border-2 border-slate-900"></div>
-                <div class="w-5 h-5 rounded-full bg-blue-500 border-2 border-slate-900"></div>
+        <div class="bg-slate-900/80 backdrop-blur px-3 py-1.5 rounded-full border border-white/10 shadow-2xl flex items-center gap-2 w-fit">
+            <div class="flex -space-x-1.5">
+                <div class="w-4 h-4 rounded-full bg-red-500 border-2 border-slate-900"></div>
+                <div class="w-4 h-4 rounded-full bg-blue-500 border-2 border-slate-900"></div>
             </div>
-            <span class="text-[9px] font-black text-white uppercase tracking-widest opacity-80">GUGiK / EGiB</span>
+            <span class="text-[8px] font-black text-white uppercase tracking-widest opacity-80">GUGiK / EGiB</span>
         </div>
     </div>
 
     <!-- Map Legend -->
-    <div class="absolute bottom-6 right-6 z-30">
-        <div class="bg-white/90 backdrop-blur p-4 rounded-3xl shadow-2xl border border-slate-100 min-w-[140px]">
-            <h4 class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 border-b border-slate-50 pb-2">Legenda</h4>
-            <div class="space-y-2">
+    <div v-if="colorMode === 'category'" class="absolute bottom-14 right-4 z-30">
+        <div class="bg-white/90 backdrop-blur p-3 rounded-2xl shadow-2xl border border-slate-100 min-w-[120px]">
+            <h4 class="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-2 border-b border-slate-50 pb-1.5">Legenda</h4>
+            <div class="space-y-1.5">
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#ef4444]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Mieszkaniowe (B)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#ef4444]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Mieszkaniowe</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#64748b]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Drogi (DR)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#64748b]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Drogi</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#8b5cf6]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Zabudowane (BI)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#8b5cf6]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Zabudowane</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#f59e0b]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Rolne (R)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#f59e0b]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Rolne</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#10b981]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Pastwiska (Ps)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#10b981]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Pastwiska</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <div class="w-3 h-3 rounded-full bg-[#166534]"></div>
-                    <span class="text-[10px] font-bold text-slate-600 uppercase">Lasy (Ls)</span>
+                    <div class="w-2.5 h-2.5 rounded-full bg-[#166534]"></div>
+                    <span class="text-[9px] font-bold text-slate-600 uppercase">Lasy</span>
                 </div>
             </div>
         </div>
@@ -322,20 +348,20 @@ watch(() => props.selectedParcel, (parcel) => {
 .leaflet-control-zoom a {
     background-color: rgba(255,255,255,0.9) !important;
     color: #1e293b !important;
-    width: 40px !important;
-    height: 40px !important;
-    line-height: 40px !important;
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 32px !important;
     font-weight: bold !important;
     transition: all 0.2s !important;
 }
 
 .leaflet-control-zoom-in {
-    border-radius: 12px 12px 0 0 !important;
+    border-radius: 8px 8px 0 0 !important;
     border-bottom: 1px solid #f1f5f9 !important;
 }
 
 .leaflet-control-zoom-out {
-    border-radius: 0 0 12px 12px !important;
+    border-radius: 0 0 8px 8px !important;
 }
 
 .leaflet-control-zoom a:hover {

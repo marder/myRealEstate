@@ -38,3 +38,26 @@ Poniżej znajduje się lista zadań do wykonania przed oficjalnym uruchomieniem 
 
 2.  **Aktualizacja haseł aplikacyjnych Gmail**  
     *Jeśli konto Gmail zostanie zmienione, należy wygenerować nowe "Hasło aplikacji" (App Password) i zaktualizować `EMAIL_PASS` w `.env`.*
+
+---
+
+## 🚀 INNOWACJE I ROZSZERZENIA
+
+1.  **__Generowanie Raportów PDF ("Karta Działki")__**  
+    *   Wdrożenie generatora PDF po stronie backendu (np. Puppeteer).
+    *   Stworzenie szablonu karty działki: logo, mapa z obrysem, dane ewidencji, tabela użytków.
+    *   Automatyczne przeliczanie powierzchni i wartości (jeśli dostępne).
+
+2.  **__Integracja Wirtualnego Spaceru (Google Street View)__**  
+    *   Obliczanie punktu centralnego (Centroid) z geometrii WKT działki.
+    *   Dodanie zakładki "Widok Ulicy" w widoku szczegółów nieruchomości.
+    *   Automatyczne orientowanie kamery w stronę centrum działki.
+
+3.  **__System Kodów QR (Most Offline-Online)__**  
+    *   Umieszczenie kodu QR na raporcie PDF prowadzącego do aktywnej oferty na stronie.
+    *   Dodanie drugiego kodu QR: "Nawiguj do działki" (format `google.navigation:q=LAT,LNG`).
+    *   Implementacja generowania kodów w panelu CMS dla szybkich wydruków.
+
+4.  **__Integracja Warstw MPZP (WMS)__**  
+    *   Dodanie warstwy z Miejscowym Planem Zagospodarowania Przestrzennego z serwerów Gminy/GUGiK.
+    *   Umożliwienie użytkownikowi sprawdzenia przeznaczenia terenu bezpośrednio na mapie.
