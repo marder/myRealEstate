@@ -1,5 +1,5 @@
-# 🏘️ Gmina Dobra - Portal Mienia Komunalnego
-### Oficjalny system zarządzania i prezentacji zasobów nieruchomości
+# 🏘️ Gmina Dobra - Municipal Property Portal
+### Official system for management and presentation of real estate assets
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -10,36 +10,36 @@
 
 ---
 
-## 🌟 O projekcie
+## 🌟 Overview
 
-Nowoczesna platforma dedykowana mieszkańcom i inwestorom Gminy Dobra, umożliwiająca przejrzysty wgląd w zasoby mienia komunalnego. System integruje dane z ewidencji gruntów z interaktywną mapą Geoportalu, ułatwiając lokalizację i analizę działek gminnych.
-
----
-
-## ✨ Kluczowe funkcje
-
-### 🗺️ Interaktywny Geoportal (Vue 3 + Leaflet)
-- **📍 Wykaz Działek:** Pełna lista nieruchomości z podziałem na obręby geodezyjne.
-- **🛰️ Widok Hybrydowy:** Możliwość przełączania między mapą standardową a ortofotomapą (GUGiK).
-- **🎨 Kolorystyka Kategorii:** Automatyczne kolorowanie działek na podstawie użytków (R - rolne, B - mieszkaniowe, DR - drogi, itp.).
-- **🔍 Zaawansowana Wyszukiwarka:** Wyszukiwanie działek po numerze lub pełnym identyfikatorze TERYT.
-- **📱 Mobilny Eksplorator:** Zoptymalizowany interfejs mapy dla smartfonów z chowanym panelem bocznym.
-
-### 📱 Optymalizacja Mobile-First
-- **⚡ Kompaktowa Nawigacja:** Usprawnione menu mobilne z szybkimi skrótami.
-- **🧭 Intuicyjny UX:** Automatyczne zarządzanie widocznością eksploratora na małych ekranach.
-- **🎯 Precyzyjne Sterowanie:** Ergonomiczne rozmieszczenie przycisków kontrolnych mapy.
-
-### 🛡️ Bezpieczeństwo i Wydajność
-- **🚀 Vite 6:** Błyskawiczne ładowanie i optymalizacja bundle'a frontendowego.
-- **🔒 Backend Proxy:** Bezpieczne zapytania do zewnętrznych usług ULDK (GUGiK).
-- **📊 Agregacja Danych:** System statystyk powierzchni i wyceny mienia w czasie rzeczywistym.
+A modern platform dedicated to the residents and investors of Gmina Dobra, providing transparent access to municipal property resources. The system integrates land registry data with an interactive Geoportal map, facilitating the location and analysis of municipal plots.
 
 ---
 
-## 🛠 Stos Technologiczny
+## ✨ Key Features
 
-| Frontend | Backend | Dane / Mapy |
+### 🗺️ Interactive Geoportal (Vue 3 + Leaflet)
+- **📍 Plot Registry:** Full list of properties categorized by geodetic precincts.
+- **🛰️ Hybrid View:** Toggle between standard map and orthophotomap (GUGiK).
+- **🎨 Category Coloring:** Automatic plot coloring based on land use (R - agricultural, B - residential, DR - roads, etc.).
+- **🔍 Advanced Search:** Search for plots by number or full TERYT identifier.
+- **📱 Mobile Explorer:** Optimized map interface for smartphones with a collapsible side panel.
+
+### 📱 Mobile-First Optimization
+- **⚡ Compact Navigation:** Streamlined mobile menu with quick shortcuts.
+- **🧭 Intuitive UX:** Automatic management of explorer visibility on small screens.
+- **🎯 Precise Controls:** Ergonomic placement of map control buttons.
+
+### 🛡️ Security and Performance
+- **🚀 Vite 6:** Lightning-fast loading and frontend bundle optimization.
+- **🔒 Backend Proxy:** Secure requests to external ULDK (GUGiK) services.
+- **📊 Data Aggregation:** Real-time system for area statistics and property valuation.
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend | Backend | Data / Maps |
 | :--- | :--- | :--- |
 | Vue 3 (Composition API) | Node.js & Express | Leaflet (GIS) |
 | Tailwind CSS v4 | MongoDB & Mongoose | Wicket (WKT Parsing) |
@@ -48,36 +48,36 @@ Nowoczesna platforma dedykowana mieszkańcom i inwestorom Gminy Dobra, umożliwi
 
 ---
 
-## 📂 Struktura Projektu
+## 📂 Project Structure
 
 ```bash
 myRealEstate/
-├── 📁 backend/             # Serwer API i logika biznesowa
-│   ├── 📁 models/          # Schematy Mongoose (Property, User)
-│   ├── 📁 routes/          # Endpointy API i Proxy do Geoportalu
-│   └── 📄 server.js        # Punkt wejścia Node.js
-├── 📁 frontend/            # Aplikacja kliencka (Vite + Vue)
+├── 📁 backend/             # API server and business logic
+│   ├── 📁 models/          # Mongoose schemas (Property, User)
+│   ├── 📁 routes/          # API endpoints and Geoportal proxy
+│   └── 📄 server.js        # Node.js entry point
+├── 📁 frontend/            # Client application (Vite + Vue)
 │   ├── 📁 src/
 │   │   ├── 📁 components/  # GeoportalMap, Navbar, PropertyGrid
 │   │   ├── 📁 views/       # MapView, HomeView, PropertyDetail
-│   │   └── 📁 services/    # Komunikacja z API
-│   └── 📄 vite.config.js   # Konfiguracja środowiska
-└── 📄 README.md            # Dokumentacja projektu
+│   │   └── 📁 services/    # API communication
+│   └── 📄 vite.config.js   # Environment configuration
+└── 📄 README.md            # Project documentation
 ```
 
 ---
 
-## ⚙️ Szybki Start
+## ⚙️ Quick Start
 
-### 1. 🟢 Konfiguracja Backend
+### 1. 🟢 Backend Setup
 ```bash
 cd backend
 npm install
-# Skopiuj .env.example i uzupełnij dane
+# Copy .env.example and fill in the data
 npm start
 ```
 
-### 2. 🔵 Konfiguracja Frontend
+### 2. 🔵 Frontend Setup
 ```bash
 cd frontend
 npm install
@@ -86,6 +86,6 @@ npm run dev
 
 ---
 
-## 📄 Licencja
+## 📄 License
 
-System stworzony dla **Urzędu Miejskiego w Dobrej**. Wszelkie prawa zastrzeżone. ⚖️
+System developed for the **Municipal Office in Dobra**. All rights reserved. ⚖️
