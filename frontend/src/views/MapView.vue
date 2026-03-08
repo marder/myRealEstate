@@ -258,12 +258,12 @@ watch(isSidebarOpen, async () => {
 
 <style scoped>
 .map-page-container {
-  height: calc(100vh - 64px); /* Desktop navbar height */
+  height: calc(100dvh - 64px); /* Desktop navbar height */
 }
 
 @media (min-width: 1024px) {
   .map-page-container {
-    height: calc(100vh - 72px); /* Larger screens navbar height */
+    height: calc(100dvh - 72px); /* Larger screens navbar height */
   }
 }
 

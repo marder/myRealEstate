@@ -43,7 +43,7 @@ const changePage = (page) => {
 <template>
   <div class="bg-gray-50 min-h-screen">
     <!-- Header -->
-    <section class="bg-navyBlue py-24 text-white text-center relative overflow-hidden">
+    <section class="bg-navyBlue pt-32 pb-24 md:pt-40 text-white text-center relative overflow-hidden">
       <div class="absolute -top-10 -right-10 w-64 h-64 bg-yellowMain/10 rounded-full"></div>
       <div class="absolute -bottom-10 -left-10 w-96 h-96 bg-white/5 rounded-full"></div>
       

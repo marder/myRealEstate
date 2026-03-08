@@ -94,6 +94,12 @@ onMounted(() => {
     position: 'topleft'
   }).addTo(map);
 
+  map.on('zoomend', () => {
+    setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
+  });
+
   osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
   }).addTo(map);
@@ -278,7 +284,7 @@ watch(colorMode, () => {
     </div>
 
     <!-- Map Legend -->
-    <div v-if="colorMode === 'category'" class="absolute bottom-14 right-4 z-30">
+    <div v-if="colorMode === 'category'" class="absolute bottom-12 right-4 z-30">
         <div class="bg-white/90 backdrop-blur p-3 rounded-2xl shadow-2xl border border-slate-100 min-w-[120px]">
             <h4 class="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-2 border-b border-slate-50 pb-1.5">Legenda</h4>
             <div class="space-y-1.5">

@@ -19,7 +19,7 @@ onMounted(async () => {
       <div class="absolute inset-0 bg-navyBlue/80"></div>
     </div>
     
-    <div class="container mx-auto px-6 relative z-10 text-center pt-16 md:pt-24 pb-12 md:pb-16">
+    <div class="container mx-auto px-6 relative z-10 text-center pt-24 md:pt-32 pb-12 md:pb-16">
       <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold font-Rubik mb-4">O Projekcie</h1>
       <p class="text-yellowMain uppercase tracking-widest font-bold max-w-2xl mx-auto text-sm md:text-base">
         System Zarządzania Mieniem Gminnym - Gmina Dobra
