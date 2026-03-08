@@ -197,6 +197,8 @@ router.get("/list", async (req, res) => {
       query.$or = [
         { obreb: { $regex: req.query.search, $options: "i" } },
         { numerDzialki: { $regex: req.query.search, $options: "i" } },
+        { uzytki: { $regex: req.query.search, $options: "i" } },
+        { przeznaczenie: { $regex: req.query.search, $options: "i" } },
       ];
     }
 

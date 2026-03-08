@@ -5,8 +5,6 @@ import PropertyDetailView from "@/views/PropertyDetailView.vue";
 import AboutView from "@/views/AboutView.vue";
 import OfferView from "@/views/OfferView.vue";
 import ContactView from "@/views/ContactView.vue";
-import BlogView from "@/views/BlogView.vue";
-import BlogPostView from "@/views/BlogPostView.vue";
 import OrderStatusView from "@/views/OrderStatusView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
@@ -45,16 +43,6 @@ const router = createRouter({
             path: '/properties/:id',
             name: 'property-detail',
             component: PropertyDetailView
-        },
-        {
-            path: '/blog',
-            name: 'blog',
-            component: BlogView
-        },
-        {
-            path: '/blog/:id',
-            name: 'blog-post',
-            component: BlogPostView
         },
         {
             path: '/contact',
