@@ -9,6 +9,8 @@ import BlogView from "@/views/BlogView.vue";
 import BlogPostView from "@/views/BlogPostView.vue";
 import OrderStatusView from "@/views/OrderStatusView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
+import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
+import AccessibilityView from "@/views/AccessibilityView.vue";
 
 
 const router = createRouter({
@@ -58,6 +60,16 @@ const router = createRouter({
             path: '/contact',
             name: 'contact',
             component: ContactView
+        },
+        {
+            path: '/privacy-policy',
+            name: 'privacy-policy',
+            component: PrivacyPolicyView
+        },
+        {
+            path: '/accessibility',
+            name: 'accessibility',
+            component: AccessibilityView
         },
         {
             path: '/:catchAll(.*)',

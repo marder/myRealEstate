@@ -88,8 +88,8 @@ import { RouterLink } from "vue-router";
       <div class="pt-12 border-t border-gray-50 flex flex-col md:flex-row justify-between items-center gap-8">
         <p class="text-steel/40 text-[10px] font-black uppercase tracking-[0.2em]">&copy; {{ new Date().getFullYear() }} Urząd Miejski w Dobrej</p>
         <div class="flex gap-10">
-          <a href="#" class="text-steel/40 hover:text-midnight text-[10px] font-black uppercase tracking-[0.2em] transition-colors">Polityka Prywatności</a>
-          <a href="#" class="text-steel/40 hover:text-midnight text-[10px] font-black uppercase tracking-[0.2em] transition-colors">Deklaracja Dostępności</a>
+          <RouterLink to="/privacy-policy" class="text-steel/40 hover:text-midnight text-[10px] font-black uppercase tracking-[0.2em] transition-colors">Polityka Prywatności</RouterLink>
+          <RouterLink to="/accessibility" class="text-steel/40 hover:text-midnight text-[10px] font-black uppercase tracking-[0.2em] transition-colors">Deklaracja Dostępności</RouterLink>
         </div>
       </div>
     </div>

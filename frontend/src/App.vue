@@ -2,6 +2,7 @@
 import { ref, onMounted, provide, computed } from "vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+import CookieBanner from "@/components/CookieBanner.vue";
 import { RouterView, useRoute } from "vue-router";
 import { getFrontpageData } from "@/services/api";
 
@@ -21,4 +22,5 @@ provide('frontpageData', frontpageData);
   <Navbar />
   <RouterView />
   <Footer v-if="!isMapPage" />
+  <CookieBanner />
 </template>
